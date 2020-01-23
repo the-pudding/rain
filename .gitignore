@@ -1,0 +1,11 @@
+.DS_Store
+.tmp
+.cache
+.vscode
+npm-debug.log
+node_modules
+dev
+dist
+.Rproj.user
+analysis/assets/data/raw_data
+Analysis/assets/data/processed_data/precipData.csv

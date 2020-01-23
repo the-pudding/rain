@@ -1,0 +1,382 @@
+---
+title: "A Primer to Seattle Rain"
+author: "Amber Thomas"
+date: "Last updated: `r format(Sys.time(), '%B %d, %Y')`"
+output: 
+  puddingR::puddingTheme:
+    toc: true
+    code_folding: "show"
+    number_sections: "false"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE, warning = FALSE, message = FALSE, eval = TRUE)
+```
+
+## Introduction
+
+I am constantly getting asked if I like living in Seattle where it rains constantly. The thing is, it doesn't always rain in Seattle, and when it does, it's much more of a drizzle than a downpour. This could be a simple visual involving a timed animation showing the typical speed and amount of rain in Seattle on a given day compared to a city near wherever the reader is located and other large locations (e.g., it rains more in Boston, but it all comes at once). Consider adding rain sounds (Seattle sounds like this, but Orlando sounds like this).
+
+### Load Packages
+
+```{r load_packages}
+# I recommend always loading these
+
+# For general data cleaning and analysis
+library(tidyverse)
+library(readr)
+library(lubridate)
+
+# For keeping your files in relative directories
+library(here)
+
+# For calendar graphing
+library(openair)
+#Load the function to the local through Paul Bleicher's GitHub page
+source("https://raw.githubusercontent.com/iascchen/VisHealth/master/R/calendarHeat.R")
+```
+
+Arguments from any of these packages can be loaded independently or with their package name. For instance, `dplyr`'s function `mutate` can be run as `...mutate()` or, to ensure that the _correct_ mutate function is being called, you can specify that you want the mutate function from the `dplyr` package like this `dplyr::mutate()`. Both ways work, but the 2nd is more helpful when looking back at old code.
+
+### Load Data
+
+I was able to find historical weather data from the US government [here](ftp://ftp.ncdc.noaa.gov/pub/data/ghcn/daily/).
+
+First lets load relevant data on the [stations](ftp://ftp.ncdc.noaa.gov/pub/data/ghcn/daily/ghcnd-stations.txt) themselves (as described in the data [readme](ftp://ftp.ncdc.noaa.gov/pub/data/ghcn/daily/readme.txt)).
+
+```{r load_stations}
+# load stations from fixed width format
+stationStarts <- c(1, 13, 22, 32, 39, 42, 73, 77, 81)
+stationEnds <- c(11, 20, 30, 37, 40, 71, 75, 79, 85)
+stationNames <- c("id", "latitude", "longitude", "elevation", "state", "name", "gsn", "hcn", "wmo")
+stations <- readr::read_fwf(here::here("assets", "data", "raw_data", "ghcnd-stations.txt"),
+                            fwf_positions(stationStarts, stationEnds, stationNames),
+                            cols("id" = col_character(),
+                                 "latitude" = col_number(),
+                                 "longitude" = col_number(),
+                                 "elevation" = col_number(),
+                                 "state" = col_character(),
+                                 "name" = col_character(),
+                                 "gsn" = col_character(),
+                                 "hcn" = col_character(),
+                                 "wmo" = col_character()
+                                 ))
+```
+
+For ease, currently, I'm going to just look at [US comparative data](ftp://ftp.ncdc.noaa.gov/pub/data/ghcn/daily/ghcnd_hcn.tar.gz). 
+```{r load_data, eval = FALSE}
+# get a list of all the files to read
+dataFiles <- list.files(here::here("assets", "data", "raw_data", "ghcnd_hcn", "ghcnd_hcn"),
+                        pattern = "\\.dly$")
+
+weatherData <- read.fwf('ACW00011604.dly',widths = c(11, 4, 2, 4, rep(c(5, 1, 1, 1),31)))
+
+# load stations from fixed width format
+dataStarts <- c(1, 12, 16, 18, 22, 27, 28, 29, 30, 35, 36, 37, 262, 267, 268, 269)
+dataEnds <- c(11, 15, 17, 21, 26, 27, 28, 29, 34, 35, 36, 37, 266, 267, 268, 269)
+dataNames <- c("id", "year", "month", "element", "value1", "mflag1", "qflag1", "sflag1", "value2", "mflag2", "qflag2", "sflag2", "value31")
+weatherData <- readr::read_fwf(here::here("assets", "data", "raw_data", "ghcnd_hcn", "ghcnd_hcn", dataFiles[5]),
+                            fwf_widths(c(11, 4, 2, 4, rep(c(5, 1, 1, 1),31))))
+-----------------------------
+Variable   Columns   Type
+------------------------------
+ID            1-11   Character
+YEAR         12-15   Integer
+MONTH        16-17   Integer
+ELEMENT      18-21   Character
+VALUE1       22-26   Integer
+MFLAG1       27-27   Character
+QFLAG1       28-28   Character
+SFLAG1       29-29   Character
+VALUE2       30-34   Integer
+MFLAG2       35-35   Character
+QFLAG2       36-36   Character
+SFLAG2       37-37   Character
+  .           .          .
+  .           .          .
+  .           .          .
+VALUE31    262-266   Integer
+MFLAG31    267-267   Character
+QFLAG31    268-268   Character
+SFLAG31    269-269   Character
+
+```
+
+
+Ok, scratch that. I found data [by year](ftp://ftp.ncdc.noaa.gov/pub/data/ghcn/daily/by_year/), so I can extract data [just for 2019](ftp://ftp.ncdc.noaa.gov/pub/data/ghcn/daily/by_year/2019.csv.gz) which will be much easier for this story! 
+```{r load_2019_data,eval=FALSE}
+weather2019 <- read_csv(here::here("assets", "data", "raw_data", "2019.csv"),
+                   col_names = c("id", "date", "element", "value", "mflag", "qflag", "sflag", "obstime"),
+                   col_types = c("cdcncccc"))
+
+precipData <- weather2019 %>% 
+  filter(element == "PRCP")
+
+snowData <- weather2019 %>% 
+  filter(element == "SNOW") %>% 
+  filter(id %in% fullYear$id)
+```
+
+```{r eval = FALSE, echo=FALSE}
+write.csv(precipData, here::here("assets", "data", "processed_data", "precipData.csv"), row.names = FALSE)
+```
+
+```{r echo = FALSE}
+precipData <- read_csv(here::here("assets", "data", "processed_data", "precipData.csv"))
+```
+
+Awesome, so looks like we have `r nrow(precipData)` precipitation records for 2019. Let's see how many stations that represents.
+
+```{r}
+uniqueStations <- precipData %>% 
+  count(id)
+
+fullYear <- uniqueStations %>% 
+  filter(n == 365)
+```
+
+Alright, looks like we have data from `r nrow(uniqueStations)` but only `r nrow(uniqueStations %>% filter(n == 365))` that have data for every day of the year. Let's see where those stations are.
+
+```{r}
+fullYearStations <- fullYear %>% 
+  left_join(stations) %>% 
+  filter(!is.na(state))
+```
+Looks like `r nrow(fullYearStations)` of the stations are in the US or Canada. This seems like as good a place as any to start.
+
+## Data Analysis
+
+I'll start by choosing a few weather stations across the country for comparison.
+
+```{r}
+selWeatherStations <- c("USW00094290", "USW00094728", "US1MAMD0011", "US1FLOR0027", "USW00053863", "USW00012970", "USW00093134") %>% enframe(name = NULL, value = "id")
+selStationCity <- c("Seattle", "New York City", "Cambridge", "Orlando", "Atlanta", "San Antonio", "Los Angeles") %>% enframe(name = NULL, value = "city")
+selStationMeta <- cbind(selWeatherStations, selStationCity)
+
+onlySelStations <- precipData %>% 
+  filter(id %in% selStationMeta$id)
+```
+
+### Annual
+
+Let's start by looking at annual rainfall per city
+
+```{r}
+annualPrecip <- onlySelStations %>% 
+  group_by(id) %>% 
+  summarise(sum = sum(value)) %>% 
+  left_join(selStationMeta)
+
+annualPrecip %>% 
+  ggplot(aes(x = reorder(city, sum), y = sum)) + geom_bar(stat = "identity") +
+  xlab("City") + 
+  ylab("Annual total of rainfall (0.1 mm)")
+```
+
+Seattle has the third lowest amount of annual rain out of these example cities. Orlando had over twice as much rain annually than Seattle. 
+
+### Rainy Days
+
+Seattle most likely gets its reputation for being a rainy city because of the high number of days with _some_ precipitation, even if it isn't very much. Let's see how many rainy days each city has.
+
+```{r}
+rainyDays <- onlySelStations %>% 
+  filter(value > 0) %>% 
+  count(id) %>% 
+  left_join(selStationMeta)
+
+rainyDays %>% 
+  ggplot(aes(x = reorder(city, n), y = n)) + geom_bar(stat = "identity") +
+  xlab("City") + 
+  ylab("Total Days > 0.1 mm of Precipication in 2019")
+```
+
+Seattle does rank in the top spot for number of rainy days per year, but not by much. By the end of the year, Seattle only had 4 more rainy days than New York and 5 more than Orlando. 
+
+Let's see what that looks like on a calendar. We'll start with Seattle:
+
+```{r}
+seattleWeather <- onlySelStations %>% 
+  left_join(selStationMeta) %>% 
+  filter(city == "Seattle") %>% 
+  mutate(date = ymd(date)) %>% 
+  filter(value > 0)
+
+calendarPlot(seattleWeather, pollutant = "value", year = 2019, limits = c(1, 828), cols = "YlGnBu")
+```
+
+Now I'm curious to see what Orlando's rain calendar looks like.
+
+```{r}
+orlandoWeather <- onlySelStations %>% 
+  left_join(selStationMeta) %>% 
+  filter(city == "Orlando") %>% 
+  mutate(date = ymd(date)) %>% 
+  filter(value > 0)
+
+calendarPlot(orlandoWeather, pollutant = "value", year = 2019, limits = c(1, 828), cols = "YlGnBu")
+```
+
+This is interesting to see on a calendar view, but a line chart may be easier to parse at a glance.
+
+```{r}
+onlySelStations %>% 
+  left_join(selStationMeta) %>% 
+  mutate(date = ymd(date)) %>% 
+  ggplot(aes(x = date, y = value)) + geom_line() + 
+  facet_grid(rows = vars(city))
+```
+
+When it rains in Seattle, very little rain falls. So little bits of rain fall throughout the year, rather than lots of rain falling all at once.
+
+Let's try a calendar heatmap (as described [here](https://towardsdatascience.com/time-series-calendar-heatmaps-9f576578fcfe))
+
+```{r}
+calendarData <- onlySelStations %>% 
+  left_join(selStationMeta) %>% 
+  mutate(date = ymd(date))
+
+seattleCal <- calendarData %>% 
+  filter(city == "Orlando")
+
+p2p <- c("#FFFFFF",  "#342A4E")
+
+calendarHeat(seattleCal$date, seattleCal$value, ncolors = 99, color = "p2p", varname="")
+```
+
+
+### Estimated Rate
+These data do not include information about _how long_ it rained each day, just _how much_. But, we can estimate an minimum average rate, if the rain that fell each day fell at the same rate all day.
+
+```{r}
+medianRain <- onlySelStations %>% 
+  left_join(selStationMeta) %>% 
+  filter(value > 0) %>% 
+  group_by(city) %>% 
+  summarise(median = median(value)) %>% 
+  mutate(perHour = median / 24) %>% 
+  arrange(perHour)
+
+medianRain
+```
+
+It rains at a much slower rate in Seattle, whereas in LA, Orlando & Cambridge, it seemingly dumps rain all at once.
+
+### All Cities
+What rank does Seattle come in compared to all of the reporting stations in 2019? 
+
+```{r}
+rank <- precipData %>% 
+  filter(id %in% fullYearStations$id) %>% 
+  group_by(id) %>% 
+  summarise(sum = sum(value)) %>% 
+  arrange(desc(sum)) %>% 
+  mutate(rank = row_number())
+```
+
+## 10 Year Average
+
+```{r}
+testURL <- "ftp://ftp.ncdc.noaa.gov/pub/data/ghcn/daily/by_year/2018.csv.gz"
+weather2018 <-  read_csv("ftp://ftp.ncdc.noaa.gov/pub/data/ghcn/daily/by_year/2019.csv.gz",
+                   col_names = c("id", "date", "element", "value", "mflag", "qflag", "sflag", "obstime"),
+                   col_types = c("cdcncccc")) %>% 
+  filter(element == "PRCP") %>% 
+  filter(!is.na(state))
+```
+
+
+```{r}
+filterPrecip <- function(fileYear, .pb = NULL){
+  # progress bar
+  if ((!is.null(.pb)) && inherits(.pb, "Progress") && (.pb$i < .pb$n)) .pb$tick()$print()
+  Sys.sleep(0.001)
+  
+  # find file, download, import, filter to US & Canada precipitation data, export new file
+  fileURL <- glue::glue("ftp://ftp.ncdc.noaa.gov/pub/data/ghcn/daily/by_year/{fileYear}.csv.gz")
+  df <- read_csv(fileURL,col_names = c("id", "date", "element", "value", "mflag", "qflag", "sflag", "obstime"),
+                   col_types = c("cdcncccc")) %>% 
+    filter(element == "PRCP") 
+  
+  unique <- df %>% 
+    group_by(id) %>% 
+    summarise(count = n()) %>% 
+    filter(count >= 365) 
+  
+  nonMissing <- df %>%
+    filter(id %in% unique$id) %>% 
+    # combine with station information to keep US & Canada stations
+    left_join(stations) %>% 
+    filter(!is.na(state))
+  
+  fileName = here::here("assets", "data", "raw_data", "precip_full_unique.csv")
+
+	write.table(nonMissing, file = fileName, row.names = FALSE, append = TRUE, sep = ",", col.names = !file.exists(fileName))
+}
+```
+
+```{r}
+years <- seq(2010, 2019, by = 1)
+pb <- progress_estimated(length(years))
+allPrecip <- map_df(years, filterPrecip, .pb = pb)
+```
+
+```{r}
+allPrecip <- read_csv(here::here("assets", "data", "raw_data", "precip_full_unique.csv"),
+                   col_types = c("cdcncccc"))
+
+all10Unique <- allPrecip %>% 
+  group_by(id) %>% 
+  summarise(count = n()) %>% 
+  filter(count == 3652)
+
+all10Stations <- all10Unique %>% 
+  left_join(stations)
+
+all10 <- allPrecip %>% 
+  filter(id %in% all10Unique$id) %>% 
+  left_join(stations)
+```
+
+```{r}
+tenYearTotals <- all10 %>% 
+  filter(!is.na(date)) %>% 
+  mutate(date = lubridate::ymd(date),
+         year = year(date)) %>% 
+  group_by(id,  year) %>% 
+  summarise(total = sum(value))
+
+tenYearAvg <- tenYearTotals %>% 
+  group_by(id) %>% 
+  summarise(average = mean(total)) %>% 
+  arrange(desc(average)) %>% 
+  mutate(rank = row_number()) %>% 
+  left_join(stations)
+
+lastYearOnly <- all10 %>% 
+  filter(!is.na(date)) %>% 
+  mutate(date = lubridate::ymd(date),
+         year = year(date)) %>% 
+  filter(year == 2019) %>% 
+  group_by(id) %>% 
+  summarise(total = sum(value))
+
+exportAnnual <- tenYearAvg %>% 
+  left_join(lastYearOnly) %>% 
+  rename(total19 = total) 
+
+write.csv(exportAnnual, here::here("assets", "data", "processed_data", "annual_precip.csv"), row.names = FALSE, na = "")
+```
+
+## Export Daily Totals
+```{r}
+dailyTotals <- all10 %>% 
+  filter(!is.na(date)) %>% 
+  mutate(date = lubridate::ymd(date),
+         year = year(date)) %>% 
+  filter(year == 2019) %>% 
+  select(-contains("flag"), -c("obstime", "gsn", "hcn", "wmo", "year"))
+
+write.csv(dailyTotals, here::here("assets", "data", "processed_data", "daily_precip.csv"), row.names = FALSE, na = "")
+```
+
