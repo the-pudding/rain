@@ -363,9 +363,12 @@ lastYearOnly <- all10 %>%
 
 exportAnnual <- tenYearAvg %>% 
   left_join(lastYearOnly) %>% 
-  rename(total19 = total) 
+  rename(total19 = total) %>% 
+  select(-c("gsn", "hcn", "wmo"))
 
 write.csv(exportAnnual, here::here("assets", "data", "processed_data", "annual_precip.csv"), row.names = FALSE, na = "")
+
+write.csv(exportAnnual, "../../web/src/assets/data/annual_precip.csv", row.names = FALSE, na = "")
 ```
 
 ## Export Daily Totals
@@ -378,5 +381,7 @@ dailyTotals <- all10 %>%
   select(-contains("flag"), -c("obstime", "gsn", "hcn", "wmo", "year"))
 
 write.csv(dailyTotals, here::here("assets", "data", "processed_data", "daily_precip.csv"), row.names = FALSE, na = "")
+
+write.csv(dailyTotals, "../../web/src/assets/data/daily_precip.csv", row.names = FALSE, na = "")
 ```
 
