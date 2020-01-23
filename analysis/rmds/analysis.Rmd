@@ -34,6 +34,9 @@ library(here)
 library(openair)
 #Load the function to the local through Paul Bleicher's GitHub page
 source("https://raw.githubusercontent.com/iascchen/VisHealth/master/R/calendarHeat.R")
+
+# For mapping
+library(mapview)
 ```
 
 Arguments from any of these packages can be loaded independently or with their package name. For instance, `dplyr`'s function `mutate` can be run as `...mutate()` or, to ensure that the _correct_ mutate function is being called, you can specify that you want the mutate function from the `dplyr` package like this `dplyr::mutate()`. Both ways work, but the 2nd is more helpful when looking back at old code.
@@ -383,5 +386,21 @@ dailyTotals <- all10 %>%
 write.csv(dailyTotals, here::here("assets", "data", "processed_data", "daily_precip.csv"), row.names = FALSE, na = "")
 
 write.csv(dailyTotals, "../../web/src/assets/data/daily_precip.csv", row.names = FALSE, na = "")
+```
+
+
+```{r}
+mapview(exportAnnual, xcol = "longitude", ycol = "latitude", crs = 4269, grid = FALSE)
+```
+
+```{r}
+geocoded <- read.csv(here::here("assets", "data", "processed_data", "annual_precip_geocodio.csv"), stringsAsFactors = FALSE, header = TRUE) %>% 
+  filter(Accuracy.Score >= 0.8) %>% 
+  select(-c("Latitude", "Longitude", "rank", "Accuracy.Score", "Accuracy.Type", "Number", "Street", "State", "Zip", "Country", "County", "Source")) %>% 
+  rename(city = City)
+
+mapview(geocoded, xcol = "longitude", ycol = "latitude", crs = 4269, grid = FALSE)
+
+write.csv(geocoded, "../../web/src/assets/data/annual_precip.csv", row.names = FALSE, na = "")
 ```
 

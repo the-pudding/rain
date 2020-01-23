@@ -6,74 +6,78 @@ let data = null;
 let readerLatLong = null;
 let locationDistance = null;
 let readerStation = null;
+let readerCity = null;
 
 function calculatingDistance(readerLat, readerLong, locLat, locLong) {
-  // Haversine Formula
-  function toRadians(value) {
-    return (value * Math.PI) / 180;
-  }
+    // Haversine Formula
+    function toRadians(value) {
+        return (value * Math.PI) / 180;
+    }
 
-  const R = 6371e3; // metres
-  const φ1 = toRadians(readerLat);
-  const φ2 = toRadians(locLat);
-  const Δφ = toRadians(locLat - readerLat);
-  const Δλ = toRadians(locLong - readerLong);
+    const R = 3958.756; // miles
+    const φ1 = toRadians(readerLat);
+    const φ2 = toRadians(locLat);
+    const Δφ = toRadians(locLat - readerLat);
+    const Δλ = toRadians(locLong - readerLong);
 
-  const a =
-    Math.sin(Δφ / 2) * Math.sin(Δφ / 2) +
-    Math.cos(φ1) * Math.cos(φ2) * Math.sin(Δλ / 2) * Math.sin(Δλ / 2);
-  const c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1 - a));
+    const a =
+        Math.sin(Δφ / 2) * Math.sin(Δφ / 2) +
+        Math.cos(φ1) * Math.cos(φ2) * Math.sin(Δλ / 2) * Math.sin(Δλ / 2);
+    const c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1 - a));
 
-  return R * c;
+    return R * c;
 }
 
 function findNearestStation() {
-  locationDistance = data
-    .map(d => ({
-      ...d,
-      distance: calculatingDistance(
-        readerLatLong.latitude,
-        readerLatLong.longitude,
-        +d.latitude,
-        +d.longitude
-      ),
-    }))
-    .filter(d => !isNaN(d.distance));
+    locationDistance = data
+        .map(d => ({
+            ...d,
+            distance: calculatingDistance(
+                readerLatLong.latitude,
+                readerLatLong.longitude,
+                +d.latitude,
+                +d.longitude
+            ),
+        }))
+        .filter(d => !isNaN(d.distance));
 
-  locationDistance.sort((a, b) => d3.descending(a.distance, b.distance));
-  const location = locationDistance.pop();
-  readerStation = location.id;
+    locationDistance.sort((a, b) => d3.descending(a.distance, b.distance));
+    const location = locationDistance.pop();
+    console.log({ location });
+    readerStation = location.id;
+    readerCity = location.city;
+    console.log({ readerStation, readerCity })
 }
 
 function setup() {
-  findNearestStation();
+    findNearestStation();
 }
 
 function cleanData(data) {
-  const clean = data.map(d => ({
-    ...d,
-    latitude: +d.latitude,
-    longitude: +d.longitude,
-    average: +d.average,
-    rank: +d.rank,
-    total19: +d.total19,
-    elevation: +d.elevation,
-  }));
+    const clean = data.map(d => ({
+        ...d,
+        latitude: +d.latitude,
+        longitude: +d.longitude,
+        average: +d.average,
+        rank: +d.rank,
+        total19: +d.total19,
+        elevation: +d.elevation,
+    }));
 
-  return clean;
+    return clean;
 }
 
-function resize() {}
+function resize() { }
 
 function init(readerLocation) {
-  loadData('annual_precip.csv')
-    .then(result => {
-      data = cleanData(result);
-      readerLatLong = readerLocation;
-      setup();
-      console.log({ data, readerLatLong });
-    })
-    .catch(console.error);
+    loadData('annual_precip.csv')
+        .then(result => {
+            data = cleanData(result);
+            readerLatLong = readerLocation;
+            setup();
+            console.log({ data, readerLatLong });
+        })
+        .catch(console.error);
 }
 
 export default { init, resize };
