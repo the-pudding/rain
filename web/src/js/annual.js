@@ -1,5 +1,10 @@
-import { setupMaster } from 'cluster';
 import loadData from './load-data';
+import './pudding-chart/annual-template';
+
+// selections
+const $section = d3.select('.annual');
+const $container = $section.select('figure');
+const $svg = $container.select('svg');
 
 // constants
 let data = null;
@@ -7,6 +12,20 @@ let readerLatLong = null;
 let locationDistance = null;
 let readerStation = null;
 let readerCity = null;
+let stepIDs = null;
+
+function setupStepIDs() {
+    stepIDs = [
+        {
+            step: 0,
+            ids: ['USW00094290', 'USW00012815'],
+        },
+        {
+            step: 1,
+            ids: ['USW00094290', 'USW00012815', readerStation],
+        },
+    ];
+}
 
 function calculatingDistance(readerLat, readerLong, locLat, locLong) {
     // Haversine Formula
@@ -43,14 +62,27 @@ function findNearestStation() {
 
     locationDistance.sort((a, b) => d3.descending(a.distance, b.distance));
     const location = locationDistance.pop();
-    console.log({ location });
     readerStation = location.id;
     readerCity = location.city;
-    console.log({ readerStation, readerCity })
+}
+
+function filterData(step) {
+    return data.filter(d => stepIDs[step].ids.includes(d.id));
+}
+
+function setupChart() {
+    const filtered = filterData(0);
+
+    const chart = $container.datum(filtered).puddingBar()
+    console.log({ filtered });
 }
 
 function setup() {
     findNearestStation();
+    setupStepIDs();
+    setupChart();
+
+    console.log({ stepIDs });
 }
 
 function cleanData(data) {
@@ -75,7 +107,6 @@ function init(readerLocation) {
             data = cleanData(result);
             readerLatLong = readerLocation;
             setup();
-            console.log({ data, readerLatLong });
         })
         .catch(console.error);
 }
