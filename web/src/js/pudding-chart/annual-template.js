@@ -30,7 +30,7 @@ d3.selection.prototype.puddingBar = function init(options) {
     const MARGIN_RIGHT = 16;
     const BAR_HEIGHT = 40;
     const PADDING = 0.1;
-    const LOC_PADDING = 100;
+    const LOC_PADDING = 150;
     const FONT_SIZE = 16;
     const TRANSITION_SPEED = 500;
 
@@ -72,8 +72,8 @@ d3.selection.prototype.puddingBar = function init(options) {
         return Chart;
       },
       // update scales and render chart
-      render(index) {
-        console.log({ index });
+      render({ index, rankMap }) {
+        console.log({ index, rankMap });
         // offset chart for margins
         $vis.attr('transform', `translate(${MARGIN_LEFT}, ${MARGIN_TOP})`);
         console.log('running');
@@ -91,7 +91,7 @@ d3.selection.prototype.puddingBar = function init(options) {
               update
                 .transition()
                 .duration(TRANSITION_SPEED)
-                //.delay((d, i) => i * 50)
+                // .delay((d, i) => i * 50)
                 .attr('transform', (d, i) => `translate(0, ${scaleY(i)})`)
           );
 
@@ -106,7 +106,7 @@ d3.selection.prototype.puddingBar = function init(options) {
           .attr('height', BAR_HEIGHT)
           .transition()
           .duration(TRANSITION_SPEED)
-          .delay((d, i) => i * 100)
+          // .delay((d, i) => i * 100)
           .attr('width', d =>
             index === 3 ? scaleX(d.average) : scaleX(d.total19)
           );
@@ -115,7 +115,11 @@ d3.selection.prototype.puddingBar = function init(options) {
           .selectAll('.location')
           .data(d => [d])
           .join(enter => enter.append('text').attr('class', 'location'))
-          .text(d => `${d.city}, ${d.state}`)
+          .text(d =>
+            index >= 2
+              ? `${rankMap.get(d.id) + 1}. ${d.city}, ${d.state}`
+              : `${d.city}, ${d.state}`
+          )
           .attr('alignment-baseline', 'middle')
           .attr(
             'transform',
@@ -136,11 +140,11 @@ d3.selection.prototype.puddingBar = function init(options) {
           .attr('transform', d =>
             index === 3
               ? `translate(${scaleX(d.average) +
-              LOC_PADDING -
-              MARGIN_RIGHT}, ${BAR_HEIGHT / 2})`
+                  LOC_PADDING -
+                  MARGIN_RIGHT}, ${BAR_HEIGHT / 2})`
               : `translate(${scaleX(d.total19) +
-              LOC_PADDING -
-              MARGIN_RIGHT}, ${BAR_HEIGHT / 2})`
+                  LOC_PADDING -
+                  MARGIN_RIGHT}, ${BAR_HEIGHT / 2})`
           )
           .attr('text-anchor', 'end');
 
