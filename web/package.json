@@ -8,10 +8,15 @@
 		"node": "12.14.0"
 	},
 	"dependencies": {
+<<<<<<< HEAD
 		"intersection-observer": "^0.7.0",
 		"lodash.debounce": "4.0.8",
 		"nouislider": "14.0.3",
 		"scrollama": "^2.1.4",
+=======
+		"lodash.debounce": "4.0.8",
+		"nouislider": "14.0.3",
+>>>>>>> c6d21ba0a122e5fd9188e6e75e6d26e76e3317dc
 		"superagent": "5.1.2"
 	},
 	"devDependencies": {
