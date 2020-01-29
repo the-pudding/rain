@@ -37,7 +37,7 @@ d3.selection.prototype.puddingBar = function init(options) {
     const Chart = {
       // called once at start
       init() {
-        $svg = $chart.append('svg').attr('class', 'pudding-chart');
+        $svg = $chart.append('svg').attr('class', 'annual__svg');
 
         // create axis
         $axis = $svg.append('g').attr('class', 'g-axis');
