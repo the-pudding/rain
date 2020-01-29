@@ -1,0 +1,13 @@
+<section class='annual'>
+    <figure class='annual__figure'>
+    </figure>
+    <div class='annual__scroll'>
+        {{#each doc.compare-nonSeattle}}
+        <div class='step' data-step='{{{step}}}' id='step-{{{step}}}'>
+            <div class='step-text-container'>
+                <p class='step-prose'>{{{text}}}</p>
+            </div>
+        </div>
+        {{/each}}
+    </div>
+</section>

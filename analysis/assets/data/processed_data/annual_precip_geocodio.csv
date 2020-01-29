@@ -1,0 +1,996 @@
+id,average,rank,latitude,longitude,elevation,state,name,total19,Latitude,Longitude,"Accuracy Score","Accuracy Type",Number,Street,City,State,County,Zip,Country,Source
+USS0021A09S,38659.8,1,48.76,-121.7,1072.9,WA,"Marten Ridge",28286,48.76,-121.7,0.04,nearest_place,,,Bellingham,WA,"Whatcom County",98227,US,"TIGER/Line® dataset from the US Census Bureau"
+FMW00040505,37141.1,2,7.45,151.8333,1.5,FM,"CHUUK WSO AP",36982,0,0,0,,,,,,,,,
+USS0023B18S,33732.3,3,47.71,-123.46,1484.4,WA,Buckinghorse,20590,47.71,-123.46,0.03,nearest_place,,,Fairholm,WA,"Jefferson County",98362,US,"TIGER/Line® dataset from the US Census Bureau"
+USS0021D33S,31165.1,4,45.43,-121.86,1112.5,OR,"Blazed Alder",21687,45.43,-121.86,0.09,nearest_place,,,Zigzag,OR,"Clackamas County",97049,US,"TIGER/Line® dataset from the US Census Bureau"
+USS0021A36S,30336.9,5,48.82,-121.93,1514.9,WA,"MF Nooksack",22419,48.82,-121.93,0.19,nearest_place,,,Bellingham,WA,"Whatcom County",98227,US,"TIGER/Line® dataset from the US Census Bureau"
+USS0022D03S,30043.8,6,45.45,-122.03,819.9,OR,"South Fork Bull Run",21478,45.45,-122.03,0.1,nearest_place,,,Brightwood,OR,"Clackamas County",97011,US,"TIGER/Line® dataset from the US Census Bureau"
+USW00021504,28667.4,7,19.7192,-155.0531,11.6,HI,"HILO INTL AP",25615,19.718419,-155.05162,0.97,nearest_street,176,"Operations St",Hilo,HI,"Hawaii County",96720,US,"TIGER/Line® dataset from the US Census Bureau"
+USS0021D04S,28244.3,8,45.46,-121.7,1344.2,OR,"Red Hill",20381,45.46,-121.7,0.09,nearest_place,,,"Mount Hood-Parkdale",OR,"Hood River County",97041,US,"TIGER/Line® dataset from the US Census Bureau"
+USW00094240,26770.1,9,47.9375,-124.555,56.4,WA,"QUILLAYUTE STATE AP",20567,47.936709,-124.553048,0.97,nearest_street,4324,"Quillayute Rd",Forks,WA,"Clallam County",98331,US,"TIGER/Line® dataset from the US Census Bureau"
+USS0021C26S,26502,10,46.27,-121.96,1197.9,WA,"Lone Pine",18785,46.27,-121.96,0.03,nearest_place,,,Randle,WA,"Skamania County",98377,US,"TIGER/Line® dataset from the US Census Bureau"
+USS0021B59S,25898.8,11,47.28,-121.47,984.5,WA,"Meadows Pass",19368,47.28,-121.47,0.1,nearest_place,,,Stampede,WA,"King County",98035,US,"TIGER/Line® dataset from the US Census Bureau"
+GQW00041415,25866.2,12,13.4836,144.7961,77.4,GU,"GUAM INTL AP",23366,13.4836,144.7961,0.29,nearest_place,,,Toto,GU,Guam,96927,US,"TIGER/Line® dataset from the US Census Bureau"
+USS0023D01S,24518.8,13,45.54,-123.37,947.9,OR,"Saddle Mountain",18374,45.54,-123.37,0.08,nearest_place,,,"Gales Creek",OR,"Washington County",97117,US,"TIGER/Line® dataset from the US Census Bureau"
+USS0021B01S,23590.4,14,47.75,-121.09,1204,WA,"Stevens Pass",16650,47.748785,-121.090675,0.98,rooftop,93156,"NE Stevens Pass Hwy",Skykomish,WA,"Chelan County",98288,US,King
+USS0016A08S,22589.1,15,48.31,-116.07,1645.9,ID,"Bear Mountain",15475,48.31,-116.07,0.05,nearest_place,,,Hope,ID,"Bonner County",83836,US,"TIGER/Line® dataset from the US Census Bureau"
+USW00014755,22180.1,16,44.2667,-71.2994,1910.2,NH,"MT WASHINGTON",22147,44.2667,-71.2994,0.07,nearest_place,,,"Bretton Woods",NH,"Coos County",03575,US,"TIGER/Line® dataset from the US Census Bureau"
+USS0022E07S,22089.1,17,44.39,-122.17,1072.9,OR,"Jump Off Joe",16685,44.394462,-122.17174,1,nearest_street,6178,"Us Hwy 20",Foster,OR,"Linn County",97345,US,"TIGER/Line® dataset from the US Census Bureau"
+USS0021B63S,21064.3,18,47.04,-121.94,1271,WA,"Burnt Mountain",16570,47.04,-121.94,0.12,nearest_place,,,Carbonado,WA,"Pierce County",98323,US,"TIGER/Line® dataset from the US Census Bureau"
+USC00455840,20536,19,48.6758,-121.2419,160,WA,NEWHALEM,14460,48.672407,-121.250684,0.93,nearest_street,501,"Newhalem St",Rockport,WA,"Whatcom County",98283,US,"TIGER/Line® dataset from the US Census Bureau"
+USS0022E08S,20229.3,20,44.52,-122.09,1124.7,OR,"Daly Lake",16217,44.52,-122.09,0.04,nearest_place,,,"New Idanha",OR,"Linn County",97350,US,"TIGER/Line® dataset from the US Census Bureau"
+USC00084461,19822.1,21,26.86,-80.0553,1.5,FL,"JUNO BEACH",22728,26.859982,-80.055213,1,rooftop,1499,"Seminole Blvd","North Palm Beach",FL,"Palm Beach County",33408,US,"Palm Beach County"
+USS0022F04S,19456.8,22,43.61,-122.12,1286.3,OR,"Salt Creek Falls",16218,43.61,-122.12,0.05,nearest_place,,,"Crescent Lake Junction",OR,"Lane County",97425,US,"TIGER/Line® dataset from the US Census Bureau"
+USC00352973,19230.4,23,44.0039,-124.0947,22.9,OR,"FLORENCE #2",16471,44.00393,-124.094588,1,rooftop,241,"Munsel Creek Lp",Florence,OR,"Lane County",97439,US,Lane
+USS0013A19S,19164.9,24,48.8,-113.86,1920.2,MT,"Flattop Mtn.",16445,48.8,-113.86,0.04,nearest_place,,,"Lake McDonald",MT,"Flathead County",59921,US,"TIGER/Line® dataset from the US Census Bureau"
+USC00353705,19078.4,25,45.3128,-123.35,230.4,OR,"HASKINS DAM",12930,45.312572,-123.350211,1,rooftop,23100,"NW Haskins Creek Rd",Yamhill,OR,"Yamhill County",97148,US,Yamhill
+USS0013A25S,18844.4,26,48.16,-113.95,1841,MT,"Noisy Basin",14583,48.16,-113.95,0.06,nearest_place,,,Bigfork,MT,"Flathead County",59911,US,"TIGER/Line® dataset from the US Census Bureau"
+USW00094224,18615.2,27,46.1569,-123.8825,2.7,OR,"ASTORIA RGNL AP",13092,46.153039,-123.883578,0.95,nearest_street,2348,"Astoria Airport Rd",Warrenton,OR,"Clatsop County",97146,US,"TIGER/Line® dataset from the US Census Bureau"
+USW00025501,18605.4,28,57.7511,-152.4856,24.4,AK,"KODIAK AP",18739,57.763275,-152.490692,0.91,nearest_street,819,"Lake Louise Ct",Kodiak,AK,"Kodiak Island Borough",99615,US,"TIGER/Line® dataset from the US Census Bureau"
+USS0021D01S,18493.8,29,45.62,-121.7,1008.9,OR,Greenpoint,12862,45.62,-121.7,0.12,nearest_place,,,Dee,OR,"Hood River County",97031,US,"TIGER/Line® dataset from the US Census Bureau"
+USC00451679,18492.4,30,48.5397,-121.7422,59.4,WA,"CONCRETE PPL FISH STN",13315,48.539163,-121.742328,0.99,rooftop,46110,"E Main St",Concrete,WA,"Skagit County",98237,US,Skagit
+USC00355221,18407,31,44.6125,-121.9486,754.4,OR,"MARION FORKS FISH HATCHERY",13944,44.61222,-121.948191,0.99,rooftop,34881,"Hwy 22",Idanha,OR,"Linn County",97350,US,Linn
+USC00097827,18283.2,32,34.6647,-83.7342,484.9,GA,"SAUTEE 3W",20572,34.66504,-83.733831,0.98,nearest_street,566,"Whippoorwill Ln","Sautee Nacoochee",GA,"White County",30571,US,"TIGER/Line® dataset from the US Census Bureau"
+USS0022F14S,18235.1,33,43.45,-122.14,1709.9,OR,"Summit Lake",16802,43.45,-122.14,0.05,nearest_place,,,"Crescent Lake",OR,"Klamath County",97425,US,"TIGER/Line® dataset from the US Census Bureau"
+USS0017D20S,18220.8,34,45.98,-117.95,1700.8,OR,"Milk Shakes",15808,45.98,-117.95,0.03,nearest_place,,,Dixie,WA,,99329,US,"TIGER/Line® dataset from the US Census Bureau"
+USW00013899,18061.5,35,30.4781,-87.1869,34.1,FL,"PENSACOLA RGNL AP",13356,30.479125,-87.18323,0.95,nearest_street,5000,"Yesteroaks Pl",Pensacola,FL,"Escambia County",32504,US,"TIGER/Line® dataset from the US Census Bureau"
+USC00160558,17997.5,36,30.4494,-91.0478,16.8,LA,"BATON ROUGE SHERWOOD",19285,30.449499,-91.047669,1,rooftop,12236,"Fairhaven Ave","Baton Rouge",LA,"East Baton Rouge Parish",70815,US,"East Baton Rouge Parish"
+USC00406162,17961.6,37,35.2242,-85.8414,563.9,TN,MONTEAGLE,20801,35.223767,-85.841409,0.99,rooftop,1021,"Laurel Lake Dr",Monteagle,TN,"Marion County",37356,US,Statewide
+USW00094225,17763.4,38,46.9728,-123.9303,3.7,WA,"HOQUIAM BOWERMAN AP",11484,46.982844,-123.930623,0.92,nearest_street,183,"State Rte 109",Hoquiam,WA,"Grays Harbor County",98550,US,"TIGER/Line® dataset from the US Census Bureau"
+USS0021E06S,17735.9,39,44.42,-121.86,1460,OR,"Hogg Pass",13730,44.42,-121.86,0.05,nearest_place,,,"Camp Sherman",OR,"Linn County",97730,US,"TIGER/Line® dataset from the US Census Bureau"
+USW00012839,17524.2,40,25.7906,-80.3164,8.8,FL,"MIAMI INTL AP",17070,25.790536,-80.316057,1,rooftop,7300,"NW 19th St",Miami,FL,"Miami-Dade County",33126,US,"Miami-Dade County"
+USS0021C42S,17210.7,41,46.1,-121.96,652.3,WA,"Pepper Creek",13287,46.1,-121.96,0.03,nearest_place,,,Cougar,WA,"Skamania County",98616,US,"TIGER/Line® dataset from the US Census Bureau"
+USW00013894,17208.2,42,30.6794,-88.2397,63.4,AL,MOBILE,16443,30.677939,-88.239325,0.97,nearest_street,8100,"Co Rd 56",Mobile,AL,"Mobile County",36608,US,"TIGER/Line® dataset from the US Census Bureau"
+US1FLOK0029,17049.8,43,30.4109,-86.6475,4.9,FL,"MARY ESTHER 0.6 E",13876,30.410919,-86.647412,1,rooftop,164,"Marcia Dr","Mary Esther",FL,"Okaloosa County",32569,US,Statewide2
+USS0013B24S,16907.1,44,47.68,-113.96,2066.5,MT,"Moss Peak",14083,47.68,-113.96,0.06,nearest_place,,,"Salmon Prairie",MT,"Lake County",59911,US,"TIGER/Line® dataset from the US Census Bureau"
+USS0021C38S,16899.1,45,46.81,-121.33,1405.1,WA,"Bumping Ridge",12251,46.81,-121.33,0.09,nearest_place,,,"Goose Prairie",WA,"Yakima County",98929,US,"TIGER/Line® dataset from the US Census Bureau"
+USW00013970,16880.6,46,30.5372,-91.1469,19.5,LA,"BATON ROUGE RYAN AP",16285,30.539694,-91.144543,0.95,nearest_street,4805,"Hollier Rd","Baton Rouge",LA,"East Baton Rouge Parish",70807,US,"TIGER/Line® dataset from the US Census Bureau"
+RQW00011641,16836.8,47,18.4325,-66.0108,2.7,PR,"SAN JUAN L M MARIN AP",11937,18.431458,-66.010706,0.99,rooftop,71,Acuario,Carolina,PR,"Carolina Municipio",00979,US,Statewide
+USW00025309,16807,48,58.3567,-134.5639,4.9,AK,"JUNEAU INTL AP",15362,58.356829,-134.564392,1,rooftop,1680,"Yandukin Dr",Juneau,AK,"Juneau City and Borough",99801,US,"City of Juneau"
+USS0022F03S,16723.3,49,43.59,-122.06,1554.5,OR,"Cascade Summit",13700,43.59,-122.06,0.07,nearest_place,,,"Crescent Lake Junction",OR,"Klamath County",97425,US,"TIGER/Line® dataset from the US Census Bureau"
+USC00164700,16625.7,50,30.2003,-92.6642,7.6,LA,JENNINGS,17515,30.200063,-92.664199,0.99,nearest_street,631,"W Racca Rd",Jennings,LA,"Jefferson Davis Parish",70546,US,"TIGER/Line® dataset from the US Census Bureau"
+US1FLMD0022,16617.3,51,25.665,-80.4395,2.7,FL,"HAMMOCKS 0.5 SSE",16002,25.665048,-80.439532,1,rooftop,15106,"SW 109th St",Miami,FL,"Miami-Dade County",33196,US,"Miami-Dade County"
+USS0014C12S,16586.9,52,46.14,-114.51,1950.7,MT,"Twin Lakes",12020,46.14,-114.51,0.03,nearest_place,,,Hamilton,MT,"Ravalli County",59840,US,"TIGER/Line® dataset from the US Census Bureau"
+USC00400284,16467.3,53,35.4322,-84.5833,286.5,TN,ATHENS,19226,35.431503,-84.583344,0.99,rooftop,107,"New Englewood Rd",Athens,TN,"McMinn County",37303,US,Statewide
+US1KYCS0001,16465.4,54,37.5245,-84.9965,287.1,KY,"BRADFORDSVILLE 8.5 ENE",17673,37.5245,-84.9965,0.11,nearest_place,,,"Peytons Store",KY,"Casey County",40437,US,"TIGER/Line® dataset from the US Census Bureau"
+USS0022G06S,16443.2,55,42.87,-122.17,1831.8,OR,"Annie Springs",15433,42.87,-122.17,0.08,nearest_place,,,"Crater Lake",OR,"Klamath County",97604,US,"TIGER/Line® dataset from the US Census Bureau"
+USS0021B04S,16351.4,56,47.54,-121.09,1045.5,WA,"Fish Lake",12564,47.54,-121.09,0.04,nearest_place,,,Skykomish,WA,"Kittitas County",98288,US,"TIGER/Line® dataset from the US Census Bureau"
+USW00093874,16318.2,57,30.4119,-89.0808,12.8,MS,"GULFPORT - BILOXI AP",12503,30.411241,-89.082447,0.97,nearest_street,5198,"Virginia Ave",Gulfport,MS,"Harrison County",39501,US,"TIGER/Line® dataset from the US Census Bureau"
+USW00012916,16172.6,58,29.9933,-90.2511,1.2,LA,"NEW ORLEANS INTL AP",15889,29.992596,-90.246611,0.95,nearest_street,1620,"20th St",Kenner,LA,"Jefferson Parish",70062,US,"TIGER/Line® dataset from the US Census Bureau"
+USS0015C06S,16156.7,59,46.48,-115.63,1770.9,ID,"Hemlock Butte",13167,46.48,-115.63,0.06,nearest_place,,,"Judge Town",ID,"Clearwater County",83546,US,"TIGER/Line® dataset from the US Census Bureau"
+USS0021F21S,16139.5,60,43.8,-121.95,1688.6,OR,"Irish Taylor",13347,43.8,-121.95,0.03,nearest_place,,,"Crescent Lake Junction",OR,"Deschutes County",97425,US,"TIGER/Line® dataset from the US Census Bureau"
+USC00462211,16049.7,61,39.0981,-79.4322,1132.3,WV,"DAVIS 3SE",16210,39.098061,-79.432938,0.99,rooftop,129,"Katydid Ln",Davis,WV,"Tucker County",26260,US,Statewide
+USS0021C40S,16017.4,62,46.93,-121.95,963.2,WA,Mowich,13296,46.93,-121.95,0.05,nearest_place,,,Carbonado,WA,"Pierce County",98323,US,"TIGER/Line® dataset from the US Census Bureau"
+US1FLHB0004,15923.1,63,27.9125,-82.2261,32.9,FL,"VALRICO 2.2 SE",17290,27.912584,-82.226172,1,rooftop,4317,"Cross Ridge Ct",Valrico,FL,"Hillsborough County",33594,US,"Hillsborough County"
+USS0015C10S,15901.7,64,46.98,-115.03,1844,MT,"Hoodoo Basin",11847,46.98,-115.03,0.04,nearest_place,,,Tarkio,MT,"Mineral County",59872,US,"TIGER/Line® dataset from the US Census Bureau"
+USW00013748,15834.2,65,34.2675,-77.8997,10.1,NC,"WILMINGTON INTL AP",12471,34.266771,-77.899186,0.99,rooftop,2215,"Control Tower Dr",Wilmington,NC,"New Hanover County",28405,US,"New Hanover"
+USC00226527,15812.8,66,34.9536,-89.8297,117.3,MS,"OLIVE BRANCH",21633,34.953167,-89.830407,0.98,nearest_street,6412,"Hwy 305 N","Olive Branch",MS,"DeSoto County",38654,US,"TIGER/Line® dataset from the US Census Bureau"
+USS0023G09S,15729.9,67,42.72,-123.2,1322.8,OR,"King Mountain",15122,42.72,-123.2,0.09,nearest_place,,,"Quines Creek",OR,"Jackson County",97442,US,"TIGER/Line® dataset from the US Census Bureau"
+USW00013833,15653.3,68,31.2819,-89.2531,46,MS,"HATTIESBURG CHAIN MUNI AP",16924,31.282383,-89.253387,0.99,rooftop,1875,"James St",Hattiesburg,MS,"Forrest County",39401,US,"City of Hattiesburg"
+USW00003937,15647.3,69,30.125,-93.2158,4,LA,"LAKE CHARLES",16773,30.12485,-93.213425,0.96,nearest_street,7700,"Gulf Hwy","Lake Charles",LA,"Calcasieu Parish",70607,US,"TIGER/Line® dataset from the US Census Bureau"
+USC00177238,15570.3,70,45.0853,-67.1206,35.1,ME,ROBBINSTON,17787,45.08791,-67.115562,1,nearest_street,494,"Us Rte 1",Robbinston,ME,"Washington County",04671,US,"TIGER/Line® dataset from the US Census Bureau"
+USW00003940,15523.3,71,32.3206,-90.0778,100.6,MS,"JACKSON INTL AP",16298,32.318916,-90.079791,0.96,nearest_street,246,"Weather Svc Rd",Flowood,MS,"Rankin County",39232,US,"TIGER/Line® dataset from the US Census Bureau"
+USS0020K30S,15504.5,72,39.19,-120.26,2447.2,CA,"Squaw Valley G.C.",17672,39.19,-120.26,0.14,nearest_place,,,"Olympic Valley",CA,"Placer County",96146,US,"TIGER/Line® dataset from the US Census Bureau"
+USC00449272,15499.6,73,36.7736,-80.2622,385,VA,"WOOLWINE 1 SE",14368,36.774314,-80.262831,0.99,rooftop,138,"Elamsville Rd",Woolwine,VA,"Patrick County",24185,US,"Virginia Geographic Information Network (VGIN)"
+USS0020L06S,15479.4,74,38.85,-120.08,2337.8,CA,"Echo Peak",18073,38.85,-120.08,0.26,nearest_place,,,"Echo Lake",CA,"El Dorado County",95721,US,"TIGER/Line® dataset from the US Census Bureau"
+USS0022G33S,15371.9,75,42.7,-122.14,1737.4,OR,"Sevenmile Marsh",13879,42.7,-122.14,0.08,nearest_place,,,"Fort Klamath",OR,"Klamath County",97626,US,"TIGER/Line® dataset from the US Census Bureau"
+US1TNHT0001,15347.4,76,36.3087,-87.7842,210,TN,"TENNESSEE RIDGE 1.4 SW",15639,36.30871,-87.784158,1,rooftop,2807,"S Main St","Tennessee Ridge",TN,"Houston County",37178,US,Statewide
+US1MSLD0008,15344,77,32.5498,-88.8206,118,MS,"COLLINSVILLE 4.0 NNE",17175,32.550315,-88.820927,0.99,rooftop,10572,"Byrd Doerner Rd",Collinsville,MS,"Lauderdale County",39325,US,Lauderdale
+USS0006J29S,15327.8,78,40.54,-106.68,3200.4,CO,Tower,17491,40.54,-106.68,0.06,nearest_place,,,"Steamboat Springs",CO,"Routt County",80477,US,"TIGER/Line® dataset from the US Census Bureau"
+USC00405956,15313.5,79,35.1297,-89.8036,94.5,TN,"MEMPHIS WFO",19485,35.129396,-89.803718,1,rooftop,7777,"Walnut Grove Rd",Memphis,TN,"Shelby County",38120,US,"City of Memphis"
+USC00220656,15274.6,80,34.4772,-88.1994,186.5,MS,"BELMONT 2 SSE",19507,34.477912,-88.199171,0.98,nearest_street,24,"State Hwy 366",Golden,MS,"Tishomingo County",38847,US,"TIGER/Line® dataset from the US Census Bureau"
+US1FLBV0001,15133.8,81,27.9512,-80.642,11.9,FL,"PALM BAY 2.6 SSE",17226,27.95113,-80.641894,1,rooftop,1051,"Starfire St SE","Palm Bay",FL,"Brevard County",32909,US,Statewide2
+USW00003847,15126.3,82,35.9508,-85.0814,569.1,TN,"CROSSVILLE MEM AP",17265,35.949714,-85.07893,0.96,nearest_street,372,"Stable Rd",Crossville,TN,"Cumberland County",38555,US,"TIGER/Line® dataset from the US Census Bureau"
+USC00030130,15057.6,83,34.7961,-92.8417,212.8,AR,"ALUM FK",18778,34.797066,-92.842281,0.99,rooftop,24512,"Lake Winona Rd",Paron,AR,"Saline County",72122,US,"Arkansas Geographic Information Office"
+USC00407184,14882.6,84,35.5983,-85.1939,263.3,TN,PIKEVILLE,17821,35.598373,-85.193884,1,rooftop,11,"College St",Pikeville,TN,"Bledsoe County",37367,US,Statewide
+USC00408868,14875.5,85,36.465,-83.5603,416.1,TN,TAZEWELL,18203,36.464076,-83.560746,0.99,rooftop,316,"Cedar Fork Rd",Tazewell,TN,"Claiborne County",37879,US,Statewide
+USC00408160,14827.3,86,35.1647,-88.5994,143.3,TN,SELMER,18246,35.165084,-88.598197,0.97,nearest_street,598,"S 4th St",Selmer,TN,"McNairy County",38375,US,"TIGER/Line® dataset from the US Census Bureau"
+US1MSWN0002,14817.4,87,32.9751,-89.117,145.1,MS,"NOXAPATER 3.3 WSW",19214,32.975301,-89.11836,0.97,nearest_street,1250,"Luke Rd",Noxapater,MS,"Winston County",39346,US,"TIGER/Line® dataset from the US Census Bureau"
+USC00303851,14797.4,88,43.5753,-75.5208,537.4,NY,HIGHMARKET,16614,43.575127,-75.520933,1,rooftop,3108,"Byrons Corners Rd",Constableville,NY,"Lewis County",13325,US,"NYS GIS Program Office, State Geographic Information Officer (GIO)"
+USW00093805,14641.7,89,30.3975,-84.3289,19.2,FL,TALLAHASSEE,9925,30.397614,-84.328932,0.99,rooftop,3488,"Capital Cir SW",Tallahassee,FL,"Leon County",32310,US,Leon
+USW00013865,14628.3,90,32.3347,-88.7442,89.6,MS,"MERIDIAN KEY FLD",15404,32.330604,-88.744219,0.95,nearest_street,6464,"Spector St",Meridian,MS,"Lauderdale County",39307,US,"TIGER/Line® dataset from the US Census Bureau"
+USS0019K07S,14628.1,91,39.32,-119.89,2682.5,NV,"Mt Rose Ski Area",20487,39.328887,-119.891595,0.92,nearest_street,22298,"Mount Rose Hwy",Reno,NV,"Washoe County",89511,US,"TIGER/Line® dataset from the US Census Bureau"
+USW00093862,14556,92,34.2622,-88.7714,110,MS,"TUPELO RGNL AP",19557,34.262495,-88.772739,0.97,nearest_street,533,"N Coley Rd",Tupelo,MS,"Lee County",38801,US,"TIGER/Line® dataset from the US Census Bureau"
+US1TNMY0008,14550.3,93,35.6072,-87.0592,220.1,TN,"COLUMBIA 1.2 SSW",16438,35.607241,-87.058942,1,rooftop,1202,"Rolling Fields Dr",Columbia,TN,"Maury County",38401,US,Statewide
+USS0019L38S,14548.3,94,38.28,-119.61,2931.3,CA,"Leavitt Lake",18277,38.28,-119.61,0.04,nearest_place,,,Dardanelle,CA,"Mono County",95314,US,"TIGER/Line® dataset from the US Census Bureau"
+USC00157215,14547.6,95,36.7461,-86.2258,226.5,KY,SCOTTSVILLE,17652,36.746316,-86.225324,0.98,nearest_street,81,"Lone Oak Dr",Scottsville,KY,"Allen County",42164,US,"TIGER/Line® dataset from the US Census Bureau"
+US1TNRD0001,14525.9,96,35.9247,-86.4367,167.9,TN,"MURFREESBORO 5.5 NNW",17523,35.924706,-86.435655,1,nearest_street,,"I 840",Murfreesboro,TN,"Rutherford County",37129,US,"TIGER/Line® dataset from the US Census Bureau"
+USS0011E35S,14520.3,97,44.51,-111.13,2490.2,MT,"Black Bear",16061,44.51,-111.13,0.05,nearest_place,,,"Macks Inn",ID,,83433,US,"TIGER/Line® dataset from the US Census Bureau"
+US1INDB0001,14457.2,98,38.2929,-86.9611,153.3,IN,"HUNTINGBURG 0.4 SSW",17320,38.293022,-86.961158,1,rooftop,202,"N Chestnut St",Huntingburg,IN,"Dubois County",47542,US,Statewide
+USC00365344,14397.4,99,40.8344,-76.1353,521.2,PA,"MAHANOY CITY 2 N",14398,40.83122,-76.132859,0.95,nearest_street,128,"Park Place Rd","Mahanoy City",PA,"Schuylkill County",17948,US,"TIGER/Line® dataset from the US Census Bureau"
+USC00155097,14380.2,100,37.1317,-86.1481,231.6,KY,"MAMMOTH CAVE",16481,37.132097,-86.147114,0.98,nearest_street,159,"Alfred Cook Rd","Park City",KY,"Edmonson County",42160,US,"TIGER/Line® dataset from the US Census Bureau"
+US1KYTD0002,14361.5,101,36.6534,-87.184,164.6,KY,"GUTHRIE 0.8 WNW",15548,36.654261,-87.182079,1,nearest_street,9536,"Us Hwy 79",Guthrie,KY,"Todd County",42234,US,"TIGER/Line® dataset from the US Census Bureau"
+US1GACW0002,14351.5,102,33.4273,-84.6607,270.4,GA,"SHARPSBURG 6.0 N",13960,33.427413,-84.660695,1,rooftop,180,"Barrington Grange Dr",Sharpsburg,GA,"Coweta County",30277,US,Coweta
+USW00013893,14322.6,103,35.0564,-89.9864,77.4,TN,"MEMPHIS INTL AP",18713,35.055208,-89.986181,0.97,nearest_street,3144,"Convair Rd",Memphis,TN,"Shelby County",38132,US,"TIGER/Line® dataset from the US Census Bureau"
+USC00154958,14268.5,104,38.115,-85.6444,192.6,KY,"LOUISVILLE WFO",15030,38.114978,-85.645032,0.99,rooftop,6201,"Theiler Ln",Louisville,KY,"Jefferson County",40229,US,"Metro Louisville,  LOJIC partners"
+USW00013882,14267.4,105,35.0311,-85.2014,204.5,TN,"CHATTANOOGA LOVELL AP",16055,35.030427,-85.201333,0.99,rooftop,101,"Cedar Ln",Chattanooga,TN,"Hamilton County",37421,US,Hamilton
+USS0019L19S,14266.7,106,38.55,-119.8,2671.6,CA,"Ebbetts Pass",18737,38.55,-119.8,0.04,nearest_place,,,"Lake Alpine",CA,"Alpine County",95223,US,"TIGER/Line® dataset from the US Census Bureau"
+USW00003811,14257.2,107,35.5931,-88.9167,132,TN,"JACKSON MCKELLAR AP",16810,35.593651,-88.925917,0.93,nearest_street,502,"State Hwy 223",Jackson,TN,"Madison County",38301,US,"TIGER/Line® dataset from the US Census Bureau"
+USC00414325,14241.2,108,29.66,-95.6275,15.2,TX,HOUSTON-WESTBURY,14030,29.659793,-95.627385,1,rooftop,13802,"Florence Rd","Sugar Land",TX,"Fort Bend County",77498,US,"City of Sugar Land"
+USS0009D06S,14184.4,109,45.06,-109.94,2773.7,MT,"Fisher Creek",15249,45.06,-109.94,0.17,nearest_place,,,"Cooke City",MT,"Park County",59020,US,"TIGER/Line® dataset from the US Census Bureau"
+US1GACW0009,14170.3,110,33.384,-84.8338,266.4,GA,"NEWNAN 2.6 W",14447,33.383766,-84.833645,1,rooftop,18,"Thomas Way",Newnan,GA,"Coweta County",30263,US,Coweta
+USW00013876,14155.5,111,33.5656,-86.745,187.5,AL,"BIRMINGHAM AP",13355,33.562647,-86.744058,0.95,nearest_street,6500,"43rd Ave N",Birmingham,AL,"Jefferson County",35206,US,"TIGER/Line® dataset from the US Census Bureau"
+USC00178792,14155.1,112,45.4353,-67.7214,189,ME,"TOPSFIELD 2",15486,45.435273,-67.72137,1,nearest_street,109,"Upper Codyille Rd",Topsfield,ME,"Washington County",04490,US,"TIGER/Line® dataset from the US Census Bureau"
+USW00013942,14147.6,113,32.5156,-92.0406,24.1,LA,"MONROE RGNL AP",15662,32.513619,-92.04406,0.95,nearest_street,5513,"Operations Rd",Monroe,LA,"Ouachita Parish",71203,US,"TIGER/Line® dataset from the US Census Bureau"
+USW00003952,14115.2,114,34.8364,-92.2619,173.1,AR,"LITTLE ROCK",16810,34.836761,-92.261166,0.99,rooftop,8700,"Remount Rd","North Little Rock",AR,"Pulaski County",72118,US,Pulaski
+USW00003889,14109.7,115,37.5908,-83.3131,415.7,KY,JACKSON,14629,37.584046,-83.302418,0.91,nearest_street,797,"Lick Branch Noctor Rd",Jackson,KY,"Breathitt County",41339,US,"TIGER/Line® dataset from the US Census Bureau"
+USW00003856,14074.1,116,34.6439,-86.7861,190.2,AL,"HUNTSVILLE INTL AP",15659,34.644207,-86.78762,0.98,rooftop,1788,"County Line Rd SW",Madison,AL,"Limestone County",35756,US,"City of Huntsville"
+USS0021D13S,14061.9,117,45.1,-121.75,1036.3,OR,"Clackamas Lake",10732,45.1,-121.75,0.04,nearest_place,,,"Government Camp",OR,"Clackamas County",97028,US,"TIGER/Line® dataset from the US Census Bureau"
+US1GAFT0019,13931.6,118,33.7014,-84.5722,264.6,GA,"EAST POINT 6.3 WNW",14016,33.701334,-84.57287,0.99,rooftop,5655,"Campbellton Rd SW",Atlanta,GA,"Fulton County",30331,US,"Fulton County"
+US1PABR0002,13901.8,119,40.3162,-75.9887,97.5,PA,"READING 3.5 SW",16916,40.316202,-75.988681,1,rooftop,517,"Dorchester Ave",Reading,PA,"Berks County",19609,US,Berks
+USS0022G21S,13892.7,120,42.05,-122.85,1844,OR,"Big Red Mountain",14442,42.05,-122.85,0.04,nearest_place,,,Hilt,CA,,96044,US,"TIGER/Line® dataset from the US Census Bureau"
+USC00301625,13856.5,121,42.6472,-78.7111,467.9,NY,"COLDEN 1W",13935,42.646914,-78.710755,0.99,rooftop,7544,"Wohlhueter Rd",Colden,NY,"Erie County",14033,US,"NYS GIS Program Office, State Geographic Information Officer (GIO)"
+USC00085359,13853.5,122,25.9492,-81.7139,3,FL,"MARCO IS",14500,25.949099,-81.7146,0.99,rooftop,263,"Shadowridge Ct","Marco Island",FL,"Collier County",34145,US,Loveland
+USW00013880,13827.5,123,32.8986,-80.0403,12.2,SC,"CHARLESTON INTL AP",12565,32.898451,-80.04875,0.93,nearest_street,264,"N Bates St","Charleston Afb",SC,"Charleston County",29404,US,"TIGER/Line® dataset from the US Census Bureau"
+USS0017D06S,13798.7,124,45.27,-117.69,1755.6,OR,"Moss Springs",13829,45.27,-117.69,0.05,nearest_place,,,Cove,OR,"Union County",97824,US,"TIGER/Line® dataset from the US Census Bureau"
+USW00012842,13786.3,125,27.9619,-82.5403,5.8,FL,"TAMPA INTL AP",15438,27.960477,-82.540399,0.98,rooftop,3300,"George J Bean Pkwy",Tampa,FL,"Hillsborough County",33607,US,"Hillsborough County"
+USW00093820,13781.4,126,38.0408,-84.6058,298.7,KY,"LEXINGTON BLUEGRASS AP",14241,38.042588,-84.607123,1,nearest_street,4311,"Us Hwy 60",Lexington,KY,"Fayette County",40510,US,"TIGER/Line® dataset from the US Census Bureau"
+USS0015E04S,13771.4,127,44.54,-115.56,2090.9,ID,"Deadwood Summit",13246,44.54,-115.56,0.05,nearest_place,,,"Warm Lake",ID,"Valley County",83611,US,"TIGER/Line® dataset from the US Census Bureau"
+USS0011H08S,13762.9,128,41.38,-111.94,2438.4,UT,"Ben Lomond Peak",18587,41.38,-111.94,0.11,nearest_place,,,Ogden,UT,"Weber County",84414,US,"TIGER/Line® dataset from the US Census Bureau"
+USW00013891,13759.3,129,35.8181,-83.9858,293.2,TN,"KNOXVILLE MCGHEE TYSON AP",16336,35.816547,-83.981164,1,nearest_street,2532,"Us Hwy 129",Alcoa,TN,"Blount County",37701,US,"TIGER/Line® dataset from the US Census Bureau"
+USS0022G24S,13746,130,42.53,-122.18,1810.5,OR,"Cold Springs Camp",11647,42.53,-122.18,0.08,nearest_place,,,"Rocky Point",OR,"Klamath County",97601,US,"TIGER/Line® dataset from the US Census Bureau"
+US1INOW0009,13741,131,39.1858,-86.7782,235.9,IN,"SPENCER 7.0 S",16524,39.185761,-86.778145,1,rooftop,549,"W Porter Ridge Rd",Spencer,IN,"Owen County",47460,US,Statewide
+USC00166584,13727.3,132,31.8142,-93.0856,43,LA,"NATCHITOCHES #2",15433,31.814631,-93.086177,1,nearest_street,1618,"Us Hwy 84",Natchitoches,LA,"Natchitoches Parish",71457,US,"TIGER/Line® dataset from the US Census Bureau"
+USC00450482,13687.2,133,45.7717,-122.5286,86.6,WA,"BATTLE GROUND",10323,45.772089,-122.528694,0.99,rooftop,804,"SE 12th St","Battle Ground",WA,"Clark County",98604,US,Clark
+USS0010G23S,13670.3,134,42.82,-110.84,2554.2,WY,"Willow Creek",13191,42.82,-110.84,0.12,nearest_place,,,Turnerville,WY,"Lincoln County",83112,US,"TIGER/Line® dataset from the US Census Bureau"
+USW00003816,13662.9,135,37.0683,-88.7719,119.5,KY,PADUCAH,17855,37.069127,-88.772139,1,nearest_street,8118,"Us Hwy 60 W","West Paducah",KY,"McCracken County",42086,US,"TIGER/Line® dataset from the US Census Bureau"
+US1INWK0005,13654.1,136,38.0805,-87.2758,143,IN,"BOONVILLE 2.4 N",16898,38.080785,-87.275475,0.99,rooftop,1588,"W Houston Mine Rd",Boonville,IN,"Warrick County",47601,US,Statewide
+USC00382735,13653.7,137,32.6072,-80.3258,3.7,SC,"EDISTO IS MIDDLETON PLANTATION",14750,32.606955,-80.32591,1,rooftop,7789,"Russell Creek Dr","Edisto Island",SC,"Charleston County",29438,US,Charleston
+USW00013963,13630.1,138,34.7272,-92.2389,78.6,AR,"LITTLE ROCK AP ADAMS FLD",15364,34.72827,-92.240576,0.98,rooftop,1801,"Frazier Pike","Little Rock",AR,"Pulaski County",72202,US,Pulaski
+USW00003812,13612,139,35.4319,-82.5375,645.3,NC,"ASHEVILLE RGNL AP",14538,35.431729,-82.537272,1,rooftop,115,"Rental Car Dr",Fletcher,NC,"Buncombe County",28732,US,Buncombe
+USC00065445,13599.1,140,41.9725,-73.2208,408.4,CT,"NORFOLK 2 SW",13529,41.97277,-73.21989,0.99,rooftop,100,"Windrow Rd",Norfolk,CT,"Litchfield County",06058,US,"Connecticut Geospatial Information Systems Council"
+USC00190736,13556,141,42.2122,-71.1136,190.5,MA,"BLUE HILL",14517,42.212667,-71.113287,0.99,rooftop,1,"Observatory Access Rd",Milton,MA,"Norfolk County",02186,US,"Office of Geographic Information (MassGIS), Commonwealth of Massachusetts, MassIT"
+USW00013897,13523.4,142,36.1189,-86.6892,182.9,TN,"NASHVILLE INTL AP",16329,36.115127,-86.694359,1,nearest_street,1400,"Us Hwy 41",Nashville,TN,"Davidson County",37217,US,"TIGER/Line® dataset from the US Census Bureau"
+USW00093808,13475.4,143,36.9647,-86.4239,160.9,KY,"BOWLING GREEN WARREN CO AP",15782,36.963853,-86.427668,0.95,nearest_street,1047,"Woodhurst St","Bowling Green",KY,"Warren County",42104,US,"TIGER/Line® dataset from the US Census Bureau"
+USW00012918,13445.7,144,29.6381,-95.2819,13.4,TX,"HOUSTON HOBBY AP",14005,29.637701,-95.280823,0.99,rooftop,8914,"Randolph St",Houston,TX,"Harris County",77061,US,"City of Houston"
+USS0010F30S,13444.1,145,43.78,-110.93,2822.4,WY,"Grand Targhee",12605,43.78,-110.93,0.09,nearest_place,,,Alta,WY,"Teton County",83414,US,"TIGER/Line® dataset from the US Census Bureau"
+USC00195984,13401.9,146,41.9928,-71.1667,29,MA,"NORTON W",14937,41.992802,-71.166567,1,rooftop,16,"Renwick Dr",Norton,MA,"Bristol County",02766,US,"Office of Geographic Information (MassGIS), Commonwealth of Massachusetts, MassIT"
+USS0018D19S,13271.5,147,45.7,-118.11,1499.6,OR,"High Ridge",11974,45.7,-118.11,0.09,nearest_place,,,Weston,OR,"Umatilla County",97886,US,"TIGER/Line® dataset from the US Census Bureau"
+USW00093821,13259.2,148,38.1811,-85.7392,148.7,KY,"LOUISVILLE INTL AP",13547,38.18611,-85.742785,0.94,nearest_street,667,"Terminal Dr",Louisville,KY,"Jefferson County",40209,US,"TIGER/Line® dataset from the US Census Bureau"
+USC00171131,13257.6,149,43.2242,-70.6389,46.3,ME,"CAPE NEDDICK",14690,43.224215,-70.638673,1,rooftop,4,"N Village Rd","Cape Neddick",ME,"York County",03902,US,"Maine Office of GIS"
+USC00443375,13239,150,37.6183,-79.4358,224.6,VA,"GLASGOW 1 SE",12375,37.618329,-79.435881,1,rooftop,4060,"Glasgow Hwy","Buena Vista",VA,"Rockbridge County",24416,US,"Virginia Geographic Information Network (VGIN)"
+USW00024227,13231,151,46.9733,-122.9033,57.3,WA,"OLYMPIA AP",9433,46.974413,-122.910721,0.94,nearest_street,7695,"Terminal St SW",Olympia,WA,"Thurston County",98501,US,"TIGER/Line® dataset from the US Census Bureau"
+US1NCWK0013,13226.1,152,35.8624,-78.5665,103.9,NC,"RALEIGH 5.9 ENE",12742,35.862526,-78.566284,1,rooftop,4671,"Pooh Corner Dr",Raleigh,NC,"Wake County",27616,US,"NC Geographic Information Coordinating Council"
+USC00185934,13207.4,153,39.7194,-76.8028,262.1,MD,"MILLERS 4 NE",12239,39.719022,-76.8027,0.99,rooftop,5438,"E Lineboro Rd",Manchester,MD,"Carroll County",21102,US,Carroll
+USC00193624,13196.7,154,42.2269,-70.9125,10.7,MA,HINGHAM,15819,42.226891,-70.912685,1,rooftop,10,"Clifford Ct",Hingham,MA,"Plymouth County",02043,US,"Office of Geographic Information (MassGIS), Commonwealth of Massachusetts, MassIT"
+USS0010E09S,13193.1,155,44.21,-110.67,2392.7,WY,"Lewis Lake Divide",13044,44.21,-110.67,0.03,nearest_place,,,"West Thumb",WY,"Teton County",82190,US,"TIGER/Line® dataset from the US Census Bureau"
+USS0010D35S,13164.6,156,45.89,-110.94,2231.1,MT,"Brackett Creek",12981,45.89,-110.94,0.1,nearest_place,,,Bozeman,MT,"Gallatin County",59715,US,"TIGER/Line® dataset from the US Census Bureau"
+USW00013737,13150.4,157,36.9033,-76.1922,9.1,VA,"NORFOLK INTL AP",11740,36.9033,-76.1922,0.48,nearest_place,,,Norfolk,VA,"Norfolk city",23501,US,"TIGER/Line® dataset from the US Census Bureau"
+USS0022G13S,13121.2,158,42.41,-122.27,1609.3,OR,"Billie Creek Divide",11976,42.41,-122.27,0.05,nearest_place,,,"Klamath Falls",OR,"Klamath County",97601,US,"TIGER/Line® dataset from the US Census Bureau"
+US1NCNS0002,13106.4,159,35.9713,-78.0134,68.3,NC,"NASHVILLE 3.2 W",12190,35.970922,-78.01295,0.99,rooftop,2605,"US 64a",Nashville,NC,"Nash County",27856,US,Nash
+USS0015A03S,13094.2,160,48.97,-115.95,1966,MT,"Hawkins Lake",10266,48.97,-115.95,0.05,nearest_place,,,Eastport,ID,,83826,US,"TIGER/Line® dataset from the US Census Bureau"
+USC00448192,13089.4,161,36.7297,-76.6014,6.7,VA,"SUFFOLK LAKE KILBY",12639,36.730818,-76.599516,1,nearest_street,898,"Us Hwy 58 Bus",Suffolk,VA,"Suffolk city",23434,US,"TIGER/Line® dataset from the US Census Bureau"
+USW00003870,13072.8,162,34.8831,-82.2203,286.5,SC,GREER,13190,34.878344,-82.224575,0.94,nearest_street,1313,"Gsp Dr",Greer,SC,"Spartanburg County",29651,US,"TIGER/Line® dataset from the US Census Bureau"
+USW00012843,13049.1,163,27.6531,-80.2428,8.5,FL,"VERO BEACH INTL AP",12649,0,0,0,,,,,,,,,
+USC00173862,13022.1,164,43.6475,-70.675,92.7,ME,HOLLIS,13586,43.647282,-70.675291,1,rooftop,18,"Old Grassy Rd","Hollis Center",ME,"York County",04042,US,"Maine Office of GIS"
+USS0019L43S,13017.9,165,38.68,-119.96,2443.6,CA,"Forestdale Creek",16073,38.68,-119.96,0.1,nearest_place,,,Kirkwood,CA,"Alpine County",95646,US,"TIGER/Line® dataset from the US Census Bureau"
+USW00013874,12994.7,166,33.63,-84.4417,307.8,GA,"ATLANTA HARTSFIELD INTL AP",11114,33.626791,-84.438306,0.95,nearest_street,1539,"Sullivan Rd",Atlanta,GA,"Clayton County",30337,US,"TIGER/Line® dataset from the US Census Bureau"
+US1DENC0002,12987.4,167,39.6249,-75.7861,33.8,DE,"NEWARK 3.9 SSW",13118,39.62495,-75.786131,1,rooftop,1845,"Dixie Line Rd",Newark,DE,"New Castle County",19702,US,"New Castle"
+USW00012960,12980.7,168,29.98,-95.36,29,TX,"HOUSTON INTERCONT AP",13200,29.979716,-95.36463,0.95,nearest_street,19253,"Aldine Westfield Rd",Houston,TX,"Harris County",77073,US,"TIGER/Line® dataset from the US Census Bureau"
+USC00360868,12953.9,169,41.8981,-78.7144,506,PA,"BRADFORD 4SW RSCH 5",13821,41.897665,-78.714855,0.99,rooftop,2000,"W Corydon St",Bradford,PA,"McKean County",16701,US,Mckean
+USW00014737,12939.9,170,40.6508,-75.4492,118.9,PA,"ALLENTOWN INTL AP",15416,40.64975,-75.452524,0.96,nearest_street,964,"Bethlehem Rd",Catasauqua,PA,"Lehigh County",18032,US,"TIGER/Line® dataset from the US Census Bureau"
+USS0022G12S,12908.7,171,42.44,-122.23,1819.7,OR,"Fourmile Lake",12383,42.44,-122.23,0.06,nearest_place,,,"Klamath Falls",OR,"Klamath County",97601,US,"TIGER/Line® dataset from the US Census Bureau"
+USW00094728,12898.9,172,40.7789,-73.9692,39.6,NY,"NEW YORK CNTRL PK TWR",13478,40.778186,-73.966464,0.96,nearest_street,34,"79th St Transverse Rd","New York",NY,"New York County",10024,US,"TIGER/Line® dataset from the US Census Bureau"
+USW00013895,12863.3,173,32.2997,-86.4075,61.6,AL,"MONTGOMERY AP",12114,32.305256,-86.408909,1,nearest_street,6120,"Us Hwy 80",Montgomery,AL,"Montgomery County",36108,US,"TIGER/Line® dataset from the US Census Bureau"
+USC00368361,12859.8,174,41.8161,-80.425,306.3,PA,"SPRINGBORO 3 WNW",12963,41.816329,-80.425103,1,rooftop,5567,"Shadeland Rd",Springboro,PA,"Crawford County",16435,US,Crawford
+USW00094746,12854.7,175,42.2706,-71.8731,304.8,MA,"WORCESTER RGNL AP",13919,42.271636,-71.871899,0.98,rooftop,277,"Airport Dr",Worcester,MA,"Worcester County",01602,US,"Office of Geographic Information (MassGIS), Commonwealth of Massachusetts, MassIT"
+USS0009E11S,12828.5,176,44.65,-109.78,2804.2,WY,"Evening Star",12150,44.65,-109.78,0.04,nearest_place,,,"Pahaska Tepee",WY,"Park County",82414,US,"TIGER/Line® dataset from the US Census Bureau"
+USW00012834,12790.2,177,29.1828,-81.0483,9.4,FL,"DAYTONA BEACH INTL AP",14984,29.181915,-81.048469,0.99,rooftop,1600,"Aviation Center Pkwy","Daytona Beach",FL,"Volusia County",32114,US,"Volusia County"
+USS0022F18S,12781,178,43.19,-122.14,1609.3,OR,"Diamond Lake",11417,43.17966,-122.136842,0.91,nearest_street,374,"Bear Creek Loop",Chemult,OR,"Douglas County",97731,US,"TIGER/Line® dataset from the US Census Bureau"
+USC00091500,12747.6,179,31.1903,-84.2036,53.3,GA,"CAMILLA 3SE",10917,31.188658,-84.204887,0.96,nearest_street,5388,"Powell Rd",Camilla,GA,"Mitchell County",31730,US,"TIGER/Line® dataset from the US Census Bureau"
+USW00013873,12727.8,180,33.9481,-83.3275,239.3,GA,"ATHENS BEN EPPS AP",11763,33.950807,-83.329027,0.95,nearest_street,298,"Howard B Stroud Dr",Athens,GA,"Clarke County",30605,US,"TIGER/Line® dataset from the US Census Bureau"
+USC00175736,12699.2,181,44.6353,-70.0003,146.3,ME,"NEW SHARON",13083,44.636756,-70.001654,1,nearest_street,,"US 2","New Sharon",ME,"Franklin County",04955,US,"TIGER/Line® dataset from the US Census Bureau"
+US1DENC0010,12684.2,182,39.7256,-75.6488,20.7,DE,"NEWPORT 2.4 WNW",12301,39.725593,-75.648793,1,rooftop,9,"Weer Cir",Wilmington,DE,"New Castle County",19808,US,"New Castle"
+USS0013C01S,12678.8,183,47,-113.93,2255.5,MT,"Stuart Mountain",11280,47,-113.93,0.08,nearest_place,,,Missoula,MT,"Missoula County",59807,US,"TIGER/Line® dataset from the US Census Bureau"
+USS0015B02S,12678.1,184,47.46,-115.71,1566.7,ID,Lookout,9604,47.461522,-115.71163,1,nearest_street,,"I 90",Mullan,ID,"Shoshone County",83846,US,"TIGER/Line® dataset from the US Census Bureau"
+USW00093718,12676.6,185,33.8117,-78.7239,9.8,SC,"N MYRTLE BCH AP",14230,33.809619,-78.721549,0.96,nearest_street,3116,"Terminal St","North Myrtle Beach",SC,"Horry County",29582,US,"TIGER/Line® dataset from the US Census Bureau"
+USW00012816,12671.1,186,29.6919,-82.2756,37.5,FL,"GAINESVILLE RGNL AP",12635,29.695706,-82.279411,0.94,nearest_street,3864,"NE 47th Ave",Gainesville,FL,"Alachua County",32609,US,"TIGER/Line® dataset from the US Census Bureau"
+USC00178817,12655,187,44.2822,-70.2561,172.2,ME,TURNER,13066,44.282171,-70.255418,0.99,rooftop,404,"General Turner Hill Rd",Turner,ME,"Androscoggin County",04282,US,"Maine Office of GIS"
+USC00361810,12647.5,188,41.7392,-77.9711,655.3,PA,"COUDERSPORT 7SE",14074,41.739163,-77.970783,1,rooftop,33,"Troupe Rd",Coudersport,PA,"Potter County",16915,US,Potter
+USC00387687,12616.6,189,34.6111,-82.7269,233.2,SC,"SANDY SPRINGS 2 NE",10626,34.611234,-82.726675,1,rooftop,1301,"Millwee Creek Rd",Pendleton,SC,"Anderson County",29670,US,Anderson
+USW00012815,12614,190,28.4339,-81.325,27.4,FL,"ORLANDO INTL AP",12197,28.430409,-81.331966,0.93,nearest_street,4274,"Centerport St",Orlando,FL,"Orange County",32827,US,"TIGER/Line® dataset from the US Census Bureau"
+US1FLLK0003,12612.2,191,28.565,-81.824,34.1,FL,"GROVELAND 1.7 E",12336,28.564844,-81.823954,1,rooftop,344,"Hidden View Dr",Groveland,FL,"Lake County",34736,US,"Lake County"
+US1NHMR0006,12611.2,192,43.52,-71.819,285,NH,"DANBURY 2.2 ESE",12673,43.519724,-71.818819,1,rooftop,620,"Poverty Pond Rd",Danbury,NH,"Merrimack County",03230,US,Statewide
+US1INDV0001,12609.6,193,38.6754,-87.19,145.1,IN,"WASHINGTON 1.5 NW",15736,38.676655,-87.188933,0.97,nearest_street,1101,"W 150 N",Washington,IN,"Daviess County",47501,US,"TIGER/Line® dataset from the US Census Bureau"
+USC00170409,12602.3,194,43.9317,-69.8564,7.6,ME,BATH,13811,43.93165,-69.85716,0.99,rooftop,35,"Ridge Rd",Bath,ME,"Sagadahoc County",04530,US,"Maine Office of GIS"
+USW00093730,12583.1,195,39.4494,-74.5672,18.3,NJ,"ATLANTIC CITY INTL AP",11394,39.4494,-74.5672,0.31,nearest_place,,,Absecon,NJ,"Atlantic County",08205,US,"TIGER/Line® dataset from the US Census Bureau"
+USW00013889,12573.5,196,30.4844,-81.7019,10.1,FL,JACKSONVILLE,11781,30.484042,-81.701681,0.99,rooftop,2400,"Yankee Clipper Dr",Jacksonville,FL,"Duval County",32218,US,Duval
+USC00172048,12559.6,197,43.9997,-70.0964,42.7,ME,DURHAM,13396,43.999668,-70.096206,1,rooftop,123,"Country Ln",Durham,ME,"Androscoggin County",04222,US,"Maine Office of GIS"
+USC00300321,12554.1,198,42.9328,-76.5447,234.7,NY,AUBURN,12839,42.932707,-76.544342,1,rooftop,111,"S Herman Ave",Auburn,NY,"Cayuga County",13021,US,"NYS GIS Program Office, State Geographic Information Officer (GIO)"
+USS0014A11S,12534.7,199,48.91,-114.77,1310.6,MT,"Grave Creek",9014,48.91,-114.77,0.04,nearest_place,,,Fortine,MT,"Lincoln County",59918,US,"TIGER/Line® dataset from the US Census Bureau"
+USW00014764,12533.6,200,43.6497,-70.3003,13.7,ME,"PORTLAND INTL JETPORT",13264,43.649118,-70.300117,0.99,rooftop,311,"Yellowbird Rd",Portland,ME,"Cumberland County",04102,US,"Maine Office of GIS"
+USW00093814,12526.3,201,39.0431,-84.6717,264.9,KY,"CINCINNATI NORTHERN KY AP",13400,39.04341,-84.68173,0.93,nearest_street,1420,"Youell Rd",Hebron,KY,"Boone County",41048,US,"TIGER/Line® dataset from the US Census Bureau"
+USC00317845,12507.8,202,35.3111,-81.5708,249.9,NC,"SHELBY 2 NW",13371,35.310702,-81.571049,0.99,rooftop,620,"Polkville Rd",Shelby,NC,"Cleveland County",28150,US,Cleveland
+USW00093842,12491.3,203,32.5161,-84.9422,119.5,GA,"COLUMBUS METRO AP",12445,32.520285,-84.940278,0.94,nearest_street,5100,"Grumman Ave",Columbus,GA,"Muscogee County",31909,US,"TIGER/Line® dataset from the US Census Bureau"
+USW00012838,12476.5,204,28.1011,-80.6439,8.2,FL,"MELBOURNE INTL AP",14154,28.097612,-80.643439,0.95,nearest_street,1490,"Tower Access Rd",Melbourne,FL,"Brevard County",32901,US,"TIGER/Line® dataset from the US Census Bureau"
+USW00003860,12475.5,205,38.365,-82.555,251.2,WV,"HUNTINGTON TRI STATE AP",12550,38.372028,-82.554464,0.93,nearest_street,1485,"Co Rte 3/1",Huntington,WV,"Wayne County",25704,US,"TIGER/Line® dataset from the US Census Bureau"
+USW00014765,12430.9,206,41.7219,-71.4325,18.3,RI,"PROVIDENCE T F GREEN AP",13207,41.723621,-71.438103,0.94,nearest_street,,"Airport Connector",Warwick,RI,"Kent County",02886,US,"TIGER/Line® dataset from the US Census Bureau"
+USC00353971,12420.7,207,44.3525,-122.7842,185.9,OR,HOLLEY,10940,44.352424,-122.784129,1,rooftop,40313,"Hwy 228","Sweet Home",OR,"Linn County",97386,US,Linn
+USS0014C13S,12408.6,208,46.14,-114.45,1706.9,MT,"Twelvemile Creek",10857,46.14,-114.45,0.04,nearest_place,,,Hamilton,MT,"Ravalli County",59840,US,"TIGER/Line® dataset from the US Census Bureau"
+USW00014711,12380.6,209,40.1936,-76.7633,95.1,PA,"MIDDLETOWN HARRISBURG INTL AP",12178,40.198619,-76.764668,0.94,nearest_street,535,"Airport Dr",Middletown,PA,"Dauphin County",17057,US,"TIGER/Line® dataset from the US Census Bureau"
+USS0010D10S,12372.2,210,45.87,-110.93,1996.4,MT,Sacajawea,12224,45.87,-110.93,0.15,nearest_place,,,Bozeman,MT,"Gallatin County",59715,US,"TIGER/Line® dataset from the US Census Bureau"
+USC00367732,12360.6,211,39.8958,-76.3947,59.4,PA,"SAFE HARBOR DAM",12464,39.895725,-76.394498,1,rooftop,307,"Middle River Rd",Brogue,PA,"York County",17309,US,York
+USC00317202,12349.8,212,36.3797,-79.6944,271.3,NC,"REIDSVILLE 2 NW",12616,36.379588,-79.694544,1,rooftop,1944,"Wentworth St",Reidsville,NC,"Rockingham County",27320,US,"NC Geographic Information Coordinating Council"
+USW00014734,12323.8,213,40.6825,-74.1694,2.1,NJ,"NEWARK INTL AP",14884,40.682013,-74.167792,1,nearest_street,,"I 95",Elizabeth,NJ,"Union County",07201,US,"TIGER/Line® dataset from the US Census Bureau"
+USW00013722,12311,214,35.8922,-78.7819,126.8,NC,"RALEIGH DURHAM INTL AP",10919,35.898071,-78.771613,0.92,nearest_street,6998,"State Rd 1646",Morrisville,NC,"Wake County",27560,US,"TIGER/Line® dataset from the US Census Bureau"
+USW00053860,12279.4,215,30.3361,-81.5147,12.5,FL,"JACKSONVILLE CRAIG MUNI AP",12097,30.336236,-81.514825,1,rooftop,10968,"Craig Blvd",Jacksonville,FL,"Duval County",32225,US,Duval
+USW00014740,12257.8,216,41.9381,-72.6825,57.9,CT,"HARTFORD BRADLEY INTL AP",13333,41.945959,-72.685109,0.93,nearest_street,21,"Perimeter Rd","Windsor Locks",CT,"Hartford County",06096,US,"TIGER/Line® dataset from the US Census Bureau"
+USS0013A26S,12256.8,217,48.3,-113.33,1807.5,MT,"Pike Creek",11818,48.3,-113.33,0.29,nearest_place,,,Summit,MT,"Pondera County",59434,US,"TIGER/Line® dataset from the US Census Bureau"
+USC00319675,12249.7,218,36.1306,-80.5481,266.7,NC,"YADKINVILLE 6 E",11944,36.130522,-80.548441,1,rooftop,3709,"Jasper Rd",Yadkinville,NC,"Yadkin County",27055,US,"NC Geographic Information Coordinating Council"
+USC00235027,12249.1,219,37.3908,-93.9492,328.3,MO,LOCKWOOD,15369,37.389919,-93.949311,1,nearest_street,400,"Us Hwy 160",Lockwood,MO,"Dade County",65682,US,"TIGER/Line® dataset from the US Census Bureau"
+USW00013939,12246.5,220,33.4825,-90.9853,39,MS,"GREENVILLE ASOS",19863,33.4825,-90.9853,0.25,nearest_place,,,Metcalfe,MS,"Washington County",38760,US,"TIGER/Line® dataset from the US Census Bureau"
+USW00013866,12236.1,221,38.3794,-81.59,277.4,WV,"CHARLESTON YEAGER AP",11925,38.3821,-81.590992,0.96,nearest_street,1310,"Burlew Dr",Charleston,WV,"Kanawha County",25311,US,"TIGER/Line® dataset from the US Census Bureau"
+US1INHN0011,12233.3,222,39.937,-85.9,259.1,IN,"MCCORDSVILLE 2.6 NE",12831,39.937009,-85.899703,1,rooftop,10212,"Anees Ln",Fortville,IN,"Hamilton County",46040,US,Hamilton
+USC00314996,12231.9,223,35.4606,-81.3297,270.4,NC,"LINCOLNTON 4 W",13699,35.460765,-81.329499,1,rooftop,2845,"NC 182 Hwy",Lincolnton,NC,"Lincoln County",28092,US,Lincoln
+USC00406534,12230.3,224,35.9833,-83.2008,315.8,TN,"NEWPORT 1 NW",14632,35.983107,-83.201329,0.99,rooftop,465,"Chemwood Dr",Newport,TN,"Cocke County",37821,US,Statewide
+USW00013739,12221.5,225,39.8683,-75.2311,3,PA,"PHILADELPHIA INTL AP",12062,39.8683,-75.2311,0.42,nearest_place,,,Philadelphia,PA,"Delaware County",19113,US,"TIGER/Line® dataset from the US Census Bureau"
+USW00013957,12201.8,226,32.4506,-93.8411,83.2,LA,SHREVEPORT,10886,32.450417,-93.84307,0.97,nearest_street,,"Inner Loop Expy",Shreveport,LA,"Caddo Parish",71129,US,"TIGER/Line® dataset from the US Census Bureau"
+USW00013964,12189.4,227,35.3331,-94.3625,136.9,AR,"FT SMITH RGNL AP",17150,35.332763,-94.362777,0.99,rooftop,5104,"S 66th St","Fort Smith",AR,"Sebastian County",72903,US,"Arkansas Geographic Information Office"
+USC00446475,12183.8,228,37.5844,-75.8217,9.1,VA,"PAINTER 2 W",11785,37.5838,-75.821197,0.99,rooftop,33446,"Research Dr",Painter,VA,"Accomack County",23420,US,"Virginia Geographic Information Network (VGIN)"
+USS0006H10S,12183.6,229,41.15,-106.97,3048,WY,"Old Battle",12731,41.15,-106.97,0.05,nearest_place,,,Encampment,WY,"Carbon County",82325,US,"TIGER/Line® dataset from the US Census Bureau"
+USW00003962,12158,230,34.29,-93.06,163.1,AR,"HOT SPRINGS ASOS",13302,34.283689,-93.066329,0.92,nearest_street,6042,"State Hwy 128",Bismarck,AR,"Hot Spring County",71929,US,"TIGER/Line® dataset from the US Census Bureau"
+USS0021C28S,12127.8,231,46.64,-121.38,1353.3,WA,"White Pass E.S.",8597,46.642147,-121.382603,1,nearest_street,48373,"Us Hwy 12",Naches,WA,"Yakima County",98937,US,"TIGER/Line® dataset from the US Census Bureau"
+USW00093987,12111,232,31.2361,-94.7544,87.8,TX,"LUFKIN ANGELINA CO AP",10596,31.2387,-94.753121,0.96,nearest_street,199,"Run Way Rd",Diboll,TX,"Angelina County",75941,US,"TIGER/Line® dataset from the US Census Bureau"
+US1NCGL0008,12099.2,233,36.1515,-79.7968,242.3,NC,"GREENSBORO 5.3 NNE",13168,36.151494,-79.796763,1,rooftop,5204,"Flintrock Ct",Greensboro,NC,"Guilford County",27455,US,"City of Greensboro"
+USW00013786,12080.4,234,36.2606,-76.175,4,NC,"ELIZABETH CITY CGAS",13977,36.25939,-76.175973,0.98,rooftop,1664,"Weeksville Rd","Elizabeth City",NC,"Pasquotank County",27909,US,"NC Geographic Information Coordinating Council"
+USS0006J19S,12078.8,235,40.79,-106.6,2846.8,CO,Zirkel,12655,40.79,-106.6,0.03,nearest_place,,,Cowdrey,CO,"Jackson County",80434,US,"TIGER/Line® dataset from the US Census Bureau"
+USW00013781,12067.3,236,39.6728,-75.6008,24.1,DE,"WILMINGTON NEW CASTLE CO AP",12189,39.671021,-75.598875,1,nearest_street,,"US 40","New Castle",DE,"New Castle County",19720,US,"TIGER/Line® dataset from the US Census Bureau"
+USW00012923,12034.3,237,29.2733,-94.8592,1.5,TX,"GALVESTON SCHOLES FLD",15052,29.269078,-94.854597,0.94,nearest_street,2092,"Terminal Dr",Galveston,TX,"Galveston County",77554,US,"TIGER/Line® dataset from the US Census Bureau"
+USW00093721,12015.6,238,39.1667,-76.6833,47.5,MD,"BALTIMORE WASH INTL AP",9691,39.16077,-76.681477,0.94,nearest_street,1051,"State Hwy 176",Hanover,MD,"Anne Arundel County",21076,US,"TIGER/Line® dataset from the US Census Bureau"
+US1ILSC0003,12013.9,239,38.5096,-89.9711,157.9,IL,"BELLEVILLE 2.2 SE",13913,38.509458,-89.971225,1,rooftop,605,"Forest Ave",Belleville,IL,"St. Clair County",62220,US,"St Clair"
+USC00193276,12009.8,240,42.7467,-71.0425,9.1,MA,GROVELAND,12742,42.746551,-71.042583,1,rooftop,41,"Washington St",Groveland,MA,"Essex County",01834,US,"Office of Geographic Information (MassGIS), Commonwealth of Massachusetts, MassIT"
+USS0015D06S,12000.3,241,45.7,-115.23,1938.5,ID,"Mountain Meadows",11665,45.7,-115.23,0.08,nearest_place,,,"Red River Hot Springs",ID,"Idaho County",83525,US,"TIGER/Line® dataset from the US Census Bureau"
+USS0013A27S,11956.7,242,48.8,-113.67,1493.5,MT,"Many Glacier",10385,48.797713,-113.669717,0.96,nearest_street,1217,"Rte 3","Cut Bank",MT,"Glacier County",59427,US,"TIGER/Line® dataset from the US Census Bureau"
+USS0009C01S,11936.2,243,46.79,-109.51,1844,MT,"Crystal Lake",10544,46.79,-109.51,0.04,nearest_place,,,"Judith Gap",MT,"Fergus County",59453,US,"TIGER/Line® dataset from the US Census Bureau"
+USS0015E02S,11908,244,44.63,-115.79,2005.6,ID,"Big Creek Summit",10905,44.63,-115.79,0.08,nearest_place,,,"Warm Lake",ID,"Valley County",83611,US,"TIGER/Line® dataset from the US Census Bureau"
+USW00093720,11907.2,245,38.3406,-75.5103,14.6,MD,"SALISBURY WICOMICO RGNL AP",9374,38.336742,-75.510037,0.95,nearest_street,5281,"Lear Jet Way",Salisbury,MD,"Wicomico County",21804,US,"TIGER/Line® dataset from the US Census Bureau"
+USC00272302,11905.4,246,42.8267,-71.6261,73.2,NH,"E MILFORD",11613,42.827044,-71.624347,0.98,rooftop,564,"Nashua St",Milford,NH,"Hillsborough County",03055,US,Milford
+USS0017D02S,11884.8,247,45.21,-117.19,2255.5,OR,"Aneroid Lake #2",10929,45.21,-117.19,0.04,nearest_place,,,Cornucopia,OR,"Wallowa County",97834,US,"TIGER/Line® dataset from the US Census Bureau"
+USS0021B62S,11869.8,248,47.07,-121.59,685.8,WA,"Huckleberry Creek",8593,47.07,-121.59,0.08,nearest_place,,,Greenwater,WA,"Pierce County",98022,US,"TIGER/Line® dataset from the US Census Bureau"
+USW00003822,11860.5,249,32.13,-81.21,14,GA,"SAVANNAH INTL AP",13050,32.13127,-81.211143,0.98,rooftop,200,"Aggett Dr",Savannah,GA,"Chatham County",31408,US,"City of Savannah"
+USW00004781,11855.5,250,40.7939,-73.1017,25.6,NY,"ISLIP LI MACARTHUR AP",12386,40.790362,-73.102749,0.95,nearest_street,92,"Clark Dr",Ronkonkoma,NY,"Suffolk County",11779,US,"TIGER/Line® dataset from the US Census Bureau"
+USS0013D19S,11848,251,45.17,-113.58,2621.3,MT,"Darkhorse Lake",9277,45.17,-113.58,0.05,nearest_place,,,Salmon,ID,,83467,US,"TIGER/Line® dataset from the US Census Bureau"
+USC00190120,11824.5,252,42.3861,-72.5375,44.2,MA,AMHERST,11424,42.386501,-72.537135,0.99,rooftop,100,"Mullins Way",Amherst,MA,"Hampshire County",01003,US,"Office of Geographic Information (MassGIS), Commonwealth of Massachusetts, MassIT"
+USC00351897,11823.3,253,43.7917,-123.0275,181.4,OR,"COTTAGE GROVE 2E",10717,43.79136,-123.026974,0.99,rooftop,3300,"Row River Rd","Cottage Grove",OR,"Lane County",97424,US,Lane
+USS0006H20S,11822.9,254,41.33,-106.38,3087.6,WY,"North French Creek",11080,41.33,-106.38,0.07,nearest_place,,,Saratoga,WY,"Carbon County",82331,US,"TIGER/Line® dataset from the US Census Bureau"
+US1MOFSA065,11820.3,255,37.6605,-91.5535,344.1,MO,"SALEM 1.8 NW",13694,37.656044,-91.554012,0.94,nearest_street,328,"Co Rd 3220",Salem,MO,"Dent County",65560,US,"TIGER/Line® dataset from the US Census Bureau"
+USC00237263,11765.4,256,37.9567,-91.7761,357.5,MO,"ROLLA MISSOURI S&T",12826,37.956869,-91.776214,1,nearest_street,1495,"Us Hwy 63",Rolla,MO,"Phelps County",65401,US,"TIGER/Line® dataset from the US Census Bureau"
+USC00313555,11748.2,257,36.0503,-79.3728,201.2,NC,"GRAHAM 2 ENE",13307,36.049444,-79.372833,0.99,rooftop,1204,"E Gilbreath St",Graham,NC,"Alamance County",27253,US,Alamance
+US1ILWL0051,11723.5,258,41.5819,-88.1937,181.1,IL,"PLAINFIELD 2.4 SSE",16188,41.58182,-88.19374,1,rooftop,23664,"W Adams Ct",Plainfield,IL,"Will County",60586,US,Will
+USW00013877,11709.4,259,36.4731,-82.4044,457.2,TN,"BRISTOL TRI CITY AP",14223,36.469107,-82.402506,0.95,nearest_street,748,"Hamilton Rd",Blountville,TN,"Sullivan County",37617,US,"TIGER/Line® dataset from the US Census Bureau"
+USS0006H26S,11701.9,260,41.06,-106.71,2993.1,WY,"Blackhall Mtn",12045,41.06,-106.71,0.04,nearest_place,,,Riverside,WY,"Carbon County",82325,US,"TIGER/Line® dataset from the US Census Bureau"
+USW00014732,11698.7,261,40.7794,-73.8803,3.4,NY,"NEW YORK LAGUARDIA AP",12921,40.771453,-73.876969,0.92,nearest_street,,Gcp,"East Elmhurst",NY,"Queens County",11369,US,"TIGER/Line® dataset from the US Census Bureau"
+USW00014778,11682.9,262,41.2433,-76.9217,158.5,PA,WILLIAMSPORT,12365,41.245985,-76.920852,0.96,nearest_street,900,"Airport Rd",Montoursville,PA,"Lycoming County",17754,US,"TIGER/Line® dataset from the US Census Bureau"
+USS0017D08S,11646,263,45,-117.17,1645.9,OR,"Schneider Meadows",13367,45,-117.17,0.4,nearest_place,,,Cornucopia,OR,"Baker County",97834,US,"TIGER/Line® dataset from the US Census Bureau"
+USS0011G32S,11635.2,264,42.05,-111.6,2490.2,ID,"Franklin Basin",12005,42.05,-111.6,0.06,nearest_place,,,Glendale,ID,"Franklin County",83263,US,"TIGER/Line® dataset from the US Census Bureau"
+USW00013741,11634.6,265,37.3169,-79.9742,358.1,VA,"ROANOKE RGNL AP",10809,37.31599,-79.975273,0.98,rooftop,3757,"Tom Andrews Rd NW",Roanoke,VA,"Roanoke County",24019,US,"Virginia Geographic Information Network (VGIN)"
+USW00013971,11633.4,266,36.2667,-93.1567,418.8,AR,"HARRISON BOONE CO AP",14474,36.267711,-93.162382,0.94,nearest_street,1628,"Rains Rd S",Harrison,AR,"Boone County",72601,US,"TIGER/Line® dataset from the US Census Bureau"
+USS0022G14S,11630.3,267,42.38,-122.35,1420.4,OR,"Fish Lk.",10525,42.38,-122.35,0.04,nearest_place,,,Lakecreek,OR,"Jackson County",97524,US,"TIGER/Line® dataset from the US Census Bureau"
+USC00274234,11615.6,268,42.7831,-71.4147,56.4,NH,"HUDSON 1 SSE",13372,42.782805,-71.414736,1,rooftop,194,"Highland St",Hudson,NH,"Hillsborough County",03051,US,Statewide
+USW00003813,11610.2,269,32.6847,-83.6528,104.5,GA,"MACON MIDDLE GA RGNL AP",11324,32.68342,-83.653057,0.98,rooftop,2208,"Avondale Mill Rd",Macon,GA,"Bibb County",31216,US,Macon
+USW00013723,11609.6,270,36.0969,-79.9433,271.3,NC,"PIEDMONT TRIAD INTL AP",13207,36.097813,-79.943612,0.99,rooftop,6423,"Airport Pkwy",Greensboro,NC,"Guilford County",27409,US,"City of Greensboro"
+USC00368469,11595,271,41.4039,-78.0183,284.1,PA,"STEVENSON DAM",13903,41.403795,-78.018169,1,rooftop,577,"Swank Rd",Austin,PA,"Cameron County",16720,US,Cameron
+USW00004725,11594.1,272,42.1997,-75.985,489.5,NY,BINGHAMTON,11182,42.199644,-75.984696,1,rooftop,161,"Commercial Dr","Johnson City",NY,"Broome County",13790,US,Broome
+USC00307705,11583.4,273,42.6772,-75.5067,333.8,NY,SHERBURNE,11183,42.677342,-75.506863,1,rooftop,50,"W State St",Sherburne,NY,"Chenango County",13460,US,"NYS GIS Program Office, State Geographic Information Officer (GIO)"
+USW00013740,11583.2,274,37.505,-77.3203,50,VA,"RICHMOND INTL AP",10902,37.504843,-77.322163,0.97,nearest_street,5611,"Triangle Rd",Richmond,VA,"Henrico County",23250,US,"TIGER/Line® dataset from the US Census Bureau"
+USW00014860,11574,275,42.08,-80.1825,222.5,PA,"ERIE INTL AP",10273,42.079456,-80.184421,0.98,rooftop,1607,"Kudlak Dr",Erie,PA,"Erie County",16505,US,Erie
+USS0007K11S,11571.5,276,39.02,-107.05,3261.4,CO,"Schofield Pass",12805,39.02,-107.05,0.06,nearest_place,,,Marble,CO,"Gunnison County",81623,US,"TIGER/Line® dataset from the US Census Bureau"
+USC00128784,11568.9,277,40.2233,-86.1086,271.3,IN,"TIPTON 5 SW",10262,40.223504,-86.109521,0.99,rooftop,5578,"S 500 W",Tipton,IN,"Tipton County",46072,US,Statewide
+USS0005J37S,11561.6,278,40.53,-105.89,3084.6,CO,"Joe Wright",11357,40.530039,-105.889734,0.99,nearest_street,58088,"State Hwy 14",Bellvue,CO,"Larimer County",80512,US,"TIGER/Line® dataset from the US Census Bureau"
+USW00013883,11561.5,279,33.9486,-81.1186,70.4,SC,COLUMBIA,10744,33.948391,-81.11799,0.99,rooftop,1260,"Lexington Dr","West Columbia",SC,"Lexington County",29170,US,Lexington
+USS0006J09S,11559,280,40.37,-106.74,2865.1,CO,"Rabbit Ears",11716,40.37,-106.74,0.07,nearest_place,,,"Steamboat Springs",CO,"Routt County",80488,US,"TIGER/Line® dataset from the US Census Bureau"
+USW00094702,11556.7,281,41.1583,-73.1289,1.5,CT,"BRIDGEPORT SIKORSKY MEM AP",12982,41.156025,-73.127744,0.96,nearest_street,24,"Grove St",Stratford,CT,"Fairfield County",06615,US,"TIGER/Line® dataset from the US Census Bureau"
+USC00441955,11550.8,282,37.2819,-78.9592,248.4,VA,"CONCORD 4 SSW",11659,37.282097,-78.959255,1,rooftop,4330,"Spring Mill Rd",Concord,VA,"Campbell County",24538,US,Campbell
+USS0015C05S,11537.1,283,46.49,-115.8,938.8,ID,"Pierce R.S.",10526,46.490935,-115.799701,0.99,rooftop,106,"Carle St W",Pierce,ID,"Clearwater County",83546,US,Clearwater
+US1OHMD0002,11528.4,284,41.2498,-81.8133,342,OH,"BRUNSWICK 0.5 NE",11082,41.249906,-81.812889,1,rooftop,958,"Spring Hill Ct",Brunswick,OH,"Medina County",44212,US,Medina
+USW00013736,11475,285,39.6428,-79.9164,378,WV,"MORGANTOWN HART FLD",11444,39.645066,-79.922181,0.94,nearest_street,709,"Hartman Run Rd",Morgantown,WV,"Monongalia County",26505,US,"TIGER/Line® dataset from the US Census Bureau"
+USC00444148,11470.7,286,37.1258,-79.525,273.4,VA,"HUDDLESTON 4 SW",12172,37.126058,-79.525143,1,rooftop,2020,"Clover Creek Rd",Huddleston,VA,"Bedford County",24104,US,Bedford
+USW00094789,11467.3,287,40.6386,-73.7622,3.4,NY,"NEW YORK JFK INTL AP",13216,40.649838,-73.755988,0.91,nearest_street,,"Rockaway Blvd","Springfield Gardens",NY,"Queens County",11413,US,"TIGER/Line® dataset from the US Census Bureau"
+USW00013995,11461.5,288,37.2353,-93.4003,389.5,MO,SPRINGFIELD,13841,37.235129,-93.40156,0.99,rooftop,5805,"W State Highway Ee Hwy",Springfield,MO,"Greene County",65802,US,Greene
+USW00013881,11450.7,289,35.2236,-80.9553,221.9,NC,"CHARLOTTE DOUGLAS AP",13730,35.235723,-80.952885,1,nearest_street,6509,"Us Hwy 29",Charlotte,NC,"Mecklenburg County",28208,US,"TIGER/Line® dataset from the US Census Bureau"
+USW00003872,11443.7,290,37.7836,-81.1231,766.3,WV,"BECKLEY RALEIGH CO AP",11201,37.783291,-81.121292,0.98,rooftop,200,"Airport Cir",Beaver,WV,"Raleigh County",25813,US,Raleigh
+USW00093739,11442.9,291,37.9406,-75.4631,11.6,VA,"WALLOPS ISLAND FLIGHT FAC",11868,37.951841,-75.454892,0.91,nearest_street,35071,"Pin Oak Dr",Horntown,VA,"Accomack County",23395,US,"TIGER/Line® dataset from the US Census Bureau"
+USW00014852,11433.8,292,41.2544,-80.6739,359.7,OH,"YOUNGSTOWN RGNL AP",12645,41.254807,-80.663769,0.93,nearest_street,1111,"Youngstown Kingsville Rd",Vienna,OH,"Trumbull County",44473,US,"TIGER/Line® dataset from the US Census Bureau"
+USW00093846,11403.4,293,34.4978,-82.7097,231.6,SC,"ANDERSON CO AP",10013,34.501204,-82.709905,0.95,nearest_street,452,"Abercrombie Rd",Anderson,SC,"Anderson County",29626,US,"TIGER/Line® dataset from the US Census Bureau"
+USC00125407,11369.5,294,39.4039,-86.453,180.4,IN,"MARTINSVILLE 2 SW",13347,39.404527,-86.452848,0.98,nearest_street,501,"Rogers Rd",Martinsville,IN,"Morgan County",46151,US,"TIGER/Line® dataset from the US Census Bureau"
+USS0006H22S,11347.5,295,41,-106.91,2728,WY,"Whiskey Park",11741,41,-106.91,0.05,nearest_place,,,Columbine,CO,"Routt County",80428,US,"TIGER/Line® dataset from the US Census Bureau"
+US1OHFR0003,11327,296,39.981,-83.0401,234.1,OH,"GRANDVIEW HEIGHTS 0.1 N",10725,39.980816,-83.040058,1,rooftop,1318,"Inglis Ave",Columbus,OH,"Franklin County",43212,US,"City of Columbus"
+USS0017D18S,11323.6,297,45.27,-117.17,2411,OR,"Mt. Howard",11082,45.27,-117.17,0.05,nearest_place,,,Joseph,OR,"Wallowa County",97846,US,"TIGER/Line® dataset from the US Census Bureau"
+USC00369408,11300.7,298,41.7003,-77.3872,554.1,PA,"WELLSBORO 4 SW",12150,41.700145,-77.387033,1,rooftop,1216,"Stony Fork School Rd",Wellsboro,PA,"Tioga County",16901,US,Tioga
+USC00330279,11298.6,299,39.3225,-82.0994,208.5,OH,"ATHENS OU",13243,39.322604,-82.099286,1,rooftop,139,"University Ter",Athens,OH,"Athens County",45701,US,Athens
+USC00367409,11292.2,300,41.33,-77.7381,201.2,PA,RENOVO,12041,41.329841,-77.738411,1,rooftop,1898,"Erie Ave",Renovo,PA,"Clinton County",17764,US,Clinton
+USW00003901,11291.4,301,32.3847,-94.7117,111.3,TX,"LONGVIEW E TX RGNL AP",12273,32.383896,-94.703335,0.93,nearest_street,813,"Jerry Lucy Dr",Longview,TX,"Gregg County",75603,US,"TIGER/Line® dataset from the US Census Bureau"
+USS0019L41S,11291.3,302,38.72,-119.89,2477.7,CA,"Burnside Lake",14826,38.72,-119.89,0.13,nearest_place,,,Sorensens,CA,"Alpine County",96120,US,"TIGER/Line® dataset from the US Census Bureau"
+USW00014895,11274.3,303,40.9167,-81.4333,368.2,OH,"AKRON CANTON RGNL AP",11258,40.917205,-81.433044,0.99,rooftop,5400,"Lauby Rd",Canton,OH,"Summit County",44720,US,Summit
+USW00014820,11263.8,304,41.4131,-81.86,232.6,OH,CLEVELAND,10163,41.414708,-81.86048,0.97,nearest_street,5299,"W Hanger Rd",Cleveland,OH,"Cuyahoga County",44135,US,"TIGER/Line® dataset from the US Census Bureau"
+USS0011J12S,11235.7,305,40.97,-111.81,2066.2,UT,"Farmington Lower",15155,40.97,-111.81,0.1,nearest_place,,,Centerville,UT,"Davis County",84014,US,"TIGER/Line® dataset from the US Census Bureau"
+USW00093819,11226.8,306,39.7075,-86.2803,240.8,IN,INDIANAPOLIS,11989,39.707129,-86.279303,0.99,rooftop,3852,"Kollman Rd",Indianapolis,IN,"Marion County",46241,US,Statewide
+USC00117457,11222.5,307,41.6042,-88.085,201.2,IL,"ROMEOVILLE WFO",14433,41.604183,-88.084654,1,rooftop,333,"University Dr W",Romeoville,IL,"Will County",60446,US,Will
+USW00013994,11198.2,308,38.7525,-90.3736,161.8,MO,"ST LOUIS LAMBERT INTL AP",13723,38.757359,-90.377482,1,nearest_street,4983,"Us Hwy 67",Bridgeton,MO,"St. Louis County",63044,US,"TIGER/Line® dataset from the US Census Bureau"
+USS0014F04S,11187,309,43.8,-114.85,2731,ID,"Vienna Mine",10754,43.8,-114.85,0.04,nearest_place,,,Obsidian,ID,"Blaine County",83340,US,"TIGER/Line® dataset from the US Census Bureau"
+USW00014607,11180.5,310,46.8706,-68.0172,190.2,ME,"CARIBOU MUNI AP",10564,46.870419,-68.012351,0.95,nearest_street,837,"Main St",Caribou,ME,"Aroostook County",04736,US,"TIGER/Line® dataset from the US Census Bureau"
+USC00360132,11180.3,311,40.4189,-78.4197,359.7,PA,"ALTOONA 7 SW",11384,40.418768,-78.419642,1,rooftop,1028,"Pennington Dr",Duncansville,PA,"Blair County",16635,US,Blair
+USW00014739,11169.1,312,42.3606,-71.0106,3.7,MA,"BOSTON LOGAN INTL AP",12811,42.3606,-71.0106,0.62,nearest_place,,,Boston,MA,"Suffolk County",02128,US,"TIGER/Line® dataset from the US Census Bureau"
+US1OHPT0012,11145,313,41.0085,-81.329,357.8,OH,"MOGADORE 4.7 SE",13186,41.008302,-81.329272,1,rooftop,698,"Congress Lake Rd",Mogadore,OH,"Portage County",44260,US,Portage
+USC00440766,11138,314,37.2039,-80.4144,641,VA,"BLACKSBURG NWSO",10847,37.204082,-80.414207,1,rooftop,1750,"Forecast Dr",Blacksburg,VA,"Montgomery County",24060,US,"Virginia Geographic Information Network (VGIN)"
+USC00368449,11136.6,315,40.7933,-77.8672,356.6,PA,"STATE COLLEGE",10548,40.793247,-77.866867,1,rooftop,210,"N Burrowes Rd","State College",PA,"Centre County",16801,US,Centre
+USC00441159,11103,316,37.7267,-79.3628,256,VA,"BUENA VISTA",10982,37.725821,-79.359723,1,nearest_street,1300,"Us Hwy 501","Buena Vista",VA,"Rockbridge County",24416,US,"TIGER/Line® dataset from the US Census Bureau"
+USW00014821,11101.2,317,39.9914,-82.8808,246.9,OH,"COLUMBUS PORT COLUMBUS INTL AP",11173,39.986972,-82.878985,0.94,nearest_street,4473,"E 5th Ave",Columbus,OH,"Franklin County",43219,US,"TIGER/Line® dataset from the US Census Bureau"
+USC00231801,11078.1,318,38.9425,-92.3206,219.5,MO,"COLUMBIA U OF M",11822,38.943181,-92.320511,0.99,rooftop,706,"Lee St",Columbia,MO,"Boone County",65201,US,Boone
+USS0010F23S,11065.3,319,43.52,-110.91,2499.4,WY,"Phillips Bench",11512,43.52,-110.91,0.2,nearest_place,,,Wilson,WY,"Teton County",83014,US,"TIGER/Line® dataset from the US Census Bureau"
+USW00093738,11063.6,320,38.9408,-77.4636,88.4,VA,"WASHINGTON DC DULLES AP",10375,38.9408,-77.4636,0.24,nearest_place,,,"Pleasant Valley",VA,"Loudoun County",22021,US,"TIGER/Line® dataset from the US Census Bureau"
+USW00014891,11047,321,40.8203,-82.5178,394.7,OH,"MANSFIELD LAHM MUNI AP",12175,40.819186,-82.522773,0.95,nearest_street,2408,"Twp Rd 1300",Mansfield,OH,"Richland County",44903,US,"TIGER/Line® dataset from the US Census Bureau"
+USW00004751,11044,322,41.8031,-78.6403,645.3,PA,"BRADFORD RGNL AP",11391,41.794038,-78.639808,0.92,nearest_street,8425,"Mt Alton Rd","Lewis Run",PA,"McKean County",16738,US,"TIGER/Line® dataset from the US Census Bureau"
+US1MDAL0002,11041.8,323,39.5768,-78.8498,230.1,MD,"CRESAPTOWN-BEL AIR 0.9 SSE",10930,39.57685,-78.849554,1,rooftop,14207,"N Bel Air Dr SW",Cumberland,MD,"Allegany County",21502,US,Allegany
+USW00014745,11013.8,324,43.1953,-71.5011,105.5,NH,"CONCORD MUNI AP",11489,43.194603,-71.503073,0.98,rooftop,178,"Airport Rd",Concord,NH,"Merrimack County",03301,US,Statewide
+US1ILGY0001,11012.1,325,41.3414,-88.2981,160,IL,"CARBON HILL 3.1 N",15314,41.342006,-88.297997,0.98,nearest_street,6348,"Junebug Ln",Morris,IL,"Grundy County",60450,US,"TIGER/Line® dataset from the US Census Bureau"
+USS0019L05S,10974.8,326,38.61,-119.92,2455.8,CA,"Blue Lakes",15023,38.61,-119.92,0.05,nearest_place,,,Plasse,CA,"Alpine County",95646,US,"TIGER/Line® dataset from the US Census Bureau"
+USS0010E06S,10955.7,327,44.48,-110.16,2566.4,WY,"Sylvan Lake",10925,44.48,-110.16,0.05,nearest_place,,,"Pahaska Tepee",WY,"Park County",82414,US,"TIGER/Line® dataset from the US Census Bureau"
+USW00013878,10938,328,31.1522,-81.3908,4.9,GA,"BRUNSWICK MALCOLM MCKINNON AP",11270,31.148665,-81.389622,0.95,nearest_street,501,"Shore Edge Trce","Saint Simons Island",GA,"Glynn County",31522,US,"TIGER/Line® dataset from the US Census Bureau"
+USW00013733,10935.8,329,37.3208,-79.2067,286.5,VA,"LYNCHBURG RGNL AP",9920,37.324255,-79.206693,0.95,nearest_street,614,"Hangar Rd",Lynchburg,VA,"Campbell County",24502,US,"TIGER/Line® dataset from the US Census Bureau"
+USS0019L45S,10895.8,330,38.69,-119.99,2546,CA,"Carson Pass",14363,38.69,-119.99,0.15,nearest_place,,,Kirkwood,CA,"Alpine County",95646,US,"TIGER/Line® dataset from the US Census Bureau"
+USC00211198,10871,331,43.6308,-91.5028,355.4,MN,CALEDONIA,12170,43.631843,-91.502882,0.97,nearest_street,401,"W South St",Caledonia,MN,"Houston County",55921,US,"TIGER/Line® dataset from the US Census Bureau"
+USC00315356,10838.4,332,35.8033,-82.6658,585.2,NC,MARSHALL,12015,35.803197,-82.665822,1,rooftop,578,"Smith Hollow Rd",Marshall,NC,"Madison County",28753,US,Madison
+US1ILWD0005,10819.2,333,41.816,-89.904,224,IL,"MORRISON 3.2 E",14247,41.816341,-89.90414,1,rooftop,17856,"Hazel Rd",Morrison,IL,"Whiteside County",61270,US,Whiteside
+USS0008M10S,10811,334,37.44,-108.02,3287.3,CO,"Columbus Basin",14224,37.44,-108.02,0.07,nearest_place,,,Durango,CO,"La Plata County",81302,US,"TIGER/Line® dataset from the US Census Bureau"
+USW00014606,10810.9,335,44.7978,-68.8186,45.1,ME,"BANGOR INTL AP",13215,44.79146,-68.825058,1,nearest_street,1226,"Us Hwy 2",Bangor,ME,"Penobscot County",04401,US,"TIGER/Line® dataset from the US Census Bureau"
+USW00003820,10799.2,336,33.3644,-81.9633,40.2,GA,"AUGUSTA BUSH FLD AP",12927,33.361751,-81.970295,0.93,nearest_street,2442,"Doug Barnard Pkwy",Augusta,GA,"Richmond County",30906,US,"TIGER/Line® dataset from the US Census Bureau"
+USW00094823,10794.8,337,40.4847,-80.2144,366.7,PA,"PITTSBURGH INTL AP",13335,40.486295,-80.202743,1,nearest_street,,"I 376 Business",Coraopolis,PA,"Allegheny County",15108,US,"TIGER/Line® dataset from the US Census Bureau"
+USW00013743,10770.8,338,38.8483,-77.0342,3,VA,"WASHINGTON REAGAN AP",10765,38.84893,-77.032638,0.98,rooftop,2450,"Levee Rd",Arlington,VA,"Arlington County",22202,US,"Virginia Geographic Information Network (VGIN)"
+USC00437054,10759.4,339,44.42,-72.0194,213.4,VT,"SAINT JOHNSBURY",12065,44.420152,-72.019258,1,rooftop,46,"Charles St","Saint Johnsbury",VT,"Caledonia County",05819,US,"VT Enhanced 911 Board, VCGI"
+USC00369823,10757.7,340,40.0394,-78.5239,361.2,PA,WOLFSBURG,11936,40.03936,-78.52382,1,rooftop,127,"Maple Dr",Bedford,PA,"Bedford County",15522,US,Bedford
+USS0006H23S,10754.7,341,41.46,-106.28,3063.2,WY,"Sand Lake",10696,41.46,-106.28,0.03,nearest_place,,,Centennial,WY,"Carbon County",82055,US,"TIGER/Line® dataset from the US Census Bureau"
+USS0009E13S,10743.4,342,44.38,-109.79,2980.9,WY,Blackwater,10848,44.38,-109.79,0.04,nearest_place,,,"Pahaska Tepee",WY,"Park County",82414,US,"TIGER/Line® dataset from the US Census Bureau"
+US1ILCN0003,10727.2,343,39.4736,-89.0462,195.1,IL,"PANA 6.2 NNE",13093,39.472634,-89.044128,1,nearest_street,865,"Us Hwy 51",Assumption,IL,"Christian County",62510,US,"TIGER/Line® dataset from the US Census Bureau"
+USC00442044,10700.4,344,37.8111,-79.9883,379.2,VA,"COVINGTON FLTR PLT",9708,37.810775,-79.987239,1,nearest_street,1509,"Us Hwy 220",Covington,VA,"Covington city",24426,US,"TIGER/Line® dataset from the US Census Bureau"
+USC00474790,10688.1,345,43.3217,-89.5311,251.2,WI,LODI,13414,43.321437,-89.530771,1,rooftop,707,"Fair St",Lodi,WI,"Columbia County",53555,US,Statewide
+USW00024233,10681.9,346,47.4444,-122.3139,112.8,WA,"SEATTLE TACOMA INTL AP",8610,47.445359,-122.318408,0.95,nearest_street,17586,"12th Ave S",Seattle,WA,"King County",98148,US,"TIGER/Line® dataset from the US Census Bureau"
+USC00464840,10667.1,347,39.4214,-79.005,294.1,WV,"KEYSER 2 SSW",10027,39.421449,-79.004818,1,rooftop,482,"Stony Run Rd",Keyser,WV,"Mineral County",26726,US,Statewide
+USS0020L02S,10638.6,348,39,-120.13,2343.6,CA,"Rubicon #2",13350,39.009557,-120.122295,0.91,nearest_street,8999,"Highview Dr",Tahoma,CA,"El Dorado County",96142,US,"TIGER/Line® dataset from the US Census Bureau"
+USS0011D11S,10636,349,45.51,-111.92,2407.9,MT,"Lower Twin",9906,45.51,-111.92,0.05,nearest_place,,,"Mc Allister",MT,"Madison County",59740,US,"TIGER/Line® dataset from the US Census Bureau"
+USS0007M11S,10627.5,350,37.7,-107.78,3249.2,CO,"Spud Mountain",14738,37.7,-107.78,0.04,nearest_place,,,Ophir,CO,"San Juan County",81426,US,"TIGER/Line® dataset from the US Census Bureau"
+USW00014733,10578.8,351,42.9486,-78.7369,211.2,NY,BUFFALO,12151,42.949274,-78.736554,0.99,rooftop,1179,"Wehrle Dr",Buffalo,NY,"Erie County",14225,US,"NYS GIS Program Office, State Geographic Information Officer (GIO)"
+USW00094860,10554.5,352,42.8939,-85.5447,237.1,MI,"GRAND RAPIDS",13061,42.893251,-85.54398,0.99,rooftop,4949,"Tim Dougherty Dr SE","Grand Rapids",MI,"Kent County",49512,US,Kent
+USW00093815,10550.9,353,39.9061,-84.2186,304.8,OH,"DAYTON INTL AP",10922,39.907952,-84.227115,0.93,nearest_street,11000,"Peters Pike",Vandalia,OH,"Montgomery County",45377,US,"TIGER/Line® dataset from the US Census Bureau"
+USW00094908,10545,354,42.3978,-90.7036,321.9,IA,"DUBUQUE RGNL AP",13946,42.397807,-90.694464,1,nearest_street,7411,"Us Hwy 61",Dubuque,IA,"Dubuque County",52003,US,"TIGER/Line® dataset from the US Census Bureau"
+USS0011C01S,10529.2,355,46.56,-111.29,2423.2,MT,"Boulder Mountain",9246,46.56,-111.29,0.04,nearest_place,,,Townsend,MT,"Meagher County",59644,US,"TIGER/Line® dataset from the US Census Bureau"
+USS0011E31S,10528.9,356,44.59,-111.12,2362.2,MT,"Madison Plateau",11513,44.59,-111.12,0.04,nearest_place,,,"Macks Inn",ID,,83433,US,"TIGER/Line® dataset from the US Census Bureau"
+USC00304996,10513.9,357,44.8419,-74.3081,268.2,NY,MALONE,10515,44.8418,-74.30808,1,rooftop,151,"Franklin St",Malone,NY,"Franklin County",12953,US,"NYS GIS Program Office, State Geographic Information Officer (GIO)"
+USW00094846,10513.6,358,41.995,-87.9336,200.6,IL,"CHICAGO OHARE INTL AP",12596,41.994873,-87.939962,0.94,nearest_street,2277,"S Elmhurst Rd","Elk Grove Village",IL,"Cook County",60007,US,"TIGER/Line® dataset from the US Census Bureau"
+USC00115961,10474.6,359,42.2553,-88.0775,256,IL,"MUNDELEIN 4 WSW",13763,42.255317,-88.077348,1,rooftop,22753,"W Owens Rd",Mundelein,IL,"Lake County",60060,US,Lake
+USS0009D08S,10469.5,360,45.05,-109.91,2651.8,MT,"White Mill",9227,45.05,-109.91,0.27,nearest_place,,,"Cooke City",MT,"Park County",59020,US,"TIGER/Line® dataset from the US Census Bureau"
+USW00003904,10454.7,361,30.5892,-96.3647,93,TX,"COLLEGE STN",9221,30.593211,-96.367348,0.94,nearest_street,55,"McKenzie Terminal Blvd","College Station",TX,"Brazos County",77845,US,"TIGER/Line® dataset from the US Census Bureau"
+US1OHSN0003,10444.7,362,41.0589,-83.1127,254.2,OH,"TIFFIN 5.2 SE",11642,41.059812,-83.112542,0.99,rooftop,4495,"S Tr 159",Tiffin,OH,"Seneca County",44883,US,Seneca
+USW00024213,10442.6,363,40.8097,-124.1603,6.1,CA,"EUREKA WFO WOODLEY ISLAND",11184,40.809352,-124.159607,0.98,nearest_street,492,"Startare Dr",Eureka,CA,"Humboldt County",95501,US,"TIGER/Line® dataset from the US Census Bureau"
+USW00003947,10442,364,39.2972,-94.7306,306.3,MO,"KANSAS CITY INTL AP",13519,39.297632,-94.733041,0.96,nearest_street,11216,"NW Hampton Rd","Kansas City",MO,"Platte County",64153,US,"TIGER/Line® dataset from the US Census Bureau"
+USW00014827,10438.9,365,40.9706,-85.2064,241.1,IN,"FT WAYNE INTL AP",9922,40.974631,-85.206862,0.95,nearest_street,5400,"Winters Rd","Fort Wayne",IN,"Allen County",46809,US,"TIGER/Line® dataset from the US Census Bureau"
+USW00014842,10437.8,366,40.6675,-89.6839,198.1,IL,"PEORIA GTR PEORIA AP",12904,40.668786,-89.684184,0.97,nearest_street,4799,"W Sutliff Rd",Peoria,IL,"Peoria County",61607,US,"TIGER/Line® dataset from the US Census Bureau"
+USS0021D12S,10432.3,367,45.19,-121.69,1161.3,OR,"Clear Lake",8598,45.19,-121.69,0.06,nearest_place,,,"Government Camp",OR,"Wasco County",97028,US,"TIGER/Line® dataset from the US Census Bureau"
+US1IASR0002,10430.2,368,42.0448,-93.6174,298.1,IA,"AMES 1.5 NNE",10184,42.044739,-93.617532,1,rooftop,2228,"Clark Ave",Ames,IA,"Story County",50010,US,Story
+US1MIIN0001,10425.2,369,42.9576,-85.1738,203.3,MI,"SARANAC 2.6 NE",12662,42.957642,-85.173758,0.99,nearest_street,1970,"Johnson Rd",Saranac,MI,"Ionia County",48881,US,"TIGER/Line® dataset from the US Census Bureau"
+USS0012B14S,10422.7,370,47.08,-112.73,2118.4,MT,"Copper Camp",10523,47.08,-112.73,0.05,nearest_place,,,Lincoln,MT,"Lewis and Clark County",59639,US,"TIGER/Line® dataset from the US Census Bureau"
+USS0007K12S,10420,371,39.76,-107.36,3316.2,CO,"Bison Lake",12086,39.76,-107.36,0.04,nearest_place,,,"Glenwood Springs",CO,"Garfield County",81601,US,"TIGER/Line® dataset from the US Census Bureau"
+USC00476827,10393.9,372,43.0514,-91.135,200.6,WI,"PRAIRIE DU CHIEN",13281,43.051488,-91.133938,0.99,rooftop,728,"Blackhawk Ave","Prairie Du Chien",WI,"Crawford County",53821,US,Crawford
+USS0005K14S,10389,373,39.8,-105.78,3444.2,CO,"Berthoud Summit",9764,39.8,-105.78,0.2,nearest_place,,,Empire,CO,"Grand County",80438,US,"TIGER/Line® dataset from the US Census Bureau"
+USS0020K27S,10388.7,374,39.17,-120.15,2071.7,CA,"Tahoe City Cross",13685,39.169782,-120.148645,0.99,rooftop,345,"Fairway Dr","Tahoe City",CA,"Placer County",96145,US,"County of Placer"
+USW00014605,10386.4,375,44.3206,-69.7972,106.7,ME,"AUGUSTA STATE AP",10903,44.318348,-69.79947,0.96,nearest_street,7,"Old Winthrop Rd",Augusta,ME,"Kennebec County",04330,US,"TIGER/Line® dataset from the US Census Bureau"
+USC00474937,10362.4,376,43.2117,-91.0986,192.9,WI,"LYNXVILLE DAM 9",13915,43.211093,-91.098818,0.99,rooftop,24545,"State Hwy 35",Eastman,WI,"Crawford County",54626,US,Crawford
+USC00476718,10340.6,377,43.5278,-89.4342,236.2,WI,PORTAGE,12014,43.528016,-89.434195,1,rooftop,N6912,"Us Highway 16 - 51",Portage,WI,"Columbia County",53901,US,Columbia
+US1VASH0002,10338.5,378,39.0422,-78.3506,226.2,VA,"STRASBURG 3.7 N",10283,39.04148,-78.350079,0.99,rooftop,234,Wren,Strasburg,VA,"Shenandoah County",22657,US,Shenandoah
+USW00024232,10329.2,379,44.905,-123.0011,62.5,OR,"SALEM MCNARY FLD",7841,44.902069,-123.00611,0.94,nearest_street,3641,"Airway Dr SE",Salem,OR,"Marion County",97302,US,"TIGER/Line® dataset from the US Census Bureau"
+USC00114710,10318.8,380,41.2428,-89.8997,237.7,IL,"KEWANEE 1 E",12918,41.242772,-89.903261,0.96,nearest_street,599,"N Fisher Ave",Kewanee,IL,"Henry County",61443,US,"TIGER/Line® dataset from the US Census Bureau"
+USS0013C43S,10295.3,381,46.27,-113.16,2377.4,MT,"Warm Springs",7926,46.27,-113.16,0.08,nearest_place,,,Georgetown,MT,"Granite County",59711,US,"TIGER/Line® dataset from the US Census Bureau"
+USW00093822,10281.3,382,39.8447,-89.6839,181.1,IL,"SPRINGFIELD CAPITAL AP",12539,39.845077,-89.684666,0.98,nearest_street,7,"Tower Dr",Springfield,IL,"Sangamon County",62707,US,"TIGER/Line® dataset from the US Census Bureau"
+USS0011D28S,10281,383,45.6,-111.96,2529.8,MT,"Albro Lake",10342,45.6,-111.96,0.1,nearest_place,,,Pony,MT,"Madison County",59747,US,"TIGER/Line® dataset from the US Census Bureau"
+USC00478540,10277.8,384,43.4719,-88.8825,267.9,WI,"TOWN OF WESTFORD",12263,43.472055,-88.883018,0.99,rooftop,N7652,"Edgewater Dr","Beaver Dam",WI,"Dodge County",53916,US,Dodge
+USS0009E07S,10273.9,385,44.73,-109.91,2865.1,WY,"Parker Peak",10311,44.73,-109.91,0.03,nearest_place,,,"Pahaska Tepee",WY,"Park County",82414,US,"TIGER/Line® dataset from the US Census Bureau"
+USW00013972,10271.4,386,32.3542,-95.4025,165.8,TX,"TYLER POUNDS FLD",10815,32.359769,-95.398997,0.93,nearest_street,150,"Airport Dr",Tyler,TX,"Smith County",75704,US,"TIGER/Line® dataset from the US Census Bureau"
+US1OHDR0001,10265.2,387,40.1526,-84.4613,303.9,OH,"BRADFORD 2.3 NW",10722,40.152414,-84.461461,1,rooftop,9212,"Horatio-harris Creek Rd",Bradford,OH,"Darke County",45308,US,Darke
+USC00436995,10258.3,388,43.6253,-72.9781,189,VT,RUTLAND,11596,43.62521,-72.97853,1,rooftop,220,"Lincoln Ave",Rutland,VT,"Rutland County",05701,US,"VT Enhanced 911 Board, VCGI"
+USC00208774,10236.7,389,44.2294,-85.9572,235.6,MI,"WELLSTON 1N",13156,44.230233,-85.957866,0.97,nearest_street,368,"Seaman Rd",Wellston,MI,"Manistee County",49689,US,"TIGER/Line® dataset from the US Census Bureau"
+USS0010D12S,10234.7,390,45.22,-110.24,2697.5,MT,"Monument Peak",10467,45.22,-110.24,0.03,nearest_place,,,"Silver Gate",MT,"Park County",59081,US,"TIGER/Line® dataset from the US Census Bureau"
+US1OHSM0005,10228.1,391,41.1623,-81.5037,303,OH,"CUYAHOGA FALLS 1.1 ESE",11388,41.162239,-81.503958,1,rooftop,3345,"Kube St","Cuyahoga Falls",OH,"Summit County",44223,US,Summit
+USC00231580,10216.2,392,39.775,-93.5358,237.7,MO,"CHILLICOTHE 2S",14080,39.773962,-93.53581,1,nearest_street,,"US 36",Chillicothe,MO,"Livingston County",64601,US,"TIGER/Line® dataset from the US Census Bureau"
+USS0005J40S,10215.2,393,40.43,-105.73,3261.4,CO,"Willow Park",10320,40.43,-105.73,0.06,nearest_place,,,"Estes Park",CO,"Larimer County",80517,US,"TIGER/Line® dataset from the US Census Bureau"
+USC00336405,10213.1,394,40.9461,-83.9614,234.7,OH,PANDORA,11241,40.946168,-83.960954,1,rooftop,304,"S High St",Pandora,OH,"Putnam County",45877,US,Putnam
+USS0007M33S,10206.5,395,37.89,-107.71,3413.8,CO,"Red Mountain Pass",11873,37.889592,-107.718818,1,nearest_street,79388,"Us Hwy 550",Silverton,CO,"San Juan County",81433,US,"TIGER/Line® dataset from the US Census Bureau"
+USS0006H09S,10138.8,396,41.16,-106.93,2819.4,WY,"Webber Springs",11136,41.16,-106.93,0.06,nearest_place,,,Encampment,WY,"Carbon County",82325,US,"TIGER/Line® dataset from the US Census Bureau"
+USW00013870,10138.3,397,31.5358,-82.5067,58.8,GA,"ALMA BACON CO AP",8693,31.537254,-82.502412,0.95,nearest_street,173,"Candlewood Dr",Alma,GA,"Bacon County",31510,US,"TIGER/Line® dataset from the US Census Bureau"
+USS0007K06S,10136.5,398,39.05,-107.87,3035.8,CO,"Park Reservoir",12279,39.050871,-107.869392,0.97,nearest_street,27131,"Surface Creek Rd",Cedaredge,CO,"Delta County",81413,US,"TIGER/Line® dataset from the US Census Bureau"
+USW00094290,10117,399,47.6872,-122.2553,18.3,WA,"SEATTLE SAND PT WSFO",7955,47.686506,-122.255431,0.99,rooftop,7600,"Sand Point Way NE",Seattle,WA,"King County",98115,US,King
+USS0006J03S,10112.4,400,40.39,-106.6,2792,CO,Columbine,10703,40.39,-106.6,0.05,nearest_place,,,Coalmont,CO,"Jackson County",80430,US,"TIGER/Line® dataset from the US Census Bureau"
+US1INEL0008,10109.4,401,41.5655,-85.9933,256,IN,"WAKARUSA 2.4 NNE",10909,41.565224,-85.992263,0.98,nearest_street,27502,"Co Rd 36",Goshen,IN,"Elkhart County",46526,US,"TIGER/Line® dataset from the US Census Bureau"
+USW00014923,10107.5,402,41.4653,-90.5233,180.4,IL,"MOLINE QUAD CITY INTL AP",12609,41.467801,-90.522188,0.96,nearest_street,1080,"Arbor Dr",Moline,IL,"Rock Island County",61265,US,"TIGER/Line® dataset from the US Census Bureau"
+USW00014742,10096.8,403,44.4683,-73.15,100.6,VT,"BURLINGTON INTL AP",11050,44.468634,-73.155003,0.95,nearest_street,81,"Airport Cir","South Burlington",VT,"Chittenden County",05403,US,"TIGER/Line® dataset from the US Census Bureau"
+USW00012836,10087.8,404,24.555,-81.7522,1.2,FL,"KEY WEST INTL AP",8993,24.553873,-81.751481,0.98,rooftop,3675,"Roosevelt Blvd","Key West",FL,"Monroe County",33040,US,Monroe
+USC00470124,10082.7,405,44.3272,-91.9194,204.2,WI,"ALMA DAM 4",13421,44.327469,-91.918894,0.99,rooftop,609,"N Main St",Alma,WI,"Buffalo County",54610,US,Statewide
+USW00014837,10064.4,406,43.1406,-89.3453,264,WI,"MADISON DANE RGNL AP",11795,43.138639,-89.346449,0.96,nearest_street,4061,"International Ln",Madison,WI,"Dane County",53704,US,"TIGER/Line® dataset from the US Census Bureau"
+USC00471078,10062.7,407,42.6333,-89.3867,240.8,WI,BRODHEAD,12718,42.63333,-89.38494,0.98,rooftop,3489,"Race Rd",Brodhead,WI,"Green County",53520,US,Green
+USC00200230,10050.2,408,42.2981,-83.6639,247.8,MI,"ANN ARBOR U OF MICH",11552,42.298361,-83.662669,0.99,rooftop,1800,"N Dixboro Rd","Ann Arbor",MI,"Washtenaw County",48105,US,Semcog
+US1IAWB0005,10025.7,409,42.6426,-94.1879,338,IA,"BADGER 3.1 NW",10216,42.642514,-94.188224,1,rooftop,1015,"National Ave",Badger,IA,"Webster County",50516,US,Webster
+USW00094822,9976.9,410,42.1928,-89.0931,222.5,IL,"ROCKFORD GTR ROCKFORD AP",12560,42.19235,-89.096294,0.96,nearest_street,6049,"Cessna Dr",Rockford,IL,"Winnebago County",61109,US,"TIGER/Line® dataset from the US Census Bureau"
+USC00472973,9972.5,411,43.975,-89.8308,288,WI,FRIENDSHIP,12728,43.973752,-89.831713,0.98,rooftop,1007,"W Lake St",Friendship,WI,"Adams County",53934,US,Statewide
+USC00200758,9965.7,412,44.5317,-86.1311,235.6,MI,"BEULAH 7SSW",10837,44.531882,-86.130875,1,rooftop,5464,"Joyfield Rd",Frankfort,MI,"Benzie County",49635,US,Benzie
+USS0011G06S,9941.1,413,42.36,-111.56,2252.5,ID,"Emigrant Summit",10699,42.36,-111.56,0.12,nearest_place,,,Sharon,ID,"Franklin County",83260,US,"TIGER/Line® dataset from the US Census Bureau"
+USS0010G20S,9927.6,414,42.53,-110.66,2743.2,WY,"Spring Creek Divide",8591,42.53,-110.66,0.03,nearest_place,,,Smoot,WY,"Lincoln County",83126,US,"TIGER/Line® dataset from the US Census Bureau"
+USC00200228,9914.8,415,42.2417,-83.6933,253.6,MI,"ANN ARBOR SE",11406,42.241837,-83.693353,1,rooftop,3200,"Pittsview Dr","Ann Arbor",MI,"Washtenaw County",48108,US,Washtenaw
+USW00014933,9912.8,416,41.5339,-93.6531,291.7,IA,"DES MOINES INTL AP",12545,41.534679,-93.645119,0.94,nearest_street,5598,"Fleur Dr","Des Moines",IA,"Polk County",50321,US,"TIGER/Line® dataset from the US Census Bureau"
+USC00115079,9909.5,417,40.1519,-89.3386,177.7,IL,LINCOLN,11609,40.153044,-89.338727,0.98,rooftop,1362,"Rr 10",Lincoln,IL,"Logan County",62656,US,Logan
+USW00014840,9895.1,418,43.1711,-86.2367,190.5,MI,"MUSKEGON CO AP",12195,43.176475,-86.234727,0.94,nearest_street,400,"Airport Rd",Muskegon,MI,"Muskegon County",49441,US,"TIGER/Line® dataset from the US Census Bureau"
+USS0015A08S,9894,419,48.57,-115.45,1706.9,MT,"Banfield Mountain",7644,48.57,-115.45,0.04,nearest_place,,,Libby,MT,"Lincoln County",59923,US,"TIGER/Line® dataset from the US Census Bureau"
+USC00475581,9892.4,420,43.7806,-89.3169,239.6,WI,MONTELLO,12286,43.780053,-89.317006,0.99,rooftop,399,"E 5th St",Montello,WI,"Marquette County",53949,US,Statewide
+USC00470045,9873,421,42.6475,-89.0644,226.2,WI,AFTON,12684,42.647959,-89.06606,0.98,rooftop,2216,"Afton Rd",Janesville,WI,"Rock County",53545,US,Rock
+USC00203096,9862.6,422,45.0333,-84.7114,401.7,MI,GAYLORD,12017,45.033618,-84.711494,0.99,nearest_street,1859,"Valais Strasse",Gaylord,MI,"Otsego County",49735,US,"TIGER/Line® dataset from the US Census Bureau"
+USW00024152,9855.2,423,45.5114,-118.4247,1134.8,OR,MEACHAM,9029,45.51093,-118.424658,0.99,rooftop,53250,"College St",Meacham,OR,"Umatilla County",97859,US,Umatilla
+USW00012935,9854.5,424,28.7247,-96.2536,3.7,TX,"PALACIOS MUNI AP",9577,28.72381,-96.253525,0.99,rooftop,4,"Trull Blvd",Palacios,TX,"Matagorda County",77465,US,"Statewide Partial"
+USW00013968,9848.2,425,36.1994,-95.8872,198.1,OK,"TULSA INTL AP",15135,36.200074,-95.886048,0.98,rooftop,3315,"N Memorial Dr E",Tulsa,OK,"Tulsa County",74115,US,Tulsa
+USC00118684,9846.7,426,39.7947,-88.2911,198.4,IL,TUSCOLA,11198,39.794634,-88.2908,1,rooftop,504,"S Parke",Tuscola,IL,"Douglas County",61953,US,Douglas
+USC00476200,9838.2,427,43.1003,-88.5036,260.9,WI,OCONOMOWOC,10653,43.100357,-88.503108,0.99,rooftop,900,"S Worthington St",Oconomowoc,WI,"Waukesha County",53066,US,Statewide
+USC00470265,9837.1,428,44.2769,-88.4378,241.4,WI,APPLETON,12457,44.276939,-88.437904,1,rooftop,1614,"N Mc Intosh Dr",Appleton,WI,"Outagamie County",54914,US,Outagamie
+USC00043578,9802.2,429,38.4306,-122.8647,61,CA,GRATON,11418,38.430629,-122.865079,1,rooftop,8687,"Bower St",Sebastopol,CA,"Sonoma County",95472,US,"Sonoma County"
+USW00013960,9782.3,430,32.8519,-96.8556,134.1,TX,"DALLAS LOVE FLD",10070,32.852955,-96.857807,0.96,nearest_street,3400,"Love Field Dr",Dallas,TX,"Dallas County",75235,US,"TIGER/Line® dataset from the US Census Bureau"
+USS0010J52S,9773.9,431,40.68,-110.95,3045.6,UT,"Trial Lake",11462,40.68,-110.95,0.03,nearest_place,,,Oakley,UT,"Summit County",84055,US,"TIGER/Line® dataset from the US Census Bureau"
+USW00014920,9768.6,432,43.8789,-91.2528,198.7,WI,"LA CROSSE MUNI AP",11358,43.87151,-91.253546,0.93,nearest_street,2961,"Fanta Reed Rd","La Crosse",WI,"La Crosse County",54603,US,"TIGER/Line® dataset from the US Census Bureau"
+USW00024229,9762.8,433,45.5908,-122.6003,5.8,OR,"PORTLAND INTL AP",6783,45.589843,-122.598763,0.98,rooftop,7000,"NE Airport Way",Portland,OR,"Multnomah County",97218,US,Portland
+USC00331042,9743.8,434,41.4619,-84.5272,222.5,OH,"BRYAN 2 SE",12011,41.461801,-84.52708,1,rooftop,1529,"Evansport Rd",Bryan,OH,"Williams County",43506,US,Williams
+US1IAGT0001,9742.8,435,41.7991,-94.3093,321,IA,"JAMAICA 3.2 S",9460,41.798873,-94.309491,0.99,nearest_street,1442,"Wood Rd",Jamaica,IA,"Guthrie County",50128,US,"TIGER/Line® dataset from the US Census Bureau"
+USS0011J69S,9721.7,436,40.83,-111.76,2042.2,UT,"Louis Meadow",11347,40.83,-111.76,0.14,nearest_place,,,"Salt Lake City",UT,"Salt Lake County",84108,US,"TIGER/Line® dataset from the US Census Bureau"
+USW00014897,9693.1,437,44.9258,-89.6256,360,WI,"WAUSAU DWTN AP",12218,44.929658,-89.626502,0.95,nearest_street,700,"Woods Pl",Wausau,WI,"Marathon County",54403,US,"TIGER/Line® dataset from the US Census Bureau"
+USC00368868,9672,438,41.8975,-77.1419,374.9,PA,"TIOGA HAMMOND DAM",9987,41.903152,-77.135599,0.93,nearest_street,94,"Sylvan Glen Park",Tioga,PA,"Tioga County",16946,US,"TIGER/Line® dataset from the US Census Bureau"
+USS0011H01S,9664.3,439,41.97,-111.6,2209.8,UT,"Klondike Narrows",9714,41.97,-111.6,0.05,nearest_place,,,"Fish Haven",ID,,83287,US,"TIGER/Line® dataset from the US Census Bureau"
+USC00142401,9662.6,440,37.8183,-96.8444,393.2,KS,"EL DORADO",13475,37.818006,-96.844539,1,rooftop,380,"E Central Ave","El Dorado",KS,"Butler County",67042,US,Butler
+USW00094910,9661.9,441,42.5544,-92.4011,264.6,IA,"WATERLOO MUNI AP",10638,42.550205,-92.396503,0.94,nearest_street,2846,"Livingston Ln",Waterloo,IA,"Black Hawk County",50703,US,"TIGER/Line® dataset from the US Census Bureau"
+USS0019L24S,9653.1,442,38.92,-119.92,2615.8,CA,"Heavenly Valley",11397,38.92,-119.92,0.2,nearest_place,,,Stateline,NV,,89449,US,"TIGER/Line® dataset from the US Census Bureau"
+USW00013967,9648.8,443,35.3889,-97.6006,391.7,OK,"OKLAHOMA CITY WILL ROGERS AP",11520,35.395724,-97.596662,0.93,nearest_street,6703,"Terminal Dr","Oklahoma City",OK,"Oklahoma County",73159,US,"TIGER/Line® dataset from the US Census Bureau"
+USS0011P08S,9644.1,444,35.34,-111.65,2965.7,AZ,"Snowslide Canyon",11521,35.34,-111.65,0.14,nearest_place,,,Flagstaff,AZ,"Coconino County",86001,US,"TIGER/Line® dataset from the US Census Bureau"
+USS0020K13S,9639.8,445,39.3,-120.18,1983.9,CA,"Truckee #2",13089,39.300461,-120.179049,0.99,rooftop,10935,"Camp Muir Ct",Truckee,CA,"Placer County",96161,US,"County of Placer"
+USS0014B05S,9605.9,446,47.18,-114.33,1874.5,MT,"Sleeping Woman",9431,47.18,-114.33,0.06,nearest_place,,,Huson,MT,"Sanders County",59846,US,"TIGER/Line® dataset from the US Census Bureau"
+US1TXCRL003,9586.8,447,31.0916,-97.89,311.2,TX,"KEMPNER 6.7 ENE",9705,31.091614,-97.890096,1,rooftop,2654,"Snow Rd",Kempner,TX,"Coryell County",76539,US,"Statewide Partial"
+US1OKCV0032,9583.3,448,35.1979,-97.4182,353,OK,"NORMAN 2.1 SE",10293,35.1978,-97.418116,1,rooftop,1816,"Concord Pl",Norman,OK,"Cleveland County",73071,US,"Oklahoma and Logan Counties - Association of Central Oklahoma Governments"
+USS0008M04S,9580.1,449,37.5,-108.11,3267.5,CO,Sharkstooth,11596,37.5,-108.11,0.04,nearest_place,,,Stoner,CO,"Montezuma County",81323,US,"TIGER/Line® dataset from the US Census Bureau"
+USC00361838,9555.5,450,41.9903,-77.1567,350.5,PA,"COWANESQUE DAM",10743,41.990549,-77.156682,1,rooftop,2606,"Bliss Rd",Lawrenceville,PA,"Tioga County",16929,US,Tioga
+USS0007J05S,9555.3,451,40.11,-107.29,3151.6,CO,"Ripple Creek",12039,40.10708,-107.29602,0.94,nearest_street,37553,"Co Rd 8",Meeker,CO,"Rio Blanco County",81641,US,"TIGER/Line® dataset from the US Census Bureau"
+USW00014847,9540.3,452,46.4794,-84.3572,220.1,MI,"SAULT STE MARIE SANDERSON FLD",11730,46.479053,-84.356342,0.98,nearest_street,2299,"Davitt St","Sault Sainte Marie",MI,"Chippewa County",49783,US,"TIGER/Line® dataset from the US Census Bureau"
+USS0005J10S,9526.3,453,40.41,-105.82,3261.4,CO,"Lake Irene",9173,40.417445,-105.81597,1,nearest_street,99,"Us Hwy 34","Grand Lake",CO,"Grand County",80447,US,"TIGER/Line® dataset from the US Census Bureau"
+USW00094830,9526.3,454,41.5886,-83.8014,203.9,OH,"TOLEDO EXPRESS AP",11337,41.589653,-83.799529,0.98,rooftop,2660,"S Eber Rd",Swanton,OH,"Lucas County",43558,US,Lucas
+USW00014925,9518.2,455,43.9042,-92.4917,397.5,MN,"ROCHESTER INTL AP",14028,43.90258,-92.48281,1,nearest_street,8285,"Us Hwy 63 S",Rochester,MN,"Olmsted County",55904,US,"TIGER/Line® dataset from the US Census Bureau"
+USS0006J08S,9504.5,456,40.35,-106.38,3340.6,CO,"Arapaho Ridge",10422,40.35,-106.38,0.05,nearest_place,,,Coalmont,CO,"Grand County",80430,US,"TIGER/Line® dataset from the US Census Bureau"
+USS0005J08S,9501.6,457,40.03,-105.58,3139.4,CO,"University Camp",8699,40.03,-105.58,0.1,nearest_place,,,Ward,CO,"Boulder County",80481,US,"TIGER/Line® dataset from the US Census Bureau"
+USC00346386,9499.6,458,35.1808,-97.4378,343.8,OK,"NORMAN 3SSE",10415,35.180926,-97.438135,0.99,nearest_street,200,"Merrimac St",Norman,OK,"Cleveland County",73072,US,"TIGER/Line® dataset from the US Census Bureau"
+USS0009E10S,9488.4,459,44.94,-109.57,2852.9,WY,"Beartooth Lake",10180,44.94,-109.57,0.03,nearest_place,,,"Cooke City",MT,,59020,US,"TIGER/Line® dataset from the US Census Bureau"
+USS0007M32S,9486.9,460,37.71,-107.51,3535.7,CO,Beartown,11157,37.71,-107.51,0.04,nearest_place,,,Silverton,CO,"San Juan County",81433,US,"TIGER/Line® dataset from the US Census Bureau"
+USC00413285,9483.4,461,32.8339,-97.2975,196.3,TX,"FT WORTH WSFO",9296,32.833807,-97.297826,1,rooftop,3450,"Northern Cross Blvd","Fort Worth",TX,"Tarrant County",76137,US,"Tarrant County"
+USW00014750,9483.4,462,43.35,-73.6167,97.8,NY,"GLENS FALLS AP",11190,43.350888,-73.616675,0.99,rooftop,31,"Hicks Rd",Queensbury,NY,"Warren County",12804,US,"NYS GIS Program Office, State Geographic Information Officer (GIO)"
+USW00013958,9476.5,463,30.3208,-97.7603,204.2,TX,"AUSTIN-CAMP MABRY",8096,30.323441,-97.760962,0.96,nearest_street,4500,"Fairview Dr",Austin,TX,"Travis County",78731,US,"TIGER/Line® dataset from the US Census Bureau"
+USC00130200,9460.9,464,42.0208,-93.7742,335,IA,"AMES 8 WSW",9176,42.020624,-93.776756,0.96,nearest_street,1320,"U Ave",Boone,IA,"Boone County",50036,US,"TIGER/Line® dataset from the US Census Bureau"
+USS0011E38S,9459.2,465,44.95,-111.36,2392.7,MT,"Beaver Creek",9584,44.95,-111.36,0.04,nearest_place,,,"West Yellowstone",MT,"Gallatin County",59758,US,"TIGER/Line® dataset from the US Census Bureau"
+USC00132171,9451,466,42.0364,-95.3289,427,IA,DENISON,9088,42.036715,-95.329381,0.99,rooftop,1500,"Ridge Rd",Denison,IA,"Crawford County",51442,US,Crawford
+USS0010E12S,9448.5,467,44.13,-110.67,2109.2,WY,"Snake River Station",9304,44.13,-110.67,0.04,nearest_place,,,Moran,WY,"Teton County",83013,US,"TIGER/Line® dataset from the US Census Bureau"
+USS0006H24S,9425.4,468,41.24,-106.23,2918.2,WY,"Cinnabar Park",9831,41.236919,-106.228357,0.95,nearest_street,1229,"Fs - 338",Laramie,WY,"Albany County",82070,US,"TIGER/Line® dataset from the US Census Bureau"
+USW00024221,9422.5,469,44.1278,-123.2206,107.6,OR,"EUGENE MAHLON SWEET AP",9226,44.125949,-123.229485,0.93,nearest_street,90518,"Merryman Rd",Eugene,OR,"Lane County",97402,US,"TIGER/Line® dataset from the US Census Bureau"
+USC00475364,9410.3,470,45.1786,-89.6617,381,WI,MERRILL,10917,45.179282,-89.662005,0.99,rooftop,"2801 STE 5","E Main St",Merrill,WI,"Lincoln County",54452,US,Lincoln
+USS0019D02S,9405.8,471,45.19,-119.25,1758.7,OR,"Arbuckle Mtn",9690,45.19,-119.25,0.03,nearest_place,,,Ukiah,OR,"Morrow County",97880,US,"TIGER/Line® dataset from the US Census Bureau"
+USS0006H13S,9380.3,472,41.36,-106.23,3121.2,WY,"Brooklyn Lake",9727,41.358686,-106.233213,0.96,nearest_street,95,"Forest Rd 317",Centennial,WY,"Albany County",82055,US,"TIGER/Line® dataset from the US Census Bureau"
+US1KSSG0002,9371.5,473,37.6916,-97.4797,416.1,KS,"MAIZE 5.7 S",11389,37.69152,-97.479676,1,rooftop,514,"N Pine Grove St",Wichita,KS,"Sedgwick County",67212,US,"City of Wichita"
+USW00013996,9343.2,474,39.0725,-95.6261,267,KS,"TOPEKA MUNI AP",12385,39.073443,-95.631261,0.95,nearest_street,1200,"NE Strait Ave",Topeka,KS,"Shawnee County",66616,US,"TIGER/Line® dataset from the US Census Bureau"
+USS0020L10S,9334.9,475,38.93,-120.05,1900.7,CA,"Fallen Leaf",10662,38.929873,-120.048506,0.97,nearest_street,2178,"Fallen Leaf Rd","South Lake Tahoe",CA,"El Dorado County",96150,US,"TIGER/Line® dataset from the US Census Bureau"
+USW00014991,9326,476,44.8664,-91.4878,269.7,WI,"EAU CLAIRE RGNL AP",11190,44.865677,-91.493598,0.95,nearest_street,1737,"Airport Rd","Eau Claire",WI,"Chippewa County",54703,US,"TIGER/Line® dataset from the US Census Bureau"
+USC00410433,9324.4,477,30.4144,-97.7664,268.2,TX,"AUSTIN GREAT HILLS",7331,30.414342,-97.766179,1,rooftop,6512,"Sans Souci Cv",Austin,TX,"Travis County",78759,US,Capcog
+USW00013904,9294.1,478,30.1831,-97.68,146.3,TX,"AUSTIN BERGSTROM AP",7399,30.178898,-97.683019,0.94,nearest_street,9200,"Burleson Rd",Austin,TX,"Travis County",78719,US,"TIGER/Line® dataset from the US Census Bureau"
+USS0019L07S,9292,479,38.31,-119.6,2690.5,CA,"Sonora Pass",11699,38.31,-119.6,0.04,nearest_place,,,Dardanelle,CA,"Mono County",95314,US,"TIGER/Line® dataset from the US Census Bureau"
+USW00094847,9289.5,480,42.2314,-83.3308,192.3,MI,"DETROIT METRO AP",9258,42.231971,-83.32907,0.98,rooftop,9000,"Middlebelt Rd",Romulus,MI,"Wayne County",48174,US,Semcog
+USS0015H01S,9287,481,41.83,-115.45,2450.6,NV,"Bear Creek",9642,41.83,-115.45,0.16,nearest_place,,,Jarbidge,NV,"Elko County",89826,US,"TIGER/Line® dataset from the US Census Bureau"
+USS0006J38S,9280.2,482,40.82,-106.75,2840.7,CO,"Lost Dog",10246,40.82,-106.75,0.05,nearest_place,,,Clark,CO,"Routt County",80428,US,"TIGER/Line® dataset from the US Census Bureau"
+USW00003927,9269.8,483,32.8978,-97.0189,170.7,TX,"DALLAS FT WORTH AP",8774,32.907862,-97.007986,0.9,nearest_street,3906,"Cabell Dr",Irving,TX,"Dallas County",75063,US,"TIGER/Line® dataset from the US Census Bureau"
+USW00014768,9264.3,484,43.1167,-77.6767,162.5,NY,"ROCHESTER GTR INTL AP",8753,43.112735,-77.676721,0.95,nearest_street,200,"Weidner Rd",Rochester,NY,"Monroe County",14624,US,"TIGER/Line® dataset from the US Census Bureau"
+USC00471064,9238.5,485,44.1614,-88.0803,246.9,WI,BRILLION,11109,44.16081,-88.074004,0.94,nearest_street,949,"Clearwater Dr",Brillion,WI,"Calumet County",54110,US,"TIGER/Line® dataset from the US Census Bureau"
+US1KSSG0020,9234.2,486,37.6925,-97.4877,417.6,KS,"WICHITA 7.9 W",11182,37.692578,-97.487784,1,rooftop,622,"N Jaax St",Wichita,KS,"Sedgwick County",67235,US,"City of Wichita"
+USC00257545,9198.5,487,40.0225,-95.7883,320,NE,"SALEM 5SW",12478,40.022228,-95.788275,0.99,nearest_street,64100,"703rd Trl",Salem,NE,"Richardson County",68433,US,"TIGER/Line® dataset from the US Census Bureau"
+USW00013959,9193.6,488,31.6189,-97.2283,152.4,TX,"WACO RGNL AP",8394,31.619071,-97.220919,0.93,nearest_street,2548,"Gary Ln",Waco,TX,"McLennan County",76708,US,"TIGER/Line® dataset from the US Census Bureau"
+USS0006J01S,9184.7,489,40.53,-106.78,2560.3,CO,"Dry Lake",10265,40.534324,-106.788157,0.93,nearest_street,33414,"Rcr 38","Steamboat Springs",CO,"Routt County",80487,US,"TIGER/Line® dataset from the US Census Bureau"
+USC00201468,9175.7,490,45.3172,-85.2672,180.7,MI,CHARLEVOIX,10338,45.317102,-85.266238,0.98,nearest_street,398,"Park Ave",Charlevoix,MI,"Charlevoix County",49720,US,"TIGER/Line® dataset from the US Census Bureau"
+USW00014898,9168.7,491,44.4983,-88.1111,207.9,WI,"GREEN BAY",12357,44.498433,-88.112002,0.99,rooftop,2485,"S Point Rd","Green Bay",WI,"Brown County",54313,US,Brown
+USS0013C03S,9162.1,492,46.24,-113.77,2209.8,MT,"Skalkaho Summit",7345,46.24,-113.77,0.03,nearest_place,,,Philipsburg,MT,"Granite County",59858,US,"TIGER/Line® dataset from the US Census Bureau"
+USS0020G12S,9156.3,493,42.64,-120.95,1883.7,OR,"Crazyman Flat",8872,42.64,-120.95,0.03,nearest_place,,,Bly,OR,"Klamath County",97622,US,"TIGER/Line® dataset from the US Census Bureau"
+USC00412585,9121.5,494,30.2194,-97.9878,330.4,TX,"DRIPPING SPRINGS 6 E",8768,30.219398,-97.988282,0.99,rooftop,29,"Tall Oaks Trl",Austin,TX,"Hays County",78737,US,Hays
+USC00418862,9104.5,495,30.5844,-97.4156,174,TX,"TAYLOR 1NW",8658,30.58441,-97.415847,1,rooftop,1905,"Donna Dr",Taylor,TX,"Williamson County",76574,US,Capcog
+USC00144972,9099.3,496,39.1972,-96.5814,323.1,KS,MANHATTAN,13408,39.19795,-96.58135,0.99,rooftop,1608,"Jardine Dr",Manhattan,KS,"Riley County",66506,US,"Riley County"
+USC00253467,9098.3,497,41.1586,-96.1922,378,NE,"GRETNA 4NE",10994,41.158521,-96.192065,1,rooftop,10210,"Spyglass Dr",Omaha,NE,"Sarpy County",68136,US,Sarpy
+USS0006M22S,9083.9,498,37.02,-106.45,3060.2,CO,"Cumbres Trestle",12029,37.019145,-106.448455,0.97,nearest_street,3691,"State Hwy 17",Antonito,CO,"Conejos County",81120,US,"TIGER/Line® dataset from the US Census Bureau"
+USW00014839,9083.7,499,42.955,-87.9044,204.2,WI,"MILWAUKEE MITCHELL AP",11693,42.959167,-87.903651,0.95,nearest_street,389,"E Layton Ave",Milwaukee,WI,"Milwaukee County",53207,US,"TIGER/Line® dataset from the US Census Bureau"
+USS0005J39S,9080.1,500,40.31,-105.64,2895.6,CO,"Bear Lake",8948,40.309943,-105.63952,0.98,nearest_street,4827,"Bear Lake Rd","Estes Park",CO,"Larimer County",80517,US,"TIGER/Line® dataset from the US Census Bureau"
+USS0006K29S,9063.7,501,39.86,-106.42,3206.5,CO,"Elliot Ridge",9228,39.86,-106.42,0.09,nearest_place,,,Wolcott,CO,"Summit County",81655,US,"TIGER/Line® dataset from the US Census Bureau"
+US1KSSG0003,9061.1,502,37.7248,-97.4786,413.9,KS,"MAIZE 3.4 SSW",10471,37.724802,-97.478752,1,rooftop,2335,"N Parkridge Ct",Wichita,KS,"Sedgwick County",67205,US,"City of Wichita"
+USS0005R01S,9021.8,503,33.4,-105.79,3133.3,NM,"Sierra Blanca",10733,33.4,-105.79,0.09,nearest_place,,,"Sierra Vista",NM,"Lincoln County",88312,US,"TIGER/Line® dataset from the US Census Bureau"
+USS0010C22S,9007.6,504,46.91,-110.85,2258.6,MT,"Onion Park",9322,46.91,-110.85,0.09,nearest_place,,,Neihart,MT,"Meagher County",59465,US,"TIGER/Line® dataset from the US Census Bureau"
+USS0011G05S,8987.5,505,42.56,-111.3,2202.2,ID,"Slug Creek Divide",9260,42.56,-111.3,0.06,nearest_place,,,Georgetown,ID,"Bear Lake County",83239,US,"TIGER/Line® dataset from the US Census Bureau"
+USS0019K08S,8972,506,39.46,-119.94,2514.3,NV,"Big Meadow",11595,39.46,-119.94,0.13,nearest_place,,,Reno,NV,"Washoe County",89523,US,"TIGER/Line® dataset from the US Census Bureau"
+USS0011D19S,8960.6,507,45.27,-111.43,2706.6,MT,"Lone Mountain",8789,45.27,-111.43,0.16,nearest_place,,,"Big Sky",MT,"Madison County",59716,US,"TIGER/Line® dataset from the US Census Bureau"
+USC00204161,8938.1,508,47.0083,-88.4317,198.1,MI,JACOBSVILLE,9906,47.007459,-88.433162,0.97,nearest_street,26684,"Kuusisto Rd","Lake Linden",MI,"Houghton County",49945,US,"TIGER/Line® dataset from the US Census Bureau"
+USS0019L08S,8916.1,509,38.3,-119.55,2194,CA,"Leavitt Meadows",10248,38.3,-119.55,0.03,nearest_place,,,Walker,CA,"Mono County",96107,US,"TIGER/Line® dataset from the US Census Bureau"
+US1SDMH0020,8903.6,510,43.5267,-96.6658,462.1,SD,"SIOUX FALLS 3.4 ESE",11380,43.526613,-96.665979,1,rooftop,2018,"S Gordon Dr","Sioux Falls",SD,"Minnehaha County",57110,US,"City of Sioux Falls"
+USS0019L03S,8901.3,511,38.85,-119.94,2370.1,CA,"Hagan's Meadow",9872,38.85,-119.94,0.11,nearest_place,,,"South Lake Tahoe",CA,"El Dorado County",96158,US,"TIGER/Line® dataset from the US Census Bureau"
+USS0016H04S,8899.5,512,41.53,-116.01,2566.4,NV,"Jacks Peak",9865,41.53,-116.01,0.05,nearest_place,,,"North Fork",NV,"Elko County",89801,US,"TIGER/Line® dataset from the US Census Bureau"
+USS0005K21S,8889.2,513,39.76,-105.91,3169.9,CO,"Jones Pass",8127,39.76,-105.91,0.09,nearest_place,,,Empire,CO,"Grand County",80438,US,"TIGER/Line® dataset from the US Census Bureau"
+USW00013961,8886.3,514,32.8192,-97.3614,209.4,TX,"FT WORTH MEACHAM FLD",8082,32.822221,-97.356861,0.94,nearest_street,298,"Aviation Way","Fort Worth",TX,"Tarrant County",76106,US,"TIGER/Line® dataset from the US Census Bureau"
+USC00257800,8847.7,515,40.2039,-95.7064,332.2,NE,"SHUBERT 2SW",12840,40.20439,-95.705618,0.99,rooftop,64164,"716th Rd",Verdon,NE,"Richardson County",68457,US,Richardson
+USS0013B25S,8840.1,516,47.68,-114,1499.6,MT,"Bisson Creek",7699,47.68,-114,0.06,nearest_place,,,Pablo,MT,"Lake County",59855,US,"TIGER/Line® dataset from the US Census Bureau"
+USC00473930,8815.4,517,43.3194,-88.1681,275.2,WI,JACKSON,12365,43.319292,-88.16818,1,rooftop,W208N16531,"Tweed Ct",Jackson,WI,"Washington County",53037,US,Washington
+USC00145132,8796.9,518,39.0542,-96.2367,309.4,KS,"MC FARLAND",12358,39.053853,-96.236762,1,rooftop,303,"Wheeler Ave","Mc Farland",KS,"Wabaunsee County",66501,US,Statewide
+USW00012912,8791.7,519,28.8614,-96.9303,35.1,TX,"VICTORIA RGNL AP",6412,28.8614,-96.9303,0.16,nearest_place,,,Telferner,TX,"Victoria County",77988,US,"TIGER/Line® dataset from the US Census Bureau"
+USS0010C06S,8771.9,520,46.78,-110.62,2468.9,MT,"Spur Park",8917,46.78,-110.62,0.04,nearest_place,,,Neihart,MT,"Judith Basin County",59465,US,"TIGER/Line® dataset from the US Census Bureau"
+USS0006K10S,8770.2,521,39.29,-106.55,3169.9,CO,Ivanhoe,9736,39.29,-106.55,0.18,nearest_place,,,Nast,CO,"Pitkin County",81642,US,"TIGER/Line® dataset from the US Census Bureau"
+USW00003928,8759.4,522,37.6544,-97.4425,406.9,KS,WICHITA,10701,37.654199,-97.443352,0.99,rooftop,2204,"S Tyler Rd",Wichita,KS,"Sedgwick County",67209,US,Statewide
+USS0020B02S,8753.9,523,47.35,-120.68,1292.4,WA,"Blewett Pass",7042,47.35,-120.68,0.07,nearest_place,,,Liberty,WA,"Chelan County",98922,US,"TIGER/Line® dataset from the US Census Bureau"
+USC00258395,8742.7,524,40.6661,-96.1892,335.3,NE,SYRACUSE,9817,40.666031,-96.188934,1,rooftop,1485,"Walnut St",Syracuse,NE,"Otoe County",68446,US,Otoe
+USW00014922,8724.6,525,44.8831,-93.2289,265.8,MN,"MINNEAPOLIS/ST PAUL AP",10975,44.882571,-93.227202,0.98,rooftop,3120,"Cargo Rd",Minneapolis,MN,"Hennepin County",55450,US,Hennepin
+USC00472055,8716.3,526,44.3514,-87.812,247.2,WI,"DENMARK WWTP",11350,44.351517,-87.812622,0.99,rooftop,400,"Mahlik Ln",Denmark,WI,"Brown County",54208,US,Brown
+RQC00663532,8696.6,527,17.9728,-66.9458,45.7,PR,"ENSENADA 1 W",5281,17.971889,-66.945014,0.97,nearest_street,1,"Cll Gardenia",Ensenada,PR,"Gunica Municipio",00647,US,"TIGER/Line® dataset from the US Census Bureau"
+USS0005K05S,8663.5,528,39.67,-105.9,3474.7,CO,"Loveland Basin",8177,39.67891,-105.903364,1,nearest_street,,"I 70",Silverthorne,CO,"Clear Creek County",80497,US,"TIGER/Line® dataset from the US Census Bureau"
+USW00023213,8650.2,529,38.5039,-122.8103,34.7,CA,"SANTA ROSA SONOMA CO AP",13205,38.500047,-122.809801,0.95,nearest_street,3596,"Laughlin Rd",Windsor,CA,"Sonoma County",95492,US,"TIGER/Line® dataset from the US Census Bureau"
+USS0019L06S,8630.5,530,38.51,-119.63,2357.9,CA,"Poison Flat",10249,38.51,-119.63,0.06,nearest_place,,,Coleville,CA,"Alpine County",96107,US,"TIGER/Line® dataset from the US Census Bureau"
+USS0007M21S,8626.4,531,37.62,-107.03,3429,CO,"Middle Creek",11588,37.62,-107.03,0.07,nearest_place,,,"Spar City",CO,"Mineral County",81130,US,"TIGER/Line® dataset from the US Census Bureau"
+USC00253050,8586.4,532,41.43,-96.4669,359.7,NE,FREMONT,10265,41.429542,-96.46618,0.98,nearest_street,100,"N Garden City Rd",Fremont,NE,"Dodge County",68025,US,"TIGER/Line® dataset from the US Census Bureau"
+USS0006J12S,8573.7,533,40.88,-106.05,2956.6,CO,Roach,9091,40.88,-106.05,0.05,nearest_place,,,"Mountain Home",WY,,82070,US,"TIGER/Line® dataset from the US Census Bureau"
+USS0005P08S,8563.3,534,35.78,-105.54,3389.4,NM,"Wesner Springs",9759,35.78,-105.54,0.07,nearest_place,,,Tererro,NM,"San Miguel County",87573,US,"TIGER/Line® dataset from the US Census Bureau"
+USW00014942,8560.7,535,41.3103,-95.8992,299.3,NE,"OMAHA EPPLEY AIRFIELD",10150,41.308098,-95.906238,0.94,nearest_street,1949,"Fort Ct",Omaha,NE,"Douglas County",68110,US,"TIGER/Line® dataset from the US Census Bureau"
+USW00014826,8517.7,536,42.9667,-83.7494,234.7,MI,"FLINT BISHOP INTL AP",9506,42.973655,-83.752352,0.93,nearest_street,3898,"W Bristol Rd",Flint,MI,"Genesee County",48507,US,"TIGER/Line® dataset from the US Census Bureau"
+USS0018E16S,8515.3,537,44.25,-118.52,1789.2,OR,"Blue Mountain Spring",8872,44.25,-118.52,0.03,nearest_place,,,"Prairie City",OR,"Grant County",97869,US,"TIGER/Line® dataset from the US Census Bureau"
+USS0005J05S,8496.4,538,40.2,-105.6,2913.9,CO,"Wild Basin",8614,40.2,-105.6,0.12,nearest_place,,,"Meeker Park",CO,"Boulder County",80510,US,"TIGER/Line® dataset from the US Census Bureau"
+USS0010J30S,8489.9,539,40.58,-110.59,3230.9,UT,"Brown Duck",10786,40.58,-110.59,0.03,nearest_place,,,Hanna,UT,"Duchesne County",84031,US,"TIGER/Line® dataset from the US Census Bureau"
+USW00012921,8469.4,540,29.5442,-98.4839,240.5,TX,"SAN ANTONIO INTL AP",5602,29.545635,-98.483009,0.98,rooftop,11200,"E Coker Loop","San Antonio",TX,"Bexar County",78216,US,Bexar
+USS0008K04S,8410.9,541,39.06,-108.06,3048,CO,"Mesa Lakes",9707,39.06,-108.06,0.27,nearest_place,,,"Mesa Lakes",CO,"Mesa County",81643,US,"TIGER/Line® dataset from the US Census Bureau"
+USS0006J27S,8395,542,40.4,-105.96,3133.3,CO,"Never Summer",7641,40.4,-105.96,0.05,nearest_place,,,Gould,CO,"Jackson County",80480,US,"TIGER/Line® dataset from the US Census Bureau"
+USS0014G02S,8386.5,543,42.18,-114.29,2097,ID,"Magic Mountain",9866,42.18,-114.29,0.03,nearest_place,,,Rogerson,ID,"Twin Falls County",83302,US,"TIGER/Line® dataset from the US Census Bureau"
+USS0011R10S,8365.4,544,34.37,-111.01,2417.1,AZ,Promontory,11195,34.37,-111.01,0.05,nearest_place,,,"Forest Lakes",AZ,"Coconino County",85931,US,"TIGER/Line® dataset from the US Census Bureau"
+USS0011E30S,8346.7,545,44.61,-111.15,2072.6,MT,"Whiskey Creek",9789,44.61,-111.15,0.04,nearest_place,,,"West Yellowstone",MT,"Gallatin County",59758,US,"TIGER/Line® dataset from the US Census Bureau"
+USC00204090,8338.5,546,45.7858,-88.0842,326.4,MI,"IRON MTN-KINGSFORD WWTP",9988,45.785967,-88.082068,0.97,nearest_street,2352,"State Hwy 95",Kingsford,MI,"Dickinson County",49802,US,"TIGER/Line® dataset from the US Census Bureau"
+USS0019L39S,8331.2,547,38.67,-119.82,1863.9,CA,"Spratt Creek",9744,38.67,-119.82,0.07,nearest_place,,,Markleeville,CA,"Alpine County",96120,US,"TIGER/Line® dataset from the US Census Bureau"
+USS0018E05S,8327.3,548,44.83,-118.19,1783.1,OR,Bourne,7961,44.825148,-118.196887,0.93,nearest_street,7300,"SE 103rd Ave",Portland,OR,"Baker County",97266,US,"TIGER/Line® dataset from the US Census Bureau"
+USS0005J06S,8316.2,549,40.81,-105.77,3115.1,CO,"Deadman Hill",8338,40.810621,-105.770389,0.98,nearest_street,450,"Dead Man Hill Rd","Red Feather Lakes",CO,"Larimer County",80545,US,"TIGER/Line® dataset from the US Census Bureau"
+USS0013C44S,8315.6,550,46.1,-113.13,2514.6,MT,"Barker Lakes",7056,46.1,-113.13,0.12,nearest_place,,,"Anaconda-Deer Lodge County",MT,"Deer Lodge County",59711,US,"TIGER/Line® dataset from the US Census Bureau"
+USC00250435,8309,551,40.3706,-95.7469,283.5,NE,"AUBURN 5 ESE",9643,40.37103,-95.743798,0.96,nearest_street,64367,"727 A Rd",Brownville,NE,"Nemaha County",68321,US,"TIGER/Line® dataset from the US Census Bureau"
+USS0015E08S,8304.5,552,44.29,-115.66,1639.8,ID,"Cozy Cove",8441,44.29,-115.66,0.03,nearest_place,,,Lowman,ID,"Valley County",83637,US,"TIGER/Line® dataset from the US Census Bureau"
+USW00094725,8292.3,553,44.9358,-74.8458,65.2,NY,"MASSENA INTL AP",8714,44.933087,-74.842416,0.95,nearest_street,184,"Administration Building Rd",Massena,NY,"St. Lawrence County",13662,US,"TIGER/Line® dataset from the US Census Bureau"
+USC00141467,8276.4,554,37.7206,-97.7936,421.5,KS,"CHENEY 5N",10524,37.720256,-97.793075,0.99,rooftop,39500,"W 21st St N",Cheney,KS,"Sedgwick County",67025,US,Statewide
+USC00415429,8266.3,555,29.6756,-97.6578,121.9,TX,LULING,6762,29.676042,-97.658122,0.99,rooftop,525,Mulberry,Luling,TX,"Caldwell County",78648,US,Capcog
+USW00014845,8255.4,556,43.5331,-84.0797,201.2,MI,"SAGINAW MBS INTL AP",8744,43.52388,-84.067779,0.91,nearest_street,7806,"W Freeland Rd",Freeland,MI,"Saginaw County",48623,US,"TIGER/Line® dataset from the US Census Bureau"
+USC00258465,8254.8,557,40.3544,-96.1939,338.3,NE,"TECUMSEH 1S",10848,40.362268,-96.195422,0.93,nearest_street,540,"S 3rd St",Tecumseh,NE,"Johnson County",68450,US,"TIGER/Line® dataset from the US Census Bureau"
+USS0013D16S,8251.2,558,45.67,-113.95,1889.8,ID,"Moose Creek",7324,45.67,-113.95,0.06,nearest_place,,,Gibbonsville,ID,"Lemhi County",83463,US,"TIGER/Line® dataset from the US Census Bureau"
+USS0008M06S,8247.2,559,37.79,-108.02,3048,CO,"El Diente Peak",9988,37.790677,-108.019906,0.98,nearest_street,40070,"Dunton Rd",Dolores,CO,"Dolores County",81323,US,"TIGER/Line® dataset from the US Census Bureau"
+USS0008G10S,8243,560,42.59,-108.9,2956.6,WY,"Deer Park",7476,42.59,-108.9,0.05,nearest_place,,,"South Pass City",WY,"Fremont County",82520,US,"TIGER/Line® dataset from the US Census Bureau"
+USW00014939,8211.4,561,40.8508,-96.7475,362.7,NE,"LINCOLN MUNI AP",9174,40.850836,-96.747408,1,rooftop,3801,"N Park Rd",Lincoln,NE,"Lancaster County",68524,US,Lincoln
+USW00014913,8209,562,46.8369,-92.2097,435.3,MN,DULUTH,8702,46.836885,-92.209753,1,rooftop,5023,"Miller Trunk Hwy",Duluth,MN,"St. Louis County",55811,US,"St Louis"
+USC00259200,8203.4,563,41.845,-96.7142,399.3,NE,"W PT",8003,41.845013,-96.712986,0.99,rooftop,126,"W Pennsylvania St","West Point",NE,"Cuming County",68788,US,Cuming
+USW00094849,8155.1,564,45.0717,-83.5644,208.5,MI,"ALPENA CO RGNL AP",9294,45.069919,-83.568192,0.95,nearest_street,1533,"Airport Rd",Alpena,MI,"Alpena County",49707,US,"TIGER/Line® dataset from the US Census Bureau"
+USC00340215,8129,565,36.2483,-98.1883,364.2,OK,AMES,10590,36.248453,-98.18891,0.98,nearest_street,103,"Alva St",Ames,OK,"Major County",73718,US,"TIGER/Line® dataset from the US Census Bureau"
+USS0010S01S,8127.9,566,33.81,-110.92,2103.1,AZ,"Workman Creek",10226,33.81,-110.92,0.09,nearest_place,,,Young,AZ,"Gila County",85554,US,"TIGER/Line® dataset from the US Census Bureau"
+USS0013E18S,8124.2,567,44.44,-113.32,2788.9,ID,"Meadow Lake",8000,44.44,-113.32,0.03,nearest_place,,,Leadore,ID,"Lemhi County",83464,US,"TIGER/Line® dataset from the US Census Bureau"
+US1TXWO0010,8122.2,568,29.2829,-98.2456,182.9,TX,"ELMENDORF 5.6 ENE",6007,29.283502,-98.245517,0.99,rooftop,418,"Meadow View Dr",Adkins,TX,"Wilson County",78101,US,"Statewide Partial"
+USW00014926,8121.6,569,45.5433,-94.0514,310.3,MN,"ST CLOUD RGNL AP",10651,45.545424,-94.047407,0.95,nearest_street,5575,"Co Rd 62","Saint Cloud",MN,"Sherburne County",56304,US,"TIGER/Line® dataset from the US Census Bureau"
+USW00024257,8113.7,570,40.5175,-122.2986,151.5,CA,"REDDING MUNI AP",10935,40.518685,-122.300502,0.97,rooftop,6107,"Airport Rd",Redding,CA,"Shasta County",96002,US,"Shasta County"
+USS0005J41S,8102,571,39.94,-105.59,2956.6,CO,"Lake Eldora",7220,39.945209,-105.582136,0.93,nearest_street,1160,"Bryan Ave",Nederland,CO,"Boulder County",80466,US,"TIGER/Line® dataset from the US Census Bureau"
+USS0007M12S,8098.4,572,37.75,-107.69,3200.4,CO,"Molas Lake",10418,37.75,-107.69,0.07,nearest_place,,,Silverton,CO,"San Juan County",81433,US,"TIGER/Line® dataset from the US Census Bureau"
+USW00094814,8095.5,573,44.3592,-84.6739,350.8,MI,"HOUGHTON LK ROSCOMMON AP",9678,44.358985,-84.678154,0.95,nearest_street,1201,"Kingston Rd","Houghton Lake",MI,"Roscommon County",48629,US,"TIGER/Line® dataset from the US Census Bureau"
+USC00259513,8091.7,574,40.9153,-97.5997,491.6,NE,"YORK 3N",10061,40.92191,-97.597584,1,nearest_street,1500,"Us Hwy 81",Benedict,NE,"York County",68316,US,"TIGER/Line® dataset from the US Census Bureau"
+USS0007E36S,8071.6,575,44.4,-107.06,3005.3,WY,"Cloud Peak Reservoir",7856,44.4,-107.06,0.04,nearest_place,,,Saddlestring,WY,"Johnson County",82840,US,"TIGER/Line® dataset from the US Census Bureau"
+USS0010J55S,8060.2,576,40.84,-110.01,3119.6,UT,"Spirit Lk",8974,40.84,-110.01,0.04,nearest_place,,,"Mc Kinnon",WY,,82938,US,"TIGER/Line® dataset from the US Census Bureau"
+USW00014943,8059.9,577,42.3914,-96.3792,333.8,IA,"SIOUX CITY GATEWAY AP",8612,42.395759,-96.373185,0.93,nearest_street,6396,"Halsey St","Sioux City",IA,"Woodbury County",51111,US,"TIGER/Line® dataset from the US Census Bureau"
+USS0005J42S,8051.4,578,40.04,-105.54,3020.6,CO,Niwot,7654,40.028889,-105.531009,0.9,nearest_street,211,"Co Rd 116",Nederland,CO,"Boulder County",80466,US,"TIGER/Line® dataset from the US Census Bureau"
+USS0020K04S,8048.4,579,39.45,-120.29,2134.5,CA,"Independence Camp",8932,39.45,-120.29,0.07,nearest_place,,,Truckee,CA,"Sierra County",96160,US,"TIGER/Line® dataset from the US Census Bureau"
+USS0005P09S,8039.4,580,35.77,-105.78,3488.4,NM,"Santa Fe",9179,35.77,-105.78,0.11,nearest_place,,,"Santa Fe",NM,"Santa Fe County",87501,US,"TIGER/Line® dataset from the US Census Bureau"
+USS0005K26S,8000.2,581,39.57,-105.8,3340.6,CO,"Jackwhacker Gulch",9146,39.57,-105.8,0.14,nearest_place,,,Montezuma,CO,"Clear Creek County",80435,US,"TIGER/Line® dataset from the US Census Bureau"
+USS0008M07S,7995.5,582,37.89,-108.2,2926.1,CO,"Lone Cone",9207,37.89,-108.2,0.05,nearest_place,,,Dunton,CO,"San Miguel County",81323,US,"TIGER/Line® dataset from the US Census Bureau"
+USS0011R12S,7995.2,583,34.97,-111.51,2590.8,AZ,"Mormon Mtn Summit",9339,34.97,-111.51,0.1,nearest_place,,,"Mormon Lake",AZ,"Coconino County",86038,US,"TIGER/Line® dataset from the US Census Bureau"
+USS0008L02S,7984.7,584,38.42,-108.38,2865.1,CO,"Columbine Pass",10197,38.42,-108.38,0.04,nearest_place,,,Nucla,CO,"Montrose County",81424,US,"TIGER/Line® dataset from the US Census Bureau"
+USS0006K46S,7980.1,585,39.26,-106.63,3081.5,CO,"Chapman Tunnel",8596,39.26,-106.63,0.19,nearest_place,,,Nast,CO,"Pitkin County",81642,US,"TIGER/Line® dataset from the US Census Bureau"
+USS0018E03S,7979.4,586,44.87,-118.11,1679.4,OR,"Eilertson Meadows",7350,44.87,-118.11,0.11,nearest_place,,,"Rock Creek",OR,"Baker County",97833,US,"TIGER/Line® dataset from the US Census Bureau"
+USS0007K02S,7945,587,39.88,-107.6,2865.1,CO,"Burro Mountain",8564,39.877259,-107.59607,0.95,nearest_street,9266,"F S 245",Meeker,CO,"Rio Blanco County",81641,US,"TIGER/Line® dataset from the US Census Bureau"
+USS0007M34S,7933.8,588,37.48,-107.63,3413.8,CO,"Stump Lakes",10701,37.48,-107.63,0.07,nearest_place,,,Vallecito,CO,"La Plata County",81122,US,"TIGER/Line® dataset from the US Census Bureau"
+USS0011H07S,7928.8,589,41.92,-111.47,2348.5,UT,"Garden City Summit",7863,41.925035,-111.471192,1,nearest_street,399,"Us Hwy 89","Garden City",UT,"Rich County",84028,US,"TIGER/Line® dataset from the US Census Bureau"
+USS0017H08S,7921.3,590,41.67,-117.57,2603.9,NV,"Granite Peak",9185,41.67,-117.57,0.04,nearest_place,,,"Paradise Valley",NV,"Humboldt County",89426,US,"TIGER/Line® dataset from the US Census Bureau"
+USS0011K31S,7920,591,39.13,-111.44,2874.3,UT,"Buck Flat",9029,39.13,-111.44,0.04,nearest_place,,,Moore,UT,"Sanpete County",84523,US,"TIGER/Line® dataset from the US Census Bureau"
+USS0012D11S,7913.3,592,45.41,-112.96,2529.8,MT,"Mule Creek",6827,45.41,-112.96,0.06,nearest_place,,,Polaris,MT,"Beaverhead County",59746,US,"TIGER/Line® dataset from the US Census Bureau"
+USS0020K03S,7911.7,593,39.49,-120.28,1967.8,CA,"Independence Creek",9437,39.49,-120.28,0.06,nearest_place,,,Sierraville,CA,"Sierra County",96126,US,"TIGER/Line® dataset from the US Census Bureau"
+USS0007M27S,7905.5,594,37.93,-107.68,2987,CO,Idarado,8813,37.93,-107.68,1,nearest_place,,,Ironton,CO,"Ouray County",81427,US,"TIGER/Line® dataset from the US Census Bureau"
+USS0006K01S,7879.7,595,39.36,-106.06,3474.7,CO,"Hoosier Pass",8927,39.356883,-106.062138,0.95,nearest_street,379,"Lakeview Dr",Alma,CO,"Park County",80420,US,"TIGER/Line® dataset from the US Census Bureau"
+USS0007K09S,7871.5,596,39.13,-107.29,2895.6,CO,"Mc Clure Pass",9939,39.13,-107.29,0.11,nearest_place,,,Redstone,CO,"Gunnison County",81623,US,"TIGER/Line® dataset from the US Census Bureau"
+USS0010E20S,7863.1,597,44.46,-110.14,2170.2,WY,"Sylvan Road",7512,44.46,-110.14,0.05,nearest_place,,,"Pahaska Tepee",WY,"Park County",82414,US,"TIGER/Line® dataset from the US Census Bureau"
+USS0014F12S,7859.7,598,43.87,-114.71,2676.1,ID,"Galena Summit",8035,43.871999,-114.715774,0.94,nearest_street,13548,"State Hwy 75 Scn",Ketchum,ID,"Blaine County",83340,US,"TIGER/Line® dataset from the US Census Bureau"
+USS0006L14S,7851.6,599,38.99,-106.75,3243.1,CO,"Upper Taylor",8513,38.99,-106.75,0.05,nearest_place,,,Aspen,CO,"Gunnison County",81612,US,"TIGER/Line® dataset from the US Census Bureau"
+USC00148950,7831.1,600,38.2936,-97.9114,472.4,KS,"WINDOM 7S",9339,38.293619,-97.910908,0.99,rooftop,825,"1st Ave",Windom,KS,"McPherson County",67491,US,Statewide
+USS0005M14S,7828.4,601,37.21,-105.12,3115.1,CO,"Whiskey Ck",8874,37.21,-105.12,0.12,nearest_place,,,Weston,CO,"Las Animas County",81091,US,"TIGER/Line® dataset from the US Census Bureau"
+USW00094911,7799.8,602,42.8783,-97.3633,359.7,SD,"YANKTON 2 E",8866,42.877892,-97.363324,0.99,rooftop,907,"Marsh Rd",Yankton,SD,"Yankton County",57078,US,Statewide
+USC00344019,7774,603,36.5381,-98.2661,411.5,OK,"HELENA 1 SSE",10362,36.543321,-98.265582,0.94,nearest_street,101,"State Hwy 58",Helena,OK,"Alfalfa County",73741,US,"TIGER/Line® dataset from the US Census Bureau"
+USS0012C11S,7771.9,604,46.36,-112.26,2438.4,MT,"Rocker Peak",7670,46.36,-112.26,0.14,nearest_place,,,Basin,MT,"Jefferson County",59631,US,"TIGER/Line® dataset from the US Census Bureau"
+USS0012G17S,7765.3,605,42.76,-112.48,1978.2,ID,"Wildhorse Divide",8677,42.76,-112.48,0.1,nearest_place,,,Pocatello,ID,"Bannock County",83205,US,"TIGER/Line® dataset from the US Census Bureau"
+US1KSJW0001,7750.5,606,39.9421,-97.9872,495.9,KS,"WEBBER 2.6 ENE",9977,39.942604,-97.988032,0.99,rooftop,2696,"280th Rd",Webber,KS,"Jewell County",66970,US,Statewide
+USS0007E12S,7744.4,607,44.72,-107.4,2706.6,WY,"Sucker Creek",8371,44.72,-107.4,0.07,nearest_place,,,Dayton,WY,"Sheridan County",82836,US,"TIGER/Line® dataset from the US Census Bureau"
+USW00014944,7729.4,608,43.5878,-96.7289,435.9,SD,"SIOUX FALLS",10054,43.58796,-96.728836,1,rooftop,3,"W Weather Ln","Sioux Falls",SD,"Minnehaha County",57104,US,Statewide
+USW00013980,7718.6,609,37.155,-98.0283,408.4,KS,ANTHONY,10781,37.154989,-98.028706,1,rooftop,321,"N Anthony",Anthony,KS,"Harper County",67003,US,"Harper County"
+USS0008M02S,7706.9,610,37.43,-108.17,3048,CO,Mancos,7531,37.43,-108.17,0.06,nearest_place,,,Mancos,CO,"Montezuma County",81328,US,"TIGER/Line® dataset from the US Census Bureau"
+USS0021C39S,7705.4,611,46.36,-121.08,1560.6,WA,"Lost Horse",7323,46.36,-121.08,0.03,nearest_place,,,"White Swan",WA,"Yakima County",98952,US,"TIGER/Line® dataset from the US Census Bureau"
+USS0006M21S,7701.4,612,37.47,-106.54,3541.8,CO,Grayback,9356,37.47,-106.54,0.04,nearest_place,,,"South Fork",CO,"Rio Grande County",81154,US,"TIGER/Line® dataset from the US Census Bureau"
+USS0007M05S,7688.8,613,37.65,-107.81,2706.6,CO,Cascade,10145,37.650421,-107.809509,0.99,rooftop,21,"Meadowview Dr",Durango,CO,"San Juan County",81301,US,Statewide
+USS0011C02S,7687.8,614,46.58,-111.27,2026.9,MT,"Pickfoot Creek",6762,46.58,-111.27,0.05,nearest_place,,,"White Sulphur Springs",MT,"Meagher County",59645,US,"TIGER/Line® dataset from the US Census Bureau"
+USW00012924,7687.1,615,27.7839,-97.5108,13.7,TX,"CORPUS CHRISTI",6505,27.784448,-97.510706,0.98,nearest_street,317,"Pinson Dr","Corpus Christi",TX,"Nueces County",78406,US,"TIGER/Line® dataset from the US Census Bureau"
+USS0010E07S,7656.2,616,44.37,-110.58,2432.3,WY,"Thumb Divide",7515,44.37,-110.58,0.16,nearest_place,,,"West Thumb",WY,"Teton County",82190,US,"TIGER/Line® dataset from the US Census Bureau"
+USC00252037,7650.1,617,42.7364,-97.4969,426.7,NE,CROFTON,8440,42.736185,-97.49688,1,rooftop,204,"W Wyoming St Crofton",Crofton,NE,"Knox County",68730,US,Knox
+USS0012B13S,7639.6,618,47.92,-112.79,1706.9,MT,Waldron,7905,47.92,-112.79,0.02,nearest_place,,,Bynum,MT,"Teton County",59419,US,"TIGER/Line® dataset from the US Census Bureau"
+USS0006J15S,7623.5,619,40.85,-106.97,2651.8,CO,"Elk River",7861,40.851186,-106.968445,0.97,nearest_street,64001,"Lof Way",Clark,CO,"Routt County",80428,US,"TIGER/Line® dataset from the US Census Bureau"
+USC00253065,7616.8,620,40.6558,-97.2208,467.9,NE,"FRIEND 3E",10630,40.655901,-97.221153,1,rooftop,876,"Us Hwy 6",Friend,NE,"Saline County",68359,US,Saline
+USS0011R03S,7610.1,621,34.94,-111.52,2286,AZ,"Mormon Mountain",9637,34.94,-111.52,0.13,nearest_place,,,"Mormon Lake",AZ,"Coconino County",86038,US,"TIGER/Line® dataset from the US Census Bureau"
+USS0020B25S,7610.1,622,47.23,-120.29,1670.3,WA,Trough,7304,47.23,-120.29,0.06,nearest_place,,,Malaga,WA,"Kittitas County",98828,US,"TIGER/Line® dataset from the US Census Bureau"
+USS0006K39S,7594.6,623,39.62,-106.38,3139.4,CO,"Vail Mountain",8382,39.62,-106.38,0.25,nearest_place,,,"West Vail",CO,"Eagle County",81657,US,"TIGER/Line® dataset from the US Census Bureau"
+USC00417327,7577.1,624,32.3664,-99.1925,494.1,TX,PUTNAM,8099,32.366758,-99.192484,1,rooftop,333,"E Ash Ave",Putnam,TX,"Callahan County",76469,US,"Statewide Partial"
+USS0007E21S,7565.1,625,44.8,-107.84,2859,WY,"Bald Mtn.",9257,44.8,-107.84,0.04,nearest_place,,,Shell,WY,"Big Horn County",82441,US,"TIGER/Line® dataset from the US Census Bureau"
+USS0009G03S,7563.8,626,42.87,-109.09,3078.5,WY,"Hobbs Park",7732,42.87,-109.09,0.04,nearest_place,,,"Wind River",WY,"Fremont County",82514,US,"TIGER/Line® dataset from the US Census Bureau"
+USS0012C22S,7550.6,627,46.84,-112.51,2139.7,MT,"Nevada Ridge",8098,46.84,-112.51,0.05,nearest_place,,,Lincoln,MT,"Lewis and Clark County",59639,US,"TIGER/Line® dataset from the US Census Bureau"
+USS0016H02S,7526.1,628,41.55,-116.01,2209.8,NV,"Jack Creek Upper",7862,41.55,-116.01,0.05,nearest_place,,,"North Fork",NV,"Elko County",89801,US,"TIGER/Line® dataset from the US Census Bureau"
+USC00412011,7519.1,629,27.7792,-97.5056,13.4,TX,"CORPUS CHRISTI NWS",6260,27.779391,-97.50694,0.97,nearest_street,366,"Pinson Dr","Corpus Christi",TX,"Nueces County",78406,US,"TIGER/Line® dataset from the US Census Bureau"
+USS0018D20S,7504.5,630,45.36,-118.47,1380.7,OR,"Bowman Springs",7681,45.36,-118.47,0.04,nearest_place,,,Meacham,OR,"Umatilla County",97859,US,"TIGER/Line® dataset from the US Census Bureau"
+USS0005M17S,7502.2,631,37.61,-105.37,3246.1,CO,"Ute Creek",9169,37.61,-105.37,0.07,nearest_place,,,"Red Wing",CO,"Costilla County",81066,US,"TIGER/Line® dataset from the US Census Bureau"
+USS0015A05S,7478,632,48.98,-115.82,1295.4,MT,"Garver Creek",7265,48.98,-115.82,0.04,nearest_place,,,Yaak,MT,"Lincoln County",59935,US,"TIGER/Line® dataset from the US Census Bureau"
+USS0020H13S,7472.8,633,41.24,-120.79,1886.7,CA,"Adin Mtn",8392,41.24,-120.79,0.07,nearest_place,,,Adin,CA,"Modoc County",96006,US,"TIGER/Line® dataset from the US Census Bureau"
+USS0009D21S,7468.4,634,45.24,-109.46,1792.2,MT,"Burnt Mtn",9838,45.24,-109.46,0.15,nearest_place,,,Luther,MT,"Carbon County",59051,US,"TIGER/Line® dataset from the US Census Bureau"
+USS0006K04S,7457,635,39.08,-106.61,3230.9,CO,"Independence Pass",8027,39.08,-106.61,0.05,nearest_place,,,Aspen,CO,"Pitkin County",81611,US,"TIGER/Line® dataset from the US Census Bureau"
+USS0007E34S,7453.3,636,44.57,-107.3,2706.6,WY,"Dome Lake",7278,44.57,-107.3,0.04,nearest_place,,,Wolf,WY,"Sheridan County",82844,US,"TIGER/Line® dataset from the US Census Bureau"
+USS0009S11S,7447.4,637,33.65,-109.31,2749.3,AZ,"Hannagan Meadows",10070,33.65,-109.31,0.04,nearest_place,,,Blue,AZ,"Greenlee County",85922,US,"TIGER/Line® dataset from the US Census Bureau"
+US1MTPK0007,7438.6,638,45.6357,-110.4331,1677.9,MT,"LIVINGSTON 6.6 ESE",8552,45.635575,-110.433419,1,rooftop,506,"Swingley Rd",Livingston,MT,"Park County",59047,US,Park
+USS0005J18S,7417.4,639,40.21,-105.57,2621.3,CO,"Copeland Lake",7397,40.208317,-105.565042,0.95,nearest_street,1051,"Wild Basin Rd",Allenspark,CO,"Boulder County",80510,US,"TIGER/Line® dataset from the US Census Bureau"
+USS0020G02S,7410.1,640,42.7,-120.8,2158,OR,"Summer Rim",7474,42.7,-120.8,0.04,nearest_place,,,Paisley,OR,"Lake County",97636,US,"TIGER/Line® dataset from the US Census Bureau"
+USS0006J20S,7388.9,641,40.71,-106.01,2749.3,CO,Rawah,7696,40.71,-106.01,0.04,nearest_place,,,Walden,CO,"Jackson County",80480,US,"TIGER/Line® dataset from the US Census Bureau"
+USS0010C15S,7358.8,642,46.67,-110.33,2316.5,MT,"Daisy Peak",8922,46.67,-110.33,0.04,nearest_place,,,Martinsdale,MT,"Meagher County",59053,US,"TIGER/Line® dataset from the US Census Bureau"
+USS0006K08S,7351.4,643,39.38,-106.2,3474.7,CO,"Fremont Pass",7950,39.38,-106.2,0.06,nearest_place,,,Breckenridge,CO,"Summit County",80424,US,"TIGER/Line® dataset from the US Census Bureau"
+USS0006G02S,7347,644,42.57,-106.09,2560.3,WY,"Reno Hill",8910,42.57,-106.09,0.04,nearest_place,,,Glenrock,WY,"Natrona County",82637,US,"TIGER/Line® dataset from the US Census Bureau"
+USS0006K16S,7345.4,645,39.3,-106.11,3398.5,CO,"Buckskin Joe",8108,39.299445,-106.110782,0.98,nearest_street,1927,"Co Rd 8",Alma,CO,"Park County",80420,US,"TIGER/Line® dataset from the US Census Bureau"
+USS0016H07S,7336.9,646,41.32,-116.34,2347,NV,"Toe Jam",8523,41.32,-116.34,0.08,nearest_place,,,Tuscarora,NV,"Elko County",89834,US,"TIGER/Line® dataset from the US Census Bureau"
+USC00141179,7331.4,647,39.8775,-98.3036,503.2,KS,"BURR OAK 1N",9862,39.878494,-98.30535,0.98,rooftop,2250,"State Highway 128","Burr Oak",KS,"Jewell County",66936,US,Statewide
+USS0007E18S,7318.4,648,44.68,-107.58,2849.9,WY,"Bone Springs Div",7377,44.68,-107.58,0.07,nearest_place,,,Dayton,WY,"Big Horn County",82836,US,"TIGER/Line® dataset from the US Census Bureau"
+USS0007M14S,7307.5,649,37.85,-107.73,3060.2,CO,"Mineral Creek",8538,37.85,-107.73,0.18,nearest_place,,,Silverton,CO,"San Juan County",81433,US,"TIGER/Line® dataset from the US Census Bureau"
+USS0007E06S,7281.7,650,44.16,-107.13,2889.5,WY,"Powder River Pass",6311,44.16,-107.13,0.03,nearest_place,,,"Ten Sleep",WY,"Washakie County",82442,US,"TIGER/Line® dataset from the US Census Bureau"
+USS0010R04S,7280.8,651,34.31,-110.75,2328.7,AZ,Heber,9056,34.31,-110.75,0.04,nearest_place,,,Heber,AZ,"Navajo County",85928,US,"TIGER/Line® dataset from the US Census Bureau"
+USS0019L44S,7280.2,652,38.84,-119.89,2608.2,CA,"Horse Meadow",9846,38.84,-119.89,0.11,nearest_place,,,Sorensens,CA,"Alpine County",96120,US,"TIGER/Line® dataset from the US Census Bureau"
+USC00253175,7277.9,653,40.5314,-97.5964,496.8,NE,GENEVA,9892,40.53134,-97.596585,1,rooftop,1230,"K St",Geneva,NE,"Fillmore County",68361,US,Fillmore
+USS0014A14S,7271.2,654,48.31,-114.84,1534.7,MT,"Hand Creek",5083,48.31,-114.84,0.03,nearest_place,,,Marion,MT,"Flathead County",59925,US,"TIGER/Line® dataset from the US Census Bureau"
+USS0005K28S,7256.6,655,39.44,-105.91,3230.9,CO,"Michigan Creek",7726,39.44,-105.91,0.08,nearest_place,,,Breckenridge,CO,"Park County",80424,US,"TIGER/Line® dataset from the US Census Bureau"
+USS0011H03S,7247,656,41.89,-111.57,1930,UT,"Tony Grove RS",7557,41.89,-111.57,0.05,nearest_place,,,Meadowville,UT,"Cache County",84038,US,"TIGER/Line® dataset from the US Census Bureau"
+USS0011P13S,7245.1,657,35.07,-111.84,2194.6,AZ,Fry,9903,35.07,-111.84,0.05,nearest_place,,,Mountainaire,AZ,"Coconino County",86001,US,"TIGER/Line® dataset from the US Census Bureau"
+USS0009F28S,7241.4,658,43.38,-109.88,2993.1,WY,"Gunsight Pass",7266,43.38,-109.88,0.03,nearest_place,,,Dubois,WY,"Sublette County",82513,US,"TIGER/Line® dataset from the US Census Bureau"
+USC00253660,7234.5,659,40.6472,-98.3836,590.7,NE,"HASTINGS 4N",9007,40.64692,-98.382476,1,nearest_street,,"US 281",Hastings,NE,"Adams County",68901,US,"TIGER/Line® dataset from the US Census Bureau"
+USS0009F24S,7232.4,660,43.86,-109.32,2910.8,WY,Kirwin,7318,43.86,-109.32,0.02,nearest_place,,,Sunshine,WY,"Park County",82433,US,"TIGER/Line® dataset from the US Census Bureau"
+USS0006K24S,7213.2,661,39.49,-106.17,3215.6,CO,"Copper Mountain",7340,39.498418,-106.170981,0.92,nearest_street,529,"Cr 1194",Frisco,CO,"Summit County",80443,US,"TIGER/Line® dataset from the US Census Bureau"
+USS0009D16S,7199.7,662,45.19,-109.35,2392.7,MT,"Cole Creek",9383,45.19,-109.35,0.13,nearest_place,,,"Red Lodge",MT,"Carbon County",59068,US,"TIGER/Line® dataset from the US Census Bureau"
+USS0011R06S,7198.7,663,34.46,-111.41,2225,AZ,"Baker Butte",9716,34.46,-111.41,0.08,nearest_place,,,Strawberry,AZ,"Coconino County",85544,US,"TIGER/Line® dataset from the US Census Bureau"
+USS0011J46S,7190.5,664,40.61,-111.1,2523.7,UT,"Beaver Divide",8240,40.61,-111.1,0.07,nearest_place,,,Woodland,UT,"Summit County",84036,US,"TIGER/Line® dataset from the US Census Bureau"
+USS0017H07S,7182.5,665,41.52,-117.63,1828.8,NV,"Lamance Creek",7962,41.52,-117.63,0.09,nearest_place,,,"Paradise Valley",NV,"Humboldt County",89426,US,"TIGER/Line® dataset from the US Census Bureau"
+USS0019L42S,7169.5,666,38.4,-119.54,2838.6,CA,"Summit Meadow",8524,38.4,-119.54,0.06,nearest_place,,,Walker,CA,"Mono County",96107,US,"TIGER/Line® dataset from the US Census Bureau"
+USS0009A01S,7163.5,667,48.17,-109.65,1432.6,MT,"Rocky Boy",6660,48.17,-109.65,0.07,nearest_place,,,Warrick,MT,"Hill County",59520,US,"TIGER/Line® dataset from the US Census Bureau"
+USS0010D39S,7149.4,668,45.5,-110.08,1930.9,MT,"East Boulder Mine",8353,45.5,-110.08,0.06,nearest_place,,,Limestone,MT,"Sweet Grass County",59061,US,"TIGER/Line® dataset from the US Census Bureau"
+USW00013966,7145,669,33.9786,-98.4928,310,TX,"WICHITA FALLS MUNI AP",6989,33.974908,-98.503327,0.92,nearest_street,663,"Ave J","Sheppard Afb",TX,"Wichita County",76311,US,"TIGER/Line® dataset from the US Census Bureau"
+USC00420819,7136.7,670,40.8911,-111.8503,1508.8,UT,"BOUNTIFUL BENCH",8213,40.891493,-111.850355,0.99,rooftop,1430,"E 250 N",Bountiful,UT,"Davis County",84010,US,"Utah AGRC (and individual UT counties)"
+USC00045915,7136.1,671,37.8792,-121.9303,661.4,CA,"MT DIABLO JUNCTION",8307,37.870355,-121.936317,0.92,nearest_street,1460,"N Gate Rd","Walnut Creek",CA,"Contra Costa County",94598,US,"TIGER/Line® dataset from the US Census Bureau"
+USS0007M31S,7127.9,672,37.49,-107.51,3316.2,CO,Vallecito,8442,37.49,-107.51,0.06,nearest_place,,,Vallecito,CO,"La Plata County",81122,US,"TIGER/Line® dataset from the US Census Bureau"
+USS0006K44S,7109.5,673,39.6,-106.54,2889.5,CO,"Mccoy Park",8210,39.603133,-106.537706,0.95,nearest_street,3722,"Daybreak Rdg",Avon,CO,"Eagle County",81620,US,"TIGER/Line® dataset from the US Census Bureau"
+USS0007K13S,7095.2,674,40,-107.24,2956.6,CO,"Trapper Lake",7302,39.998494,-107.235612,0.95,nearest_street,3655,"Trappers Lake Rd",Meeker,CO,"Garfield County",81641,US,"TIGER/Line® dataset from the US Census Bureau"
+USS0007M35S,7083.7,675,37.66,-107.8,2718.8,CO,"Cascade #2",9687,37.659818,-107.795672,0.95,nearest_street,105,"Macfire Tree Ln",Durango,CO,"San Juan County",81301,US,"TIGER/Line® dataset from the US Census Bureau"
+USS0007K14S,7055.9,676,39.09,-107.63,2999.2,CO,"Overland Res.",8060,39.09,-107.63,0.04,nearest_place,,,Paonia,CO,"Delta County",81428,US,"TIGER/Line® dataset from the US Census Bureau"
+USW00003957,7055.8,677,37.2839,-98.5528,467.9,KS,"MEDICINE LODGE",8257,37.283341,-98.551234,0.98,rooftop,1027,"NE Isabel Rd","Medicine Lodge",KS,"Barber County",67104,US,"Barber County"
+USC00395481,7043.8,678,43.2358,-97.5714,406,SD,MENNO,9260,43.236208,-97.571379,0.99,rooftop,562,"E Juniper St",Menno,SD,"Hutchinson County",57045,US,Statewide
+USW00094949,7026.2,679,40.6044,-98.4272,591.3,NE,"HASTINGS MUNI AP",8947,40.604284,-98.420555,0.94,nearest_street,1800,"N Marian Rd",Hastings,NE,"Adams County",68901,US,"TIGER/Line® dataset from the US Census Bureau"
+USS0010G08S,7010.9,680,42.51,-110.91,2365.2,WY,"Salt River Summit",7432,42.51,-110.91,0.07,nearest_place,,,Smoot,WY,"Lincoln County",83126,US,"TIGER/Line® dataset from the US Census Bureau"
+USC00411920,7005,681,29.9614,-98.8944,436.8,TX,"COMFORT 2",5402,29.96104,-98.894453,0.99,rooftop,12,"High Street Rd",Comfort,TX,"Kendall County",78013,US,"Statewide Partial"
+USS0018E08S,6993.2,682,44.76,-118.31,1649,OR,"Gold Center",7306,44.76,-118.31,0.09,nearest_place,,,Sumpter,OR,"Grant County",97877,US,"TIGER/Line® dataset from the US Census Bureau"
+USS0014F17S,6986.7,683,43.88,-114.67,2276.9,ID,Galena,7014,43.88,-114.67,0.04,nearest_place,,,Obsidian,ID,"Blaine County",83340,US,"TIGER/Line® dataset from the US Census Bureau"
+USS0013E16S,6949.8,684,44.85,-113.84,2603,ID,"Schwartz Lake",6377,44.85,-113.84,0.06,nearest_place,,,Cobalt,ID,"Lemhi County",83229,US,"TIGER/Line® dataset from the US Census Bureau"
+US1WASJ0003,6945.9,685,48.6079,-122.9466,51.5,WA,"ORCAS 0.7 NNW",6140,48.607526,-122.947135,0.99,rooftop,124,"Warm Valley Ln",Orcas,WA,"San Juan County",98280,US,"San Juan"
+USW00014935,6927.6,686,40.9611,-98.3136,560.8,NE,"GRAND ISLAND AP",10093,40.959906,-98.317128,0.96,nearest_street,2298,"E Airport Rd","Grand Island",NE,"Hall County",68803,US,"TIGER/Line® dataset from the US Census Bureau"
+USS0006M23S,6918.9,687,37.38,-106.55,3352.8,CO,"Lily Pond",9152,37.38,-106.55,0.03,nearest_place,,,Espinosa,CO,"Conejos County",81120,US,"TIGER/Line® dataset from the US Census Bureau"
+USW00012919,6913.5,688,25.9156,-97.4186,7,TX,BROWNSVILLE,5806,25.916874,-97.4183,0.97,nearest_street,6832,"State Hwy 4",Brownsville,TX,"Cameron County",78521,US,"TIGER/Line® dataset from the US Census Bureau"
+USS0010C09S,6899.2,689,46.79,-110.68,1966,MT,"Deadman Creek",7015,46.79,-110.68,0.05,nearest_place,,,Neihart,MT,"Meagher County",59465,US,"TIGER/Line® dataset from the US Census Bureau"
+USS0019L13S,6884.2,690,38.07,-119.23,2878.8,CA,"Virginia Lakes Ridge",8621,38.07,-119.23,0.17,nearest_place,,,Lundy,CA,"Mono County",93541,US,"TIGER/Line® dataset from the US Census Bureau"
+USS0011R05S,6858.9,691,34.75,-111.41,2325.6,AZ,"Happy Jack",8446,34.75,-111.41,1,nearest_place,,,"Happy Jack",AZ,"Coconino County",86024,US,"TIGER/Line® dataset from the US Census Bureau"
+USS0011F11S,6847.5,692,43.21,-111.69,2002.5,ID,"Sheep Mtn.",6969,43.21,-111.69,0.05,nearest_place,,,"Idaho Falls",ID,"Bingham County",83405,US,"TIGER/Line® dataset from the US Census Bureau"
+USS0010D07S,6841.3,693,45.01,-110.01,2240.3,MT,"Northeast Entrance",7345,45.003972,-110.011646,0.93,nearest_street,206,"NE Entrance Rd",Livingston,MT,"Park County",59047,US,"TIGER/Line® dataset from the US Census Bureau"
+USS0013M07S,6836.1,694,37.4,-113.46,2536.5,UT,"Gardner Peak",9318,37.4,-113.46,0.12,nearest_place,,,"Pine Valley",UT,"Washington County",84781,US,"TIGER/Line® dataset from the US Census Bureau"
+USS0016H05S,6825.9,695,41.78,-116.03,2041.2,NV,"Laurel Draw",7662,41.78,-116.03,0.12,nearest_place,,,Patsville,NV,"Elko County",89831,US,"TIGER/Line® dataset from the US Census Bureau"
+USS0013M06S,6825.3,696,37.5,-113.94,2061.4,UT,"Gutz Peak",10379,37.5,-113.94,0.03,nearest_place,,,Enterprise,UT,"Washington County",84725,US,"TIGER/Line® dataset from the US Census Bureau"
+USS0007E39S,6822.2,697,44.81,-107.41,2094,WY,"Tie Creek",7878,44.81,-107.41,0.09,nearest_place,,,Dayton,WY,"Sheridan County",82836,US,"TIGER/Line® dataset from the US Census Bureau"
+USC00342944,6820.5,698,35.2164,-99.8628,627.9,OK,ERICK,8484,35.216034,-99.862119,0.98,nearest_street,466,"E 2nd St",Erick,OK,"Beckham County",73645,US,"TIGER/Line® dataset from the US Census Bureau"
+US1COBO0202,6812.3,699,40.1103,-105.4391,2609.1,CO,"WARD 4.6 NE",6904,40.110131,-105.438966,1,rooftop,410,"Ridge Rd",Ward,CO,"Boulder County",80481,US,Boulder
+USS0003E03S,6808.8,700,44.11,-103.98,2100.1,SD,"Blind Park",6434,44.11,-103.98,0.07,nearest_place,,,"Four Corners",WY,,82715,US,"TIGER/Line® dataset from the US Census Bureau"
+USS0009S01S,6797.9,701,33.98,-109.5,2781.3,AZ,Baldy,8418,33.98,-109.5,0.16,nearest_place,,,Greer,AZ,"Apache County",85927,US,"TIGER/Line® dataset from the US Census Bureau"
+USS0010C27S,6796.5,702,46.48,-110.71,2316.5,MT,"Elk Peak",5612,46.48,-110.71,0.05,nearest_place,,,Lennep,MT,"Meagher County",59053,US,"TIGER/Line® dataset from the US Census Bureau"
+US1SDMN0001,6794.5,703,43.8624,-97.7907,406,SD,"FULTON 9.4 N",10700,43.862436,-97.790353,1,rooftop,24314,"421st Ave",Fulton,SD,"Miner County",57340,US,Statewide
+USW00014941,6789,704,41.9856,-97.4353,472.7,NE,"NORFOLK KARL STEFAN AP",6889,41.986328,-97.426673,1,nearest_street,,"US 81",Norfolk,NE,"Madison County",68701,US,"TIGER/Line® dataset from the US Census Bureau"
+USS0013C36S,6783.1,705,46.13,-113.31,2194.6,MT,"Peterson Meadows",5744,46.13,-113.31,0.09,nearest_place,,,Georgetown,MT,"Granite County",59711,US,"TIGER/Line® dataset from the US Census Bureau"
+USS0008M08S,6773.7,706,37.65,-108.01,2773.7,CO,"Scotch Creek",7962,37.65,-108.01,0.16,nearest_place,,,Rico,CO,"Dolores County",81332,US,"TIGER/Line® dataset from the US Census Bureau"
+US1TXTY0005,6763.8,707,32.4096,-100.0846,635.8,TX,"MERKEL 5.8 SW",6799,32.410289,-100.089564,0.95,nearest_street,3798,"FM 1085 S",Merkel,TX,"Taylor County",79536,US,"TIGER/Line® dataset from the US Census Bureau"
+USC00147542,6762.8,708,39.7772,-98.7783,554.7,KS,"SMITH CTR",6668,39.777123,-98.77816,1,rooftop,118,"Belmont St","Smith Center",KS,"Smith County",66967,US,Statewide
+USC00413508,6761.7,709,28.3064,-98.1222,68.6,TX,"GEORGE WEST 2 SSW",4729,28.307682,-98.114122,1,nearest_street,,"US 281","George West",TX,"Live Oak County",78022,US,"TIGER/Line® dataset from the US Census Bureau"
+USS0005K27S,6758.7,710,39.66,-105.59,3230.9,CO,"Echo Lake",6249,39.659957,-105.590068,0.99,nearest_street,13397,"State Hwy 103","Idaho Springs",CO,"Clear Creek County",80452,US,"TIGER/Line® dataset from the US Census Bureau"
+USC00417873,6752.7,711,29.3283,-99.4653,290.5,TX,SABINAL,5784,29.328105,-99.46541,1,rooftop,1031,"El Paso St",Uvalde,TX,"Uvalde County",78801,US,Uvalde
+USS0007M29S,6739.8,712,37.8,-107.92,3109,CO,"Lizard Head Pass",6997,37.8,-107.92,0.08,nearest_place,,,Ophir,CO,"Dolores County",81426,US,"TIGER/Line® dataset from the US Census Bureau"
+USS0011C04S,6736.9,713,46.35,-111.85,2097,MT,"Tizer Basin",7214,46.35,-111.85,0.06,nearest_place,,,"Jefferson City",MT,"Jefferson County",59638,US,"TIGER/Line® dataset from the US Census Bureau"
+USS0019L17S,6735.6,714,38.44,-119.37,2814.2,CA,"Lobdell Lake",7937,38.44,-119.37,0.06,nearest_place,,,Walker,CA,"Mono County",96107,US,"TIGER/Line® dataset from the US Census Bureau"
+USS0021F22S,6718.6,715,43.23,-121.81,1478.3,OR,"Chemult Alternate",7325,43.23,-121.81,0.3,nearest_place,,,Chemult,OR,"Klamath County",97731,US,"TIGER/Line® dataset from the US Census Bureau"
+USS0009N05S,6702.5,716,36.33,-109.06,2804.2,AZ,"Beaver Spring",7933,36.33,-109.06,0.08,nearest_place,,,Beclabito,NM,,87461,US,"TIGER/Line® dataset from the US Census Bureau"
+USS0010C03S,6695,717,46.11,-110.47,1981.2,MT,Porcupine,6995,46.11,-110.47,0.1,nearest_place,,,Wilsall,MT,"Park County",59086,US,"TIGER/Line® dataset from the US Census Bureau"
+USS0018G01S,6692.8,718,42.75,-118.69,2130.6,OR,Silvies,7012,42.75,-118.69,0.04,nearest_place,,,Frenchglen,OR,"Harney County",97736,US,"TIGER/Line® dataset from the US Census Bureau"
+USS0009S02S,6682.7,719,33.92,-109.46,2804.2,AZ,"Maverick Fork",8192,33.92,-109.46,0.08,nearest_place,,,Greer,AZ,"Apache County",85927,US,"TIGER/Line® dataset from the US Census Bureau"
+USS0006J18S,6673.5,720,40.23,-106.6,2816.4,CO,"Buffalo Park",6867,40.23,-106.6,0.04,nearest_place,,,Kremmling,CO,"Grand County",80459,US,"TIGER/Line® dataset from the US Census Bureau"
+USS0013C13S,6665,721,46.41,-113.43,2197.6,MT,"Black Pine",7163,46.41,-113.43,0.05,nearest_place,,,Philipsburg,MT,"Granite County",59858,US,"TIGER/Line® dataset from the US Census Bureau"
+USS0012C13S,6662.4,722,46.44,-112.19,1975.1,MT,"Frohner Meadow",7399,46.44,-112.19,0.12,nearest_place,,,Rimini,MT,"Jefferson County",59601,US,"TIGER/Line® dataset from the US Census Bureau"
+USS0009E09S,6657.1,723,44.3,-109.24,2670,WY,Marquette,9203,44.3,-109.24,0.03,nearest_place,,,Wapiti,WY,"Park County",82450,US,"TIGER/Line® dataset from the US Census Bureau"
+USS0014F16S,6647.9,724,43.71,-114.16,2267.7,ID,Hyndman,7105,43.71,-114.16,0.08,nearest_place,,,Triumph,ID,"Blaine County",83333,US,"TIGER/Line® dataset from the US Census Bureau"
+USW00013962,6645,725,32.4106,-99.6822,545.6,TX,"ABILENE RGNL AP",5885,32.411651,-99.680933,0.97,nearest_street,2944,"W Access Dr",Abilene,TX,"Taylor County",79602,US,"TIGER/Line® dataset from the US Census Bureau"
+USC00480140,6644.7,726,43.7728,-111.0339,1962.9,WY,"ALTA 1 NNW",6959,43.772934,-111.03368,1,rooftop,375,"W Kaufman Rd",Alta,WY,"Teton County",83414,US,Teton
+USS0011E03S,6632.1,727,44.59,-111.82,2255.5,MT,"Lakeview Ridge",7531,44.59,-111.82,0.63,nearest_place,,,Lima,MT,"Beaverhead County",59739,US,"TIGER/Line® dataset from the US Census Bureau"
+USS0003E05S,6623.7,728,44.21,-103.79,1868.4,SD,"North Rapid Creek",6435,44.210836,-103.784647,0.95,nearest_street,22034,"Buskala Pl",Lead,SD,"Lawrence County",57754,US,"TIGER/Line® dataset from the US Census Bureau"
+USS0006N14S,6623.5,729,36.72,-106.26,3048,NM,Hopewell,8365,36.72,-106.26,0.03,nearest_place,,,Ensenada,NM,"Rio Arriba County",87575,US,"TIGER/Line® dataset from the US Census Bureau"
+USS0005J11S,6621.1,730,40.58,-105.63,2859,CO,"Hourglass Lake",6534,40.580443,-105.629501,0.98,nearest_street,3838,"W Co Rd 145 (campground)",Bellvue,CO,"Larimer County",80512,US,"TIGER/Line® dataset from the US Census Bureau"
+USS0005J04S,6594.7,731,40.4,-105.85,2752.3,CO,"Phantom Valley",6076,40.4,-105.85,0.04,nearest_place,,,Gould,CO,"Grand County",80480,US,"TIGER/Line® dataset from the US Census Bureau"
+USS0006K45S,6591.6,732,39.6,-106.51,2590.8,CO,"Beaver Ck Village",7421,39.599283,-106.511735,0.98,rooftop,747,"Cinch Rd",Avon,CO,"Eagle County",81620,US,Eagle
+USS0005L12S,6590.9,733,38.29,-105.85,3267.5,CO,"Hayden Pass",7981,38.29,-105.85,0.07,nearest_place,,,Coaldale,CO,"Saguache County",81222,US,"TIGER/Line® dataset from the US Census Bureau"
+USS0006K12S,6568.2,734,39.8,-106.03,2724.9,CO,"Middle Fork Camp",6716,39.798341,-106.032162,0.96,nearest_street,4978,"Co Hwy 30",Parshall,CO,"Grand County",80468,US,"TIGER/Line® dataset from the US Census Bureau"
+USS0013D10S,6539,735,45.17,-113.5,2316.5,MT,"Bloody Dick",5242,45.161009,-113.500766,0.92,nearest_street,10010,"Bloody Dick Rd",Dillon,MT,"Beaverhead County",59725,US,"TIGER/Line® dataset from the US Census Bureau"
+USS0010K06S,6512.4,736,39.68,-110.43,2662.7,UT,Timberline,7891,39.68,-110.43,0.07,nearest_place,,,Hiawatha,UT,"Carbon County",84527,US,"TIGER/Line® dataset from the US Census Bureau"
+USS0007E32S,6502.4,737,44.58,-107.2,2435.4,WY,"Big Goose",7377,44.58,-107.2,0.05,nearest_place,,,"Big Horn",WY,"Sheridan County",82833,US,"TIGER/Line® dataset from the US Census Bureau"
+USS0007J04S,6495.9,738,40.17,-107.06,2773.7,CO,Crosho,7524,40.17,-107.06,0.1,nearest_place,,,Phippsburg,CO,"Rio Blanco County",80469,US,"TIGER/Line® dataset from the US Census Bureau"
+USS0013E23S,6481.4,739,44.99,-113.44,2468.9,MT,"Lemhi Ridge",6157,44.99,-113.44,0.04,nearest_place,,,Lemhi,ID,,83465,US,"TIGER/Line® dataset from the US Census Bureau"
+USS0013C31S,6469.2,740,46.87,-113.28,1905,MT,"N Fk Elk Creek",7065,46.87,-113.28,0.04,nearest_place,,,Greenough,MT,"Powell County",59836,US,"TIGER/Line® dataset from the US Census Bureau"
+USS0017H02S,6468.2,741,41.75,-117.53,2107.7,NV,"Buckskin Lower",6922,41.75,-117.53,0.03,nearest_place,,,McDermitt,NV,"Humboldt County",89421,US,"TIGER/Line® dataset from the US Census Bureau"
+USC00250050,6464.4,742,42.5522,-99.8556,765,NE,AINSWORTH,9473,42.5525,-99.855862,1,rooftop,540,"E 6th St",Ainsworth,NE,"Brown County",69210,US,Brown
+USS0005N19S,6459.1,743,36.47,-105.19,3102.9,NM,Tolby,7956,36.47,-105.19,0.08,nearest_place,,,Idlewild,NM,"Colfax County",87710,US,"TIGER/Line® dataset from the US Census Bureau"
+USS0005N18S,6457.9,744,36.19,-105.56,2987,NM,"Gallegos Peak",6787,36.19,-105.56,0.13,nearest_place,,,Vadito,NM,"Taos County",87579,US,"TIGER/Line® dataset from the US Census Bureau"
+USS0009E08S,6439.4,745,44.8,-109.66,2331.7,WY,Wolverine,6885,44.8,-109.66,0.03,nearest_place,,,"Cooke City",MT,,59020,US,"TIGER/Line® dataset from the US Census Bureau"
+USC00252560,6426.7,746,40.2764,-99.7836,646.2,NE,EDISON,7284,40.277089,-99.781809,0.97,nearest_street,513,"2nd St",Arapahoe,NE,"Furnas County",68922,US,"TIGER/Line® dataset from the US Census Bureau"
+USS0012E07S,6416.8,747,44.79,-112.06,2377.4,MT,Divide,6942,44.79,-112.06,0.03,nearest_place,,,Lima,MT,"Madison County",59739,US,"TIGER/Line® dataset from the US Census Bureau"
+USS0008G03S,6409.9,748,42.57,-108.84,2755.4,WY,"South Pass",5879,42.570166,-108.838635,0.97,nearest_street,1801,"Louis Lake Rd",Lander,WY,"Fremont County",82520,US,"TIGER/Line® dataset from the US Census Bureau"
+USS0019L40S,6389.4,749,38.67,-119.61,2532.9,CA,"Monitor Pass",7913,38.67,-119.61,0.13,nearest_place,,,"Topaz Lake",NV,,89410,US,"TIGER/Line® dataset from the US Census Bureau"
+USS0012B16S,6370.9,750,47.06,-112.6,1585,MT,"Copper Bottom",6147,47.06,-112.6,0.07,nearest_place,,,Lincoln,MT,"Lewis and Clark County",59639,US,"TIGER/Line® dataset from the US Census Bureau"
+USS0007J03S,6370.1,751,40.06,-107.01,2767.6,CO,"Bear River",7045,40.06,-107.01,0.07,nearest_place,,,Yampa,CO,"Routt County",80483,US,"TIGER/Line® dataset from the US Census Bureau"
+USS0006G01S,6370,752,42.73,-106.32,2407.9,WY,"Casper Mtn.",6859,42.729863,-106.321221,0.99,rooftop,790,"Crooked Pine Trl",Casper,WY,"Natrona County",82601,US,Natrona
+USC00057317,6350.3,753,37.9136,-104.9483,2176.6,CO,"RYE 1SW",6360,37.913652,-104.948131,1,rooftop,8290,"Zorn Rd",Rye,CO,"Pueblo County",81069,US,"Pubelo County"
+USS0011E24S,6349,754,44.79,-111.71,2438.4,MT,"Tepee Creek",6581,44.79,-111.71,0.04,nearest_place,,,Lima,MT,"Madison County",59739,US,"TIGER/Line® dataset from the US Census Bureau"
+USS0006L05S,6341.1,755,38.7,-106.37,3212.6,CO,"Saint Elmo",8085,38.7,-106.37,0.41,nearest_place,,,"Saint Elmo",CO,"Chaffee County",81236,US,"TIGER/Line® dataset from the US Census Bureau"
+USS0006L13S,6308.9,756,38.29,-106.37,3514.3,CO,"Sargents Mesa",7195,38.29,-106.37,0.07,nearest_place,,,Saguache,CO,"Saguache County",81149,US,"TIGER/Line® dataset from the US Census Bureau"
+USC00258133,6285.9,757,41.4581,-100.5986,921.1,NE,"STAPLETON 5W",8923,41.4581,-100.5986,0.11,nearest_place,,,Stapleton,NE,"Logan County",69163,US,"TIGER/Line® dataset from the US Census Bureau"
+USS0010G13S,6260.1,758,42.49,-110.53,2456.7,WY,"Snider Basin",5362,42.49,-110.53,0.04,nearest_place,,,Halfway,WY,"Sublette County",83113,US,"TIGER/Line® dataset from the US Census Bureau"
+USC00143527,6259.5,759,38.8586,-99.3358,612.6,KS,"HAYS 1 S",7863,38.858388,-99.336246,0.99,rooftop,1220,"240th Ave",Hays,KS,"Ellis County",67601,US,Statewide
+USS0021F12S,6234.1,760,42.96,-121.18,1749.6,OR,"Silver Creek",6794,42.96,-121.18,0.04,nearest_place,,,"Silver Lake",OR,"Lake County",97638,US,"TIGER/Line® dataset from the US Census Bureau"
+USS0016J01S,6233.2,761,40.36,-116.86,2255.5,NV,"Lewis Peak",7914,40.36,-116.86,0.03,nearest_place,,,"Crescent Valley",NV,"Lander County",89821,US,"TIGER/Line® dataset from the US Census Bureau"
+USS0007H03S,6198.9,762,41.11,-107.17,2484.1,WY,"Sandstone RS",6712,41.11,-107.17,0.04,nearest_place,,,Slater,CO,,81653,US,"TIGER/Line® dataset from the US Census Bureau"
+USS0006E03S,6196.9,763,44.26,-106.98,2548.1,WY,"Hansen Sawmill",6342,44.26,-106.98,0.03,nearest_place,,,Saddlestring,WY,"Johnson County",82840,US,"TIGER/Line® dataset from the US Census Bureau"
+USS0010F15S,6186.5,764,43.25,-110.02,2359.2,WY,"Kendall R.S.",5647,43.25,-110.02,0.06,nearest_place,,,Cora,WY,"Sublette County",82925,US,"TIGER/Line® dataset from the US Census Bureau"
+USS0006L03S,6183,765,38.49,-106.34,3279.6,CO,"Porphyry Creek",7693,38.49,-106.34,0.11,nearest_place,,,Whitepine,CO,"Gunnison County",81248,US,"TIGER/Line® dataset from the US Census Bureau"
+USS0006K30S,6181.9,766,39.32,-106.61,2926.1,CO,Kiln,6777,39.307531,-106.618017,0.9,nearest_street,31010,"Frying Pan Rd",Meredith,CO,"Pitkin County",81642,US,"TIGER/Line® dataset from the US Census Bureau"
+USS0012D09S,6174.8,767,45.8,-112.52,2188.5,MT,"Basin Creek",6352,45.8,-112.52,0.05,nearest_place,,,Butte,MT,"Silver Bow County",59702,US,"TIGER/Line® dataset from the US Census Bureau"
+US1SDPN0002,6174.1,768,44.0886,-103.2997,1058.9,SD,"RAPID CITY 3.4 WNW",9930,44.088514,-103.299672,1,rooftop,4816,"Pierre St","Rapid City",SD,"Pennington County",57702,US,Statewide
+USS0006H19S,6155.9,769,41.33,-106.5,2572.5,WY,"South Brush Creek",5465,41.325392,-106.496573,0.94,nearest_street,81,"Lynx Ln",Saratoga,WY,"Carbon County",82331,US,"TIGER/Line® dataset from the US Census Bureau"
+USS0013C39S,6142.3,770,46.18,-113.85,1761.7,MT,"Daly Creek",5317,46.18,-113.85,0.04,nearest_place,,,Grantsdale,MT,"Ravalli County",59835,US,"TIGER/Line® dataset from the US Census Bureau"
+USS0005M07S,6130.9,771,37.33,-105.07,3048,CO,Apishapa,5882,37.33,-105.07,0.13,nearest_place,,,"La Veta",CO,"Huerfano County",81055,US,"TIGER/Line® dataset from the US Census Bureau"
+USS0007M30S,6127.6,772,37.99,-107.2,3486.9,CO,Slumgullion,8055,37.99,-107.2,0.1,nearest_place,,,"Lake City",CO,"Hinsdale County",81235,US,"TIGER/Line® dataset from the US Census Bureau"
+USS0014E04S,6122.7,773,44.84,-114.27,2316.5,ID,"Morgan Creek",5088,44.84,-114.27,0.03,nearest_place,,,Ellis,ID,"Lemhi County",83235,US,"TIGER/Line® dataset from the US Census Bureau"
+USC00395638,6073.2,774,43.1122,-100.6111,856.5,SD,"MISSION 14 S",8147,43.1122,-100.6111,0.46,nearest_place,,,Olsonville,SD,"Todd County",57555,US,"TIGER/Line® dataset from the US Census Bureau"
+USS0012P02S,6059.8,775,35.14,-112.15,2188.5,AZ,"White Horse Lake",7659,35.147996,-112.149149,0.93,nearest_street,1168,"Lockett Spring Rd",Williams,AZ,"Coconino County",86046,US,"TIGER/Line® dataset from the US Census Bureau"
+USS0006K14S,6057.7,776,39.72,-106.16,2865.1,CO,"Summit Ranch",6483,39.723261,-106.162908,0.95,nearest_street,1592,"Co Rd 1351",Silverthorne,CO,"Summit County",80498,US,"TIGER/Line® dataset from the US Census Bureau"
+USW00014936,6043,777,44.3981,-98.2231,390.1,SD,"HURON RGNL AP",9488,44.399637,-98.227331,0.95,nearest_street,784,"27th St NW",Huron,SD,"Beadle County",57350,US,"TIGER/Line® dataset from the US Census Bureau"
+USS0009G09S,6031.6,778,42.65,-109.26,2767.6,WY,"Big Sandy Opening",5957,42.65,-109.26,0.05,nearest_place,,,Boulder,WY,"Sublette County",82923,US,"TIGER/Line® dataset from the US Census Bureau"
+USS0015F09S,5991.4,779,43.27,-115.35,1740.4,ID,"Camas Creek Divide",6313,43.27,-115.35,0.03,nearest_place,,,Pine,ID,"Elmore County",83647,US,"TIGER/Line® dataset from the US Census Bureau"
+USS0005N04S,5987.8,780,36.13,-105.53,2621.3,NM,"Tres Ritos",5949,36.134972,-105.533882,0.94,nearest_street,5219,"State Hwy 518",Vadito,NM,"Taos County",87579,US,"TIGER/Line® dataset from the US Census Bureau"
+USS0006N16S,5952.7,781,36.03,-106.81,2836.5,NM,"Vacas Locas",7139,36.03,-106.81,0.11,nearest_place,,,Cuba,NM,"Rio Arriba County",87013,US,"TIGER/Line® dataset from the US Census Bureau"
+USS0008T01S,5938.8,782,32.92,-108.15,2548.1,NM,"Signal Peak",6710,32.92,-108.15,0.09,nearest_place,,,"Pinos Altos",NM,"Grant County",88053,US,"TIGER/Line® dataset from the US Census Bureau"
+USC00410394,5938.7,783,33.1525,-100.2333,509,TX,ASPERMONT,7563,33.152741,-100.233167,1,rooftop,1012,"N Vivian Ave",Aspermont,TX,"Stonewall County",79502,US,"Statewide Partial"
+USW00014914,5932.6,784,46.9253,-96.8111,274.3,ND,"FARGO HECTOR INTL AP",7943,46.919315,-96.80897,0.93,nearest_street,1816,"32nd Ave N",Fargo,ND,"Cass County",58102,US,"TIGER/Line® dataset from the US Census Bureau"
+USS0006P10S,5896.4,785,36,-106.83,2621.3,NM,"Senorita Divide #2",6304,36,-106.83,0.14,nearest_place,,,Cuba,NM,"Rio Arriba County",87013,US,"TIGER/Line® dataset from the US Census Bureau"
+USS0007F02S,5891.3,786,43.63,-107.18,2365.2,WY,"Middle Powder",8087,43.63,-107.18,0.02,nearest_place,,,Mayoworth,WY,"Washakie County",82639,US,"TIGER/Line® dataset from the US Census Bureau"
+USS0018E09S,5862.5,787,44.66,-118.43,1569.7,OR,Tipton,6258,44.66,-118.43,0.13,nearest_place,,,McEwen,OR,"Baker County",97877,US,"TIGER/Line® dataset from the US Census Bureau"
+USS0006J06S,5839.4,788,40.08,-106.67,2706.6,CO,"Lynx Pass",6381,40.08,-106.67,0.05,nearest_place,,,Toponas,CO,"Routt County",80479,US,"TIGER/Line® dataset from the US Census Bureau"
+USS0019A02S,5822.6,789,48.66,-119.84,1359.4,WA,"Salmon Meadows",5550,48.66,-119.84,0.06,nearest_place,,,Conconully,WA,"Okanogan County",98819,US,"TIGER/Line® dataset from the US Census Bureau"
+USS0014F19S,5816.5,790,43.77,-114.42,1962.9,ID,"Chocolate Gulch",6514,43.770751,-114.412625,0.94,nearest_street,200,"High Meadows Ln",Rexburg,ID,"Blaine County",83440,US,"TIGER/Line® dataset from the US Census Bureau"
+USS0005N16S,5814.1,791,36.99,-105.26,3230.9,NM,"North Costilla",6563,36.99,-105.26,0.06,nearest_place,,,Ventero,NM,"Taos County",87512,US,"TIGER/Line® dataset from the US Census Bureau"
+USC00056205,5812.8,792,38.0264,-107.6725,2352.4,CO,"OURAY #2",6213,38.026276,-107.672642,1,rooftop,212,"9th Ave",Ouray,CO,"Ouray County",81427,US,Statewide
+USW00003103,5786.6,793,35.1442,-111.6664,2134.5,AZ,"FLAGSTAFF PULLIAM AP",6630,35.142517,-111.673089,0.94,nearest_street,5950,"S Liberator Ln",Flagstaff,AZ,"Coconino County",86001,US,"TIGER/Line® dataset from the US Census Bureau"
+USW00023007,5772.6,794,34.4272,-100.2831,594.7,TX,"CHILDRESS MUNI AP",5688,34.427554,-100.283263,0.99,rooftop,15780,"FM 164",Childress,TX,"Childress County",79201,US,"Statewide Partial"
+USS0015H14S,5772.5,795,41.87,-115.25,2539,NV,"Pole Creek R.S.",6945,41.87,-115.25,0.05,nearest_place,,,Jarbidge,NV,"Elko County",89826,US,"TIGER/Line® dataset from the US Census Bureau"
+USC00146637,5769.2,796,39.0667,-100.2389,814.4,KS,QUINTER,6785,39.0666,-100.239122,1,rooftop,513,"Lincoln St",Quinter,KS,"Gove County",67752,US,Statewide
+USS0012L20S,5762,797,38.07,-112.17,2971.5,UT,"Jones Corral",7097,38.07,-112.17,0.06,nearest_place,,,Circleville,UT,"Garfield County",84723,US,"TIGER/Line® dataset from the US Census Bureau"
+USW00013985,5739.8,798,37.7608,-99.9683,789.4,KS,"DODGE CITY",5820,37.755483,-99.959209,1,nearest_street,11407,"Us Hwy 283","Dodge City",KS,"Ford County",67801,US,"TIGER/Line® dataset from the US Census Bureau"
+USC00140365,5735.9,799,37.1942,-99.7633,600.5,KS,ASHLAND,7204,37.194237,-99.762864,1,rooftop,300,"Chestnut St",Ashland,KS,"Clark County",67831,US,Statewide
+USS0006K40S,5732.3,800,39.09,-106.54,3230.9,CO,Brumley,6448,39.09,-106.54,0.06,nearest_place,,,"Twin Lakes",CO,"Lake County",81251,US,"TIGER/Line® dataset from the US Census Bureau"
+USW00024023,5688.4,801,41.1214,-100.6694,846.7,NE,"NORTH PLATTE RGNL AP",7349,41.122768,-100.667947,0.97,nearest_street,5441,"W Paint Horse Rd","North Platte",NE,"Lincoln County",69101,US,"TIGER/Line® dataset from the US Census Bureau"
+USC00412121,5687.7,802,33.6517,-101.245,917.4,TX,CROSBYTON,5115,33.651598,-101.244664,1,rooftop,634,"S Farmer St",Crosbyton,TX,"Crosby County",79322,US,"Statewide Partial"
+USS0006P01S,5684.5,803,35.92,-106.39,2895.6,NM,Quemazon,6133,35.92,-106.39,0.08,nearest_place,,,"Los Alamos",NM,"Los Alamos County",87545,US,"TIGER/Line® dataset from the US Census Bureau"
+USS0006N04S,5660,804,36.51,-106.32,2834.6,NM,Bateman,7324,36.51,-106.32,0.07,nearest_place,,,Canjilon,NM,"Rio Arriba County",87515,US,"TIGER/Line® dataset from the US Census Bureau"
+USW00014916,5638.4,805,47.9428,-97.1839,256.6,ND,"GRAND FORKS INTL AP",7146,47.947891,-97.180859,0.94,nearest_street,1648,"27th Ave N","Grand Forks",ND,"Grand Forks County",58203,US,"TIGER/Line® dataset from the US Census Bureau"
+USC00418818,5634.1,806,33.1714,-101.7981,951,TX,TAHOKA,4645,33.171383,-101.798027,1,rooftop,1628,"N 5th St",Tahoka,TX,"Lynn County",79373,US,"Statewide Partial"
+USW00023034,5606.9,807,31.3711,-100.4922,576.1,TX,"SAN ANGELO",4506,31.371237,-100.492619,0.99,rooftop,7626,"Knickerbocker Rd","San Angelo",TX,"Tom Green County",76904,US,"Statewide Partial"
+USS0007S03S,5596.5,808,33.01,-107.87,2816.4,NM,"Mcknight Cabin",6717,33.01,-107.87,0.04,nearest_place,,,Kingston,NM,"Grant County",88042,US,"TIGER/Line® dataset from the US Census Bureau"
+USS0015H03S,5578.9,809,41.74,-115.47,2164.1,NV,"Seventysix Creek",6890,41.74,-115.47,0.05,nearest_place,,,Jarbidge,NV,"Elko County",89826,US,"TIGER/Line® dataset from the US Census Bureau"
+US1CACC0001,5515.7,810,37.9898,-122.1085,76.8,CA,"MARTINEZ 0.8 SSE",6688,37.989892,-122.108384,1,rooftop,1190,"Center Ave",Martinez,CA,"Contra Costa County",94553,US,"Contra Costa County"
+USW00024020,5511.6,811,40.5233,-101.0344,928.1,NE,"HAYES CENTER 1NW",7068,40.51654,-101.024558,0.92,nearest_street,198,"State Hwy 25","Hayes Center",NE,"Hayes County",69032,US,"TIGER/Line® dataset from the US Census Bureau"
+USC00394516,5507.5,812,43.9025,-99.8583,512.4,SD,KENNEBEC,9087,43.902643,-99.857912,1,rooftop,303,"S 1st Ave",Kennebec,SD,"Lyman County",57544,US,Statewide
+USS0013C38S,5504,813,46.88,-113.32,1426.5,MT,"Lubrecht Flume",5716,46.88,-113.32,0.05,nearest_place,,,Greenough,MT,"Missoula County",59836,US,"TIGER/Line® dataset from the US Census Bureau"
+USC00417944,5488.9,814,31.3708,-100.4944,576.1,TX,"SAN ANGELO WFO",5011,31.370674,-100.4947,1,rooftop,7654,"Knickerbocker Rd","San Angelo",TX,"Tom Green County",76904,US,"Statewide Partial"
+USS0005M16S,5466,815,37.85,-105.44,2941,CO,"Medano Pass",5999,37.85,-105.44,0.05,nearest_place,,,"Red Wing",CO,"Saguache County",81066,US,"TIGER/Line® dataset from the US Census Bureau"
+USC00415821,5433.2,816,34.7261,-100.5372,637,TX,MEMPHIS,5718,34.726084,-100.536955,1,rooftop,116,"N 6th St",Memphis,TX,"Hall County",79245,US,"Statewide Partial"
+USS0005G05S,5429.2,817,42.28,-105.58,2407.9,WY,"Windy Peak",5642,42.28,-105.58,0.07,nearest_place,,,Garrett,WY,"Albany County",82058,US,"TIGER/Line® dataset from the US Census Bureau"
+USS0009F25S,5398.7,818,43.28,-109.45,2935.2,WY,"Cold Springs",5218,43.28,-109.45,0.05,nearest_place,,,Crowheart,WY,"Fremont County",82512,US,"TIGER/Line® dataset from the US Census Bureau"
+USC00020678,5395.2,819,35.2303,-111.8222,2179.9,AZ,"BELLEMONT WFO",6126,35.22989,-111.821292,0.99,rooftop,49,,,,,86051,US,Coconino
+USS0005G04S,5392.2,820,42.44,-105.86,2552.7,WY,"Laprele Creek",6172,42.44,-105.86,0.04,nearest_place,,,Glenrock,WY,"Converse County",82637,US,"TIGER/Line® dataset from the US Census Bureau"
+USW00022010,5361.7,821,29.3783,-100.9269,304.5,TX,"DEL RIO INTL AP",3770,29.378599,-100.926215,0.98,nearest_street,301,"Lenora Ave","Del Rio",TX,"Val Verde County",78840,US,"TIGER/Line® dataset from the US Census Bureau"
+USW00014929,5345.7,822,45.4558,-98.4131,396.8,SD,ABERDEEN,7719,45.45899,-98.413022,1,nearest_street,5403,"Us Hwy 12",Aberdeen,SD,"Brown County",57401,US,"TIGER/Line® dataset from the US Census Bureau"
+USW00024025,5343.6,823,44.3814,-100.2856,531,SD,"PIERRE RGNL AP",7870,44.378125,-100.29164,0.94,nearest_street,3472,"Airport Rd",Pierre,SD,"Hughes County",57501,US,"TIGER/Line® dataset from the US Census Bureau"
+USS0005M08S,5336.5,824,37.35,-105.23,3310.1,CO,Trinchera,5969,37.35,-105.23,0.07,nearest_place,,,"La Veta",CO,"Costilla County",81055,US,"TIGER/Line® dataset from the US Census Bureau"
+USC00397277,5335.8,825,45.4528,-99.3358,559.3,SD,ROSCOE,7503,45.452381,-99.335636,0.99,rooftop,508,"N Broadway St",Roscoe,SD,"Edmunds County",57471,US,Statewide
+US1COBO0072,5326.8,826,40.0242,-105.2689,1638.9,CO,"BOULDER 1.3 NW",5267,40.024267,-105.268964,1,rooftop,2120,"Bluff St",Boulder,CO,"Boulder County",80304,US,Boulder
+USS0010F17S,5314.1,827,43.13,-110.2,2417.1,WY,"East Rim Divide",5366,43.13192,-110.195384,0.95,nearest_street,60,"Sargent Ln",Bondurant,WY,"Sublette County",82922,US,"TIGER/Line® dataset from the US Census Bureau"
+USS0021G03S,5309.7,828,42.69,-121.43,1533.1,OR,"Taylor Butte",6184,42.69,-121.43,0.04,nearest_place,,,"Klamath Falls",OR,"Klamath County",97602,US,"TIGER/Line® dataset from the US Census Bureau"
+USC00325638,5263.4,829,47.8214,-101.2922,643.1,ND,MAX,6154,47.821443,-101.291352,1,nearest_street,,"US 83",Max,ND,"McLean County",58759,US,"TIGER/Line® dataset from the US Census Bureau"
+USS0007F06S,5262.8,830,43.47,-107.24,2606,WY,"Grave Springs",6479,43.47,-107.24,0.04,nearest_place,,,Waltman,WY,"Natrona County",82648,US,"TIGER/Line® dataset from the US Census Bureau"
+USS0007H06S,5255.2,831,41.4,-107.26,2392.7,WY,"Sage Creek Basin",5928,41.4,-107.26,0.02,nearest_place,,,"Shirley Basin",WY,"Carbon County",82615,US,"TIGER/Line® dataset from the US Census Bureau"
+USS0019D03S,5252.7,832,45.11,-119.5,1569.7,OR,"Madison Butte",5928,45.11,-119.5,0.05,nearest_place,,,Heppner,OR,"Morrow County",97836,US,"TIGER/Line® dataset from the US Census Bureau"
+USC00254455,5229,833,41.2097,-101.6706,1011.3,NE,"KINGSLEY DAM",6205,41.210046,-101.67101,0.98,nearest_street,1533,"State Hwy 61 Scn",Ogallala,NE,"Keith County",69153,US,"TIGER/Line® dataset from the US Census Bureau"
+USW00024011,5217.1,834,46.7708,-100.7603,505.4,ND,BISMARCK,7527,46.770565,-100.75944,0.99,rooftop,3315,"University Dr",Bismarck,ND,"Burleigh County",58504,US,"City of Bismarck"
+USS0009S06S,5205.9,835,33.69,-109.22,2435.4,AZ,"Beaver Head",6566,33.688849,-109.218557,1,nearest_street,389801,"Us Hwy 191",Morenci,AZ,"Greenlee County",85540,US,"TIGER/Line® dataset from the US Census Bureau"
+USS0009S07S,5192.9,836,33.8,-109.15,2560.3,AZ,"Coronado Trail",5420,33.8,-109.15,0.15,nearest_place,,,Alpine,AZ,"Apache County",85920,US,"TIGER/Line® dataset from the US Census Bureau"
+USS0013D26S,5115.1,837,45.88,-113.33,1959.9,MT,"Calvert Creek",4878,45.88,-113.33,0.03,nearest_place,,,"Anaconda-Deer Lodge County",MT,"Deer Lodge County",59711,US,"TIGER/Line® dataset from the US Census Bureau"
+USS0006K06S,5102.3,838,39.3,-106.61,2651.8,CO,"Nast Lake",6019,39.302922,-106.606796,0.95,nearest_street,31733,"Frying Pan Rd",Meredith,CO,"Pitkin County",81642,US,"TIGER/Line® dataset from the US Census Bureau"
+USS0012P01S,5099.1,839,35.26,-112.06,2164.1,AZ,Chalender,7459,35.261384,-112.058432,0.96,nearest_street,6708,"Mountain Ranch Resort Dr",Williams,AZ,"Coconino County",86046,US,"TIGER/Line® dataset from the US Census Bureau"
+USC00325002,5080.1,840,48.6272,-101.3764,490.7,ND,LANSFORD,5976,48.627323,-101.376238,1,rooftop,587,"2nd Ave",Lansford,ND,"Bottineau County",58750,US,Bottineau
+USS0006L02S,5080.1,841,38.82,-106.59,2926.1,CO,"Park Cone",5872,38.82,-106.59,0.13,nearest_place,,,Almont,CO,"Gunnison County",81210,US,"TIGER/Line® dataset from the US Census Bureau"
+USW00026615,5070.7,842,60.785,-161.8292,31.1,AK,"BETHEL AP",6148,60.785,-161.8292,1,nearest_place,,,"Bethel Airport",AK,"Bethel Census Area",99559,US,"TIGER/Line® dataset from the US Census Bureau"
+USS0009F21S,5046.3,843,43.11,-109.95,2542,WY,"New Fork Lake",5865,43.11,-109.95,0.26,nearest_place,,,Cora,WY,"Sublette County",82925,US,"TIGER/Line® dataset from the US Census Bureau"
+USW00023047,5040.6,844,35.2333,-101.7089,1093.3,TX,AMARILLO,6580,35.2331,-101.709119,1,rooftop,1900,"English Rd",Amarillo,TX,"Potter County",79108,US,"City of Amarillo"
+US1COEP0055,5022.5,845,39.1125,-104.859,2214.1,CO,"MONUMENT 2.9 N",5544,39.112696,-104.859722,0.99,rooftop,1750,"Fawnwood Rd",Monument,CO,"El Paso County",80132,US,"El Paso"
+USC00100803,5005.1,846,42.3353,-111.385,1817.8,ID,BERN,5628,42.335632,-111.386138,0.97,nearest_street,238,"Ovid Rd",Bern,ID,"Bear Lake County",83220,US,"TIGER/Line® dataset from the US Census Bureau"
+US1MTDL0001,5004,847,46.1661,-113.0853,1768.1,MT,"ANACONDA 7.4 NW",4696,46.16608,-113.085095,1,rooftop,284,"Olson Gulch Rd",Anaconda,MT,"Deer Lodge County",59711,US,"Montana State Library"
+USS0006N03S,5003.4,848,36.96,-106.66,2560.3,NM,Chamita,6155,36.96,-106.66,0.08,nearest_place,,,Chama,NM,"Rio Arriba County",87520,US,"TIGER/Line® dataset from the US Census Bureau"
+USC00048587,4993.3,849,39.5861,-122.5342,243.8,CA,"STONY GORGE RSVR",8123,39.586106,-122.536211,0.97,nearest_street,666,"Co Rd 306","Elk Creek",CA,"Glenn County",95939,US,"TIGER/Line® dataset from the US Census Bureau"
+USS0008P03S,4987.2,850,35.23,-108.27,2578.6,NM,"Rice Park",5423,35.23,-108.27,0.05,nearest_place,,,Tinaja,NM,"Cibola County",87321,US,"TIGER/Line® dataset from the US Census Bureau"
+USW00026510,4938.6,851,62.9575,-155.6103,101.5,AK,"MCGRATH AP",5813,62.9575,-155.6103,0.34,nearest_place,,,"Mc Grath",AK,"Yukon-Koyukuk Census Area",99627,US,"TIGER/Line® dataset from the US Census Bureau"
+USS0006K43S,4923.7,852,39.03,-106.08,3157.7,CO,"Rough And Tumble",5374,39.03,-106.08,0.05,nearest_place,,,Granite,CO,"Park County",81228,US,"TIGER/Line® dataset from the US Census Bureau"
+USC00418232,4919.9,853,33.6878,-101.9853,1011.3,TX,SHALLOWATER,5225,33.6883,-101.983431,0.97,nearest_street,508,"Co Rd 1540",Shallowater,TX,"Lubbock County",79363,US,"TIGER/Line® dataset from the US Census Bureau"
+USC00047851,4917.8,854,35.3056,-120.6619,93.9,CA,"SAN LUIS OBISPO POLY",7384,35.299227,-120.665859,0.93,nearest_street,103,"California Blvd","San Luis Obispo",CA,"San Luis Obispo County",93405,US,"TIGER/Line® dataset from the US Census Bureau"
+USC00058793,4907.3,855,37.3822,-102.2986,1212.5,CO,"WALSH 1 W",5084,37.383334,-102.29667,1,nearest_street,42587,"Us Hwy 160",Walsh,CO,"Baca County",81090,US,"TIGER/Line® dataset from the US Census Bureau"
+USS0011P02S,4885.4,856,35.27,-111.74,2240.3,AZ,"Fort Valley",5068,35.268709,-111.741037,1,nearest_street,5740,"Us Hwy 180",Flagstaff,AZ,"Coconino County",86001,US,"TIGER/Line® dataset from the US Census Bureau"
+USS0017C06S,4864.8,857,46.24,-117.39,1219.2,WA,"Sourdough Gulch",4677,46.24,-117.39,0.07,nearest_place,,,Cloverland,WA,"Asotin County",99402,US,"TIGER/Line® dataset from the US Census Bureau"
+US1TXLK0007,4859.1,858,33.5172,-101.9681,1003.1,TX,"LUBBOCK 6.7 SW",5795,33.517293,-101.967573,0.99,rooftop,8402,"Quitman Ave",Lubbock,TX,"Lubbock County",79424,US,Lubbock
+USW00023065,4832.2,859,39.3669,-101.7,1112.8,KS,GOODLAND,5795,39.366311,-101.700778,0.99,rooftop,920,"Armory Rd",Goodland,KS,"Sherman County",67735,US,Statewide
+USC00417079,4787.1,860,34.1892,-101.7022,1027.2,TX,PLAINVIEW,4587,34.189377,-101.701761,0.98,nearest_street,849,"Ash St",Plainview,TX,"Hale County",79072,US,"TIGER/Line® dataset from the US Census Bureau"
+USC00148287,4783.5,861,37.5983,-101.2908,943.1,KS,"ULYSSES 3NE",4077,37.598537,-101.290869,1,rooftop,1533,"N Rd N",Ulysses,KS,"Grant County",67880,US,Statewide
+USC00417081,4776.4,862,34.1981,-101.7461,1051.6,TX,"PLAINVIEW WTR PRODUCTN",4260,34.197997,-101.746722,0.98,nearest_street,1686,"Jefferson Dr",Plainview,TX,"Hale County",79072,US,"TIGER/Line® dataset from the US Census Bureau"
+USC00414967,4764.1,863,33.0642,-101.0489,694.9,TX,"LAKE ALAN HENRY",5428,33.064475,-101.048929,1,rooftop,3094,"Lake Alan Henry Rd",Justiceburg,TX,"Garza County",79330,US,"Statewide Partial"
+USC00411000,4756.1,864,35.5303,-102.2564,972.6,TX,"BOYS RCH",6983,35.529936,-102.256861,0.99,rooftop,74,"Patterson Cir","Boys Ranch",TX,"Oldham County",79010,US,"Statewide Partial"
+USS0008F01S,4751.1,865,43.66,-109.01,2735.6,WY,"Owl Creek",6281,43.66,-109.01,0.02,nearest_place,,,Crowheart,WY,"Hot Springs County",82512,US,"TIGER/Line® dataset from the US Census Bureau"
+USC00053652,4740.5,866,38.6867,-105.3925,2717.3,CO,"GUFFEY 9SE",4771,38.686789,-105.391355,0.99,rooftop,171,"Wapiti Ct","Canon City",CO,"Fremont County",81212,US,Fremont
+USC00395381,4725.7,867,45.8383,-101.2767,664.2,SD,"MC INTOSH 6 SE",7508,45.8383,-101.2767,0.07,nearest_place,,,"Mc Intosh",SD,"Corson County",57641,US,"TIGER/Line® dataset from the US Census Bureau"
+USS0005J12S,4715.4,868,40.23,-105.92,2657.9,CO,"Stillwater Creek",4583,40.23,-105.92,0.08,nearest_place,,,"Grand Lake",CO,"Grand County",80447,US,"TIGER/Line® dataset from the US Census Bureau"
+USW00023232,4715.3,869,38.5069,-121.495,4.6,CA,"SACRAMENTO EXECUTIVE AP",6321,38.506968,-121.491776,0.96,nearest_street,6601,"Golf View Dr",Sacramento,CA,"Sacramento County",95822,US,"TIGER/Line® dataset from the US Census Bureau"
+USC00142980,4710.7,870,37.9931,-100.8122,880.9,KS,"GARDEN CITY EXP STN",4442,37.992059,-100.810493,0.98,rooftop,2800,"N Farmland Rd","Garden City",KS,"Finney County",67846,US,Statewide
+USS0018F01S,4673.9,871,44.01,-118.84,1612.4,OR,"Rock Springs",6313,44.01,-118.84,0.05,nearest_place,,,Seneca,OR,"Grant County",97873,US,"TIGER/Line® dataset from the US Census Bureau"
+USW00024225,4670.5,872,42.3811,-122.8722,395.3,OR,"MEDFORD ROGUE VLY AP",5169,42.385481,-122.87543,0.94,nearest_street,4801,"N Runway Dr","Central Point",OR,"Jackson County",97502,US,"TIGER/Line® dataset from the US Census Bureau"
+USW00023042,4663.4,873,33.6542,-101.8136,993.3,TX,LUBBOCK,6193,33.65634,-101.813711,0.96,nearest_street,6000,"N Walnut Ave",Lubbock,TX,"Lubbock County",79403,US,"TIGER/Line® dataset from the US Census Bureau"
+USC00411128,4655.6,874,33.1908,-102.2681,1005.8,TX,"BROWNFIELD #2",4327,33.190834,-102.26817,1,rooftop,613,"E Cactus Ln",Brownfield,TX,"Terry County",79316,US,"Statewide Partial"
+USW00026617,4631.9,875,64.5111,-165.44,4,AK,"NOME MUNI AP",6793,64.5111,-165.44,0.41,nearest_place,,,Nome,AK,"Nome Census Area",99762,US,"TIGER/Line® dataset from the US Census Bureau"
+USC00252645,4624.9,876,42.0628,-102.3172,1191.5,NE,"ELLSWORTH 2W",5003,42.058986,-102.316943,0.95,nearest_street,2701,"State Hwy 2",Ellsworth,NE,"Sheridan County",69340,US,"TIGER/Line® dataset from the US Census Bureau"
+USW00026451,4621.1,877,61.1689,-150.0278,36.6,AK,"ANCHORAGE INTL AP",3714,61.174973,-150.03144,0.93,nearest_street,8004,"W End Rd",Anchorage,AK,"Anchorage Municipality",99517,US,"TIGER/Line® dataset from the US Census Bureau"
+USS0007S04S,4612,878,33.36,-107.83,2590.8,NM,"Lookout Mountain",3793,33.36,-107.83,0.06,nearest_place,,,Winston,NM,"Sierra County",87943,US,"TIGER/Line® dataset from the US Census Bureau"
+USW00023234,4588.7,879,37.6197,-122.3647,2.4,CA,"SAN FRANCISCO INTL AP",5974,37.6197,-122.3647,0.46,nearest_place,,,"San Francisco",CA,"San Mateo County",94128,US,"TIGER/Line® dataset from the US Census Bureau"
+US1COLR0259,4547.8,880,40.5857,-105.1317,1560,CO,"FCL 2.5 W",4695,40.585573,-105.131884,1,rooftop,3012,"W Olive St","Fort Collins",CO,"Larimer County",80521,US,"City of Fort Collins"
+USC00413972,4540.2,881,34.3697,-102.1175,1116.5,TX,HART,4467,34.370031,-102.118361,0.99,rooftop,2645,"FM 168",Hart,TX,"Castro County",79043,US,"Statewide Partial"
+USC00415183,4497.2,882,33.55,-102.3758,1071.1,TX,LEVELLAND,3339,33.550079,-102.375429,1,rooftop,603,"Grubstake Rd",Levelland,TX,"Hockley County",79336,US,"Statewide Partial"
+USC00291963,4494.3,883,34.5989,-103.2161,1351.8,NM,"CLOVIS 13 N",6301,34.597705,-103.213631,0.96,nearest_street,2330,Sr289,Clovis,NM,"Curry County",88101,US,"TIGER/Line® dataset from the US Census Bureau"
+USC00416074,4470.2,884,33.7186,-102.7586,1147.9,TX,MORTON,4389,33.718489,-102.758726,1,rooftop,103,"E Hayes Ave",Morton,TX,"Cochran County",79346,US,"Statewide Partial"
+USC00244715,4449,885,45.8728,-104.1583,940.6,MT,"KNOBS 4 SW",5443,45.873016,-104.15549,0.96,nearest_street,514,"Webster Rd",Ekalaka,MT,"Carter County",59324,US,"TIGER/Line® dataset from the US Census Bureau"
+USC00244558,4445.8,886,48.3042,-114.2636,901.3,MT,"KALISPELL GLACIER AP",4201,48.31278,-114.262729,0.92,nearest_street,2613,"Trumble Creek Rd",Kalispell,MT,"Flathead County",59901,US,"TIGER/Line® dataset from the US Census Bureau"
+US1WYSH0014,4433.5,887,44.8122,-106.9763,1175.9,WY,"SHERIDAN 1.7 NW",4969,44.812249,-106.97614,1,rooftop,1339,"Cottonwood Cir",Sheridan,WY,"Sheridan County",82801,US,Statewide
+US1COLR0509,4369.2,888,40.3926,-105.1587,1562.1,CO,"LOV 4.0 W",4632,40.392589,-105.15908,1,rooftop,5507,"Bitterbush Way",Loveland,CO,"Larimer County",80537,US,"Larimer County"
+USS0008S01S,4364.9,889,33.74,-108.95,2438.4,NM,"Frisco Divide",4881,33.74,-108.95,0.09,nearest_place,,,Luna,NM,"Catron County",87824,US,"TIGER/Line® dataset from the US Census Bureau"
+US1WYLM0036,4363,890,41.1449,-104.7547,1825.1,WY,"CHEYENNE 2.0 E",4727,41.144684,-104.754875,1,rooftop,4604,"Saddleback Dr",Cheyenne,WY,"Laramie County",82001,US,Laramie
+US1CASM0006,4340.6,891,37.5488,-122.2587,2.1,CA,"FOSTER CITY 1.3 SW",5240,37.548854,-122.258811,1,rooftop,351,"Mainsail Ct","San Mateo",CA,"San Mateo County",94404,US,"San Mateo County"
+USW00022521,4308,892,21.3239,-157.9294,2.1,HI,"HONOLULU INTL AP",4233,21.318726,-157.926582,0.94,nearest_street,1,"Lagoon Dr",Honolulu,HI,"Honolulu County",96819,US,"TIGER/Line® dataset from the US Census Bureau"
+USC00481676,4294,893,41.1517,-104.8061,1865.1,WY,"CHEYENNE WFO",4666,41.151807,-104.805658,1,rooftop,1301,"Airport Pkwy",Cheyenne,WY,"Laramie County",82001,US,Laramie
+USW00024157,4281.9,894,47.6217,-117.5281,717.2,WA,"SPOKANE INTL AP",3935,47.621696,-117.523064,0.95,nearest_street,3638,"S Davison Blvd",Spokane,WA,"Spokane County",99224,US,"TIGER/Line® dataset from the US Census Bureau"
+USW00024028,4277.9,895,41.8706,-103.5931,1202.4,NE,"SCOTTSBLUFF HEILIG AP",4971,41.869229,-103.593511,0.97,nearest_street,250832,"Apron Dr",Scottsbluff,NE,"Scotts Bluff County",69361,US,"TIGER/Line® dataset from the US Census Bureau"
+USS0006L06S,4273.4,896,38.16,-106.6,3054.1,CO,"Cochetopa Pass",4986,38.16,-106.6,0.04,nearest_place,,,Saguache,CO,"Saguache County",81149,US,"TIGER/Line® dataset from the US Census Bureau"
+US1TXMDL006,4253.3,897,32.0063,-102.1463,868.4,TX,"MIDLAND 3.0 WSW",4516,32.006335,-102.146382,1,rooftop,2310,"Regal Pl",Midland,TX,"Midland County",79707,US,Midland
+USW00023051,4251.5,898,36.4486,-103.1539,1511.8,NM,"CLAYTON MUNI AIR PK",3427,36.452832,-103.147057,0.93,nearest_street,900,"Curren St",Clayton,NM,"Union County",88415,US,"TIGER/Line® dataset from the US Census Bureau"
+USC00459376,4194.7,899,48.4742,-120.1886,533.1,WA,"WINTHROP 1 WSW",3102,48.473746,-120.189803,0.99,rooftop,453B,"Twin Lakes Rd",Winthrop,WA,"Okanogan County",98862,US,Okanogan
+USC00241938,4182,900,45.6444,-109.2675,1097.9,MT,COLUMBUS,5745,45.644492,-109.267271,1,rooftop,415,"Stillwater Dr",Columbus,MT,"Stillwater County",59019,US,"Montana State Library"
+USC00058781,4164.4,901,37.6303,-104.7956,1920.2,CO,"WALSENBURG 1 NW",4120,37.629857,-104.795605,0.98,nearest_street,1068,"Arizona St",Walsenburg,CO,"Huerfano County",81089,US,"TIGER/Line® dataset from the US Census Bureau"
+USC00418964,4153.3,902,36.3786,-103.0244,1433.8,TX,TEXLINE,4452,36.378486,-103.024602,1,rooftop,214,"2nd St",Texline,TX,"Dallam County",79087,US,Dallam
+USC00054546,4136.2,903,37.115,-103.2986,1602.3,CO,"KIM 10SSE",4073,37.116765,-103.299021,0.96,nearest_street,101998,"Co Rd 18 2",Kim,CO,"Las Animas County",81049,US,"TIGER/Line® dataset from the US Census Bureau"
+USW00024029,4134.5,904,44.7694,-106.9689,1202.4,WY,"SHERIDAN CO AP",4589,44.771659,-106.96628,0.96,nearest_street,769,"W Brundage Ln",Sheridan,WY,"Sheridan County",82801,US,"TIGER/Line® dataset from the US Census Bureau"
+USW00024018,4124.8,905,41.1519,-104.8061,1867.8,WY,CHEYENNE,4585,41.151807,-104.805658,1,rooftop,1301,"Airport Pkwy",Cheyenne,WY,"Laramie County",82001,US,Laramie
+USC00055236,4121.8,906,40.435,-105.085,1548.4,CO,"LOVELAND 2N",3840,40.435026,-105.085154,1,rooftop,4050,"Niobe Ct",Loveland,CO,"Larimer County",80538,US,"Larimer County"
+USW00024033,4066.1,907,45.8069,-108.5422,1091.5,MT,"BILLINGS LOGAN INTL AP",4862,45.80339,-108.541115,0.95,nearest_street,1949,"Terminal Cir",Billings,MT,"Yellowstone County",59105,US,"TIGER/Line® dataset from the US Census Bureau"
+USW00023254,4052.8,908,37.9917,-122.055,5.5,CA,"CONCORD BUCHANAN FLD",5125,37.994033,-122.051623,0.95,nearest_street,1849,"Solano Way",Concord,CA,"Contra Costa County",94520,US,"TIGER/Line® dataset from the US Census Bureau"
+USS0021G04S,4047.4,909,42.21,-121.13,1490.5,OR,"Gerber Reservoir",4581,42.21,-121.13,0.06,nearest_place,,,Lorella,OR,"Klamath County",97623,US,"TIGER/Line® dataset from the US Census Bureau"
+USW00094055,3998.2,910,46.3583,-104.25,905.6,MT,"BAKER MUNI AP",5425,46.362223,-104.250817,0.95,nearest_street,201,Pleisner,Baker,MT,"Fallon County",59313,US,"TIGER/Line® dataset from the US Census Bureau"
+USW00024127,3992.5,911,40.7781,-111.9694,1287.8,UT,"SALT LAKE CITY INTL AP",5112,40.780183,-111.977538,0.93,nearest_street,3500,"W 510 N","Salt Lake City",UT,"Salt Lake County",84116,US,"TIGER/Line® dataset from the US Census Bureau"
+USW00093037,3948.9,912,38.81,-104.6883,1884,CO,"COLORADO SPRINGS MUNI AP",2994,38.821376,-104.698501,0.9,nearest_street,733,"Mitchell St","Colorado Springs",CO,"El Paso County",80916,US,"TIGER/Line® dataset from the US Census Bureau"
+USW00023062,3935.9,913,39.7633,-104.8694,1611.2,CO,DENVER-STAPLETON,3219,39.763383,-104.869361,1,rooftop,3269,"N Florence Way",Denver,CO,"Denver County",80238,US,Denver
+USW00094008,3932.8,914,48.2138,-106.6213,696.5,MT,"GLASGOW INTL AP",4513,48.204755,-106.614428,0.92,nearest_street,89,"Airport Rd",Glasgow,MT,"Valley County",59230,US,"TIGER/Line® dataset from the US Census Bureau"
+US1AZCH0017,3929,915,31.549,-110.2776,1391.7,AZ,"SIERRA VISTA 1.3 E",4243,31.549845,-110.278402,0.98,rooftop,457,"S Coronado Dr","Sierra Vista",AZ,"Cochise County",85635,US,Cochise
+US1CASD0012,3887.3,916,32.9956,-117.0044,367.6,CA,"POWAY 3.2NE",6488,32.995082,-117.003881,0.99,rooftop,15059,"Eastvale Rd",Poway,CA,"San Diego County",92064,US,"San Diego Geographic Information Source - JPA"
+USS0009S04S,3883.8,917,33.9,-109.16,2590.8,AZ,Nutrioso,4228,33.90558,-109.166383,0.93,nearest_street,99,"Co Rd N 2154",McNary,AZ,"Apache County",85930,US,"TIGER/Line® dataset from the US Census Bureau"
+USS0010J06S,3868,918,40.98,-110.85,2438.4,UT,"Burts Miller Ranch",3719,40.98,-110.85,0.05,nearest_place,,,Evanston,WY,,82930,US,"TIGER/Line® dataset from the US Census Bureau"
+USW00023190,3812.9,919,34.4258,-119.8425,2.7,CA,"SANTA BARBARA MUNI AP",6127,34.430278,-119.844454,0.94,nearest_street,1500,"Cook Pl",Goleta,CA,"Santa Barbara County",93117,US,"TIGER/Line® dataset from the US Census Bureau"
+USC00488858,3801.8,920,43.8111,-107.3653,1426.5,WY,"TENSLEEP 16SSE",4700,43.8111,-107.3653,0.03,nearest_place,,,"Ten Sleep",WY,"Washakie County",82442,US,"TIGER/Line® dataset from the US Census Bureau"
+USC00040029,3775.2,921,41.1936,-120.9447,1278.6,CA,"ADIN RS",4803,41.194144,-120.944654,0.99,rooftop,406,"S Main St",Adin,CA,"Modoc County",96006,US,"Modoc County"
+US1COLR0662,3753.9,922,40.3922,-105.0539,1513,CO,"LOVELAND 2.0 SSE",3215,40.392171,-105.053777,1,rooftop,131,"Cardinal Ave",Loveland,CO,"Larimer County",80537,US,"City of Loveland"
+USC00051743,3703.6,923,39.2367,-107.9797,1831.5,CO,"COLLBRAN 1WSW",3573,39.237509,-107.979735,0.99,rooftop,57482,"Hwy 330",Collbran,CO,"Mesa County",81624,US,"Mesa County"
+USW00003017,3626.3,924,39.8328,-104.6575,1650.2,CO,"DENVER INTL AP",3947,39.8284,-104.658314,0.94,nearest_street,7269,"Allium St",Denver,CO,"Denver County",80249,US,"TIGER/Line® dataset from the US Census Bureau"
+USW00024153,3610.9,925,46.9208,-114.0925,972.9,MT,"MISSOULA INTL AP",3851,46.924884,-114.088543,1,nearest_street,5590,"I- 90 Bus",Missoula,MT,"Missoula County",59808,US,"TIGER/Line® dataset from the US Census Bureau"
+US1IDBV0006,3610.6,926,43.6176,-111.884,1487.4,ID,"IDAHO FALLS 11.7 NE",3738,43.617438,-111.883635,1,rooftop,13480,"N 75th E","Idaho Falls",ID,"Bonneville County",83401,US,Bonneville
+US1UTML0001,3574.8,927,39.3723,-112.3339,1565.1,UT,"OAK CITY 0.3 SSE",4425,39.372433,-112.334053,1,rooftop,70,"E 100 S","Oak City",UT,"Millard County",84649,US,"Utah AGRC (and individual UT counties)"
+USC00044997,3552.6,928,37.6922,-121.7692,146.3,CA,LIVERMORE,4470,37.692115,-121.769111,1,rooftop,2492,"Harewood Dr",Livermore,CA,"Alameda County",94551,US,"Alameda County"
+USW00023023,3509.4,929,31.9433,-102.1889,874.2,TX,"MIDLAND ODESSA",3630,31.942486,-102.189433,0.99,rooftop,2500,"Challenger Dr",Midland,TX,"Midland County",79706,US,Midland
+US1NMGR0027,3496.1,930,33.023,-108.5441,1427.1,NM,"CLIFF 5.7 NE",3693,33.023337,-108.544784,0.98,nearest_street,519,"State Hwy 293",Cliff,NM,"Grant County",88028,US,"TIGER/Line® dataset from the US Census Bureau"
+US1COBO0143,3484.3,931,40.2001,-105.1087,1538.9,CO,"LONGMONT 2.1 N",4174,40.200176,-105.108858,1,rooftop,2317,"Squires Ct",Longmont,CO,"Boulder County",80501,US,Boulder
+USW00024037,3453.4,932,46.4267,-105.8825,799.8,MT,"MILES CITY F WILEY FLD",3718,46.4267,-105.8825,0.11,nearest_place,,,"Miles City",MT,"Custer County",59301,US,"TIGER/Line® dataset from the US Census Bureau"
+USW00023237,3423.8,933,37.8892,-121.2258,7.9,CA,"STOCKTON METRO AP",4331,37.890619,-121.220042,0.94,nearest_street,7692,"Kingsley Rd",Stockton,CA,"San Joaquin County",95215,US,"TIGER/Line® dataset from the US Census Bureau"
+US1CALA0001,3421.7,934,34.1689,-118.2947,155.8,CA,"GLENDALE 2.4 WSW",6430,34.168807,-118.294642,1,rooftop,1740,"Standard Ave",Glendale,CA,"Los Angeles County",91201,US,"Los Angeles County"
+USW00026411,3396.9,935,64.8039,-147.8761,131.7,AK,"FAIRBANKS INTL AP",4176,64.812297,-147.881525,0.92,nearest_street,5367,"Airport Industrial Rd",Fairbanks,AK,"Fairbanks North Star Borough",99709,US,"TIGER/Line® dataset from the US Census Bureau"
+USW00024149,3379.9,936,46.3747,-117.0156,437.7,ID,"LEWISTON NEZ PERCE CO AP",3411,46.377985,-117.019738,0.95,nearest_street,489,"Oconner Rd",Lewiston,ID,"Nez Perce County",83501,US,"TIGER/Line® dataset from the US Census Bureau"
+USW00094012,3373.7,937,48.5428,-109.7633,787.9,MT,"HAVRE CITY CO AP",3142,48.546641,-109.763429,0.95,nearest_street,5122,"9th St W",Havre,MT,"Hill County",59501,US,"TIGER/Line® dataset from the US Census Bureau"
+US1CARV0008,3355.8,938,33.7307,-117.4276,427.9,CA,"CORONA 12.8 SE",5710,33.730591,-117.427645,1,rooftop,13342,"Cloudburst Dr",Corona,CA,"Riverside County",92883,US,Riverside
+USW00024089,3349.4,939,42.8975,-106.4636,1627,WY,"CASPER NATRONA CO AP",3687,42.897923,-106.463511,0.99,rooftop,8410,"Fuller St",Casper,WY,"Natrona County",82604,US,Natrona
+US1AZPM0111,3343.7,940,32.139,-110.7674,886.1,AZ,"TUCSON 10.5 ESE",4223,32.139042,-110.767383,1,rooftop,10544,"E Malta St",Tucson,AZ,"Pima County",85747,US,Pima
+USC00051294,3330.4,941,38.46,-105.2256,1639.2,CO,"CANON CITY",3219,38.459641,-105.225481,0.99,rooftop,1615,"Central Ave","Canon City",CO,"Fremont County",81212,US,Fremont
+USW00024155,3330.4,942,45.6906,-118.8528,461.8,OR,PENDLETON,3145,45.689279,-118.85177,0.97,nearest_street,2042,"NW 56th St",Pendleton,OR,"Umatilla County",97801,US,"TIGER/Line® dataset from the US Census Bureau"
+USC00054254,3313.9,943,37.0856,-107.5333,1995.8,CO,"IGNACIO 6ESE",3659,37.085437,-107.533056,1,rooftop,6698,"Hwy 151",Ignacio,CO,"La Plata County",81137,US,"La Plata"
+USW00093026,3249.6,944,31.4583,-109.6061,1251.2,AZ,"DOUGLAS BISBEE INL AP",4137,31.451719,-109.606722,0.93,nearest_street,3300,"W Double Adobe Rd",McNeal,AZ,"Cochise County",85617,US,"TIGER/Line® dataset from the US Census Bureau"
+USW00023293,3213.1,945,37.3592,-121.9239,15.5,CA,"SAN JOSE",4092,37.358351,-121.922557,0.98,rooftop,1659,"Airport Bl","San Jose",CA,"Santa Clara County",95110,US,"City of San Jose"
+USC00057033,3202.5,946,39.5572,-107.7261,1667,CO,"RIFLE 3ENE",3654,39.556327,-107.72588,0.99,rooftop,868,"223 County Rd",Rifle,CO,"Garfield County",81650,US,Garfield
+USC00051964,3151.4,947,37.9806,-105.6897,2439.6,CO,"CRESTONE 2 SE",3073,37.980204,-105.690195,0.98,nearest_street,170,"Cam Baca Grande",Crestone,CO,"Saguache County",81131,US,"TIGER/Line® dataset from the US Census Bureau"
+USW00024131,3112.9,948,43.5667,-116.2406,857.7,ID,"BOISE AIR TERMINAL",3702,43.565017,-116.244409,0.95,nearest_street,4167,"S Orchard St",Boise,ID,"Ada County",83705,US,"TIGER/Line® dataset from the US Census Bureau"
+USW00023233,3060.9,949,36.6636,-121.6081,22.6,CA,"SALINAS MUNICIPAL AP",3622,36.665587,-121.612159,0.95,nearest_street,1,"Mortensen Ave",Salinas,CA,"Monterey County",93905,US,"TIGER/Line® dataset from the US Census Bureau"
+USW00093134,3050.2,950,34.0511,-118.2353,70.1,CA,"LOS ANGELES DWTN USC CAMPUS",5476,34.050594,-118.235311,0.99,rooftop,501,"E Temple St","Los Angeles",CA,"Los Angeles County",90012,US,"Los Angeles County"
+USC00422592,3049.6,951,37.7686,-111.5978,1770.9,UT,ESCALANTE,3283,37.768502,-111.598166,1,rooftop,125,"S 100 E",Escalante,UT,"Garfield County",84726,US,"Utah AGRC (and individual UT counties)"
+USW00026616,3049.5,952,66.8667,-162.6333,9.1,AK,"KOTZEBUE RALPH WEIN AP",3495,66.8667,-162.6333,0.02,nearest_place,,,Kotzebue,AK,"Northwest Arctic Borough",99752,US,"TIGER/Line® dataset from the US Census Bureau"
+USW00024156,3037.7,953,42.9203,-112.5711,1364.9,ID,"POCATELLO RGNL AP",3155,42.929582,-112.56976,0.92,nearest_street,1300,"Airport Boundary",Pocatello,ID,"Power County",83204,US,"TIGER/Line® dataset from the US Census Bureau"
+USW00023273,3001.8,954,34.8994,-120.4486,73.8,CA,"SANTA MARIA PUBLIC AP",4346,34.899798,-120.448895,0.98,nearest_street,3272,"Lightning St","Santa Maria",CA,"Santa Barbara County",93455,US,"TIGER/Line® dataset from the US Census Bureau"
+USW00023009,2930.6,955,33.3075,-104.5083,1112.2,NM,"ROSWELL IND AIR PK",2881,33.311586,-104.513865,0.93,nearest_street,117,"E Earl Cummings Loop",Roswell,NM,"Chaves County",88203,US,"TIGER/Line® dataset from the US Census Bureau"
+USW00023129,2883.5,956,33.8117,-118.1464,9.4,CA,"LONG BEACH DAUGHERTY FLD",5468,33.810792,-118.147602,0.98,rooftop,3609,"E Spring St","Long Beach",CA,"Los Angeles County",90806,US,"City of Long Beach"
+USW00023160,2874.7,957,32.1314,-110.9553,776.9,AZ,"TUCSON INTL AP",3465,32.131827,-110.95522,0.98,nearest_street,1456,"E Super Sabre Dr",Tucson,AZ,"Pima County",85706,US,"TIGER/Line® dataset from the US Census Bureau"
+USW00093058,2869.2,958,38.29,-104.4983,1438.7,CO,"PUEBLO MEM AP",3336,38.283383,-104.495352,0.93,nearest_street,31111,"Bryan Cir",Pueblo,CO,"Pueblo County",81001,US,"TIGER/Line® dataset from the US Census Bureau"
+USC00262570,2850.6,959,40.8603,-115.7425,1595.6,NV,"ELKO NWS OFFICE",4001,40.856344,-115.743113,1,nearest_street,,"I 80",Elko,NV,"Elko County",89801,US,"TIGER/Line® dataset from the US Census Bureau"
+USW00093209,2813.3,960,35.6697,-120.6283,246.9,CA,"PASO ROBLES MUNI AP",4397,35.664401,-120.6303,0.94,nearest_street,4332,"Cloud Way","Paso Robles",CA,"San Luis Obispo County",93446,US,"TIGER/Line® dataset from the US Census Bureau"
+USC00042805,2792.8,961,33.6861,-117.3458,386.5,CA,ELSINORE,4829,33.686038,-117.347191,0.98,rooftop,18000,"Strickland Ave","Lake Elsinore",CA,"Riverside County",92530,US,Riverside
+USC00487105,2791.5,962,42.4717,-106.8528,1805.3,WY,"PATHFINDER DAM",3364,42.471953,-106.852329,0.99,rooftop,27600,"Pathfinder Rd",Casper,WY,"Natrona County",82604,US,Natrona
+USW00024137,2735.8,963,48.6033,-112.3753,1169.8,MT,"CUT BANK MUNI AP",2793,48.6033,-112.3753,0.16,nearest_place,,,"Cut Bank",MT,"Glacier County",59427,US,"TIGER/Line® dataset from the US Census Bureau"
+US1NVWH0011,2730.8,964,39.5084,-119.8442,1393.9,NV,"RENO 2.4 SSW",3694,39.508424,-119.844173,1,rooftop,1000,"Lyman Ave",Reno,NV,"Washoe County",89509,US,Washoe
+USW00094185,2697.6,965,43.595,-118.9564,1261.9,OR,"BURNS MUNI AP",3741,43.585346,-118.957748,0.92,nearest_street,32866,"Airport Rd",Burns,OR,"Harney County",97720,US,"TIGER/Line® dataset from the US Census Bureau"
+US1NVWH0002,2689.4,966,39.5573,-119.8144,1494.1,NV,"RENO 1.4 NNE",3653,39.557352,-119.814255,1,rooftop,912,"University Ridge Dr",Reno,NV,"Washoe County",89512,US,Washoe
+USW00023174,2688.7,967,33.9381,-118.3889,29.6,CA,"LOS ANGELES INTL AP",4757,33.931443,-118.390129,1,nearest_street,,"I 105","Los Angeles",CA,"Los Angeles County",90045,US,"TIGER/Line® dataset from the US Census Bureau"
+USW00024121,2687.1,968,40.8289,-115.7886,1533.1,NV,"ELKO RGNL AP",3759,40.830006,-115.784369,0.95,nearest_street,926,"Terminal Way",Elko,NV,"Elko County",89801,US,"TIGER/Line® dataset from the US Census Bureau"
+USW00093193,2664.2,969,36.78,-119.7194,101.5,CA,"FRESNO YOSEMITE INTL AP",3154,36.780402,-119.717674,0.98,rooftop,3245,"N Air Cargo Ln",Fresno,CA,"Fresno County",93727,US,"Fresno County"
+USC00487760,2659.6,970,43.0306,-108.3744,1510.3,WY,RIVERTON,2857,43.030538,-108.374511,1,rooftop,1308,"E Pershing Ave",Riverton,WY,"Fremont County",82501,US,Fremont
+US1NMBR0034,2542.7,971,35.1278,-106.5437,1676.1,NM,"ALBUQUERQUE 4.6 E",3027,35.127838,-106.54383,1,rooftop,3809,"General Somervell St NE",Albuquerque,NM,"Bernalillo County",87111,US,Albuquerque
+USW00003170,2503.4,972,39.6014,-116.0056,1809.3,NV,"EUREKA AIRPORT",3477,39.589003,-116.007,0.91,nearest_street,550,"3rd St",Eureka,NV,"Eureka County",89316,US,"TIGER/Line® dataset from the US Census Bureau"
+USW00023188,2449.5,973,32.7336,-117.1831,4.6,CA,"SAN DIEGO LINDBERGH FLD",3886,32.736489,-117.178815,0.94,nearest_street,,"Pacific Hwy","San Diego",CA,"San Diego County",92101,US,"TIGER/Line® dataset from the US Census Bureau"
+USW00024138,2443.3,974,45.2575,-112.5545,1585,MT,"DILLON AP",2247,45.251695,-112.555847,0.94,nearest_street,2433,"Airport Rd",Dillon,MT,"Beaverhead County",59725,US,"TIGER/Line® dataset from the US Census Bureau"
+USC00029464,2442,975,33.7775,-112.5231,513,AZ,"WITTMANN 1SE",3727,33.777451,-112.523138,1,rooftop,21414,"W Wildflower Dr",Wittmann,AZ,"Maricopa County",85361,US,Maricopa
+US1NMBR0148,2441.4,976,35.0944,-106.6123,1572.8,NM,"ALBUQUERQUE 1.7 SSE",2805,35.094473,-106.612215,1,rooftop,2908,"Constitution Ave NE",Albuquerque,NM,"Bernalillo County",87106,US,Albuquerque
+USC00290231,2351.6,977,35.0217,-106.6939,1510.3,NM,"ALBUQUERQUE VALLEY",2166,35.021483,-106.693424,0.99,rooftop,3619,"Camino Alameda SW",Albuquerque,NM,"Bernalillo County",87105,US,Albuquerque
+USC00297477,2341.1,978,35.2836,-106.6194,1594.1,NM,"RIO RANCHO #1",2601,35.283536,-106.619464,1,rooftop,5671,"Carson Rd NE","Rio Rancho",NM,"Sandoval County",87144,US,Statewide
+USW00023066,2328.3,979,39.1342,-108.54,1480.7,CO,"GRAND JUNCTION WALKER FLD",2183,39.129584,-108.539312,0.94,nearest_street,2700,"Landingview Ln","Grand Junction",CO,"Mesa County",81506,US,"TIGER/Line® dataset from the US Census Bureau"
+USW00024128,2294.2,980,40.9017,-117.8081,1309.4,NV,"WINNEMUCCA MUNI AP",2585,40.9044,-117.809535,0.96,nearest_street,5598,"Jays Rd",Winnemucca,NV,"Humboldt County",89445,US,"TIGER/Line® dataset from the US Census Bureau"
+US1NMDA0116,2286.7,981,32.2718,-106.7668,1178.1,NM,"MESILLA 2.3 E",2142,32.271802,-106.766857,1,rooftop,3640,"Linden Ave","Las Cruces",NM,"Doña Ana County",88005,US,"Dona Ana 2"
+USC00052184,2237.9,982,37.6911,-106.3078,2391.2,CO,"DEL NORTE 3ENE",3105,37.690272,-106.307715,0.98,nearest_street,9062,"W Co Rd 7 N","Monte Vista",CO,"Rio Grande County",81144,US,"TIGER/Line® dataset from the US Census Bureau"
+USW00023044,2138,983,31.8111,-106.3758,1194.2,TX,"EL PASO INTL AP",2058,31.816123,-106.383555,0.92,nearest_street,73,"Spur Dr","El Paso",TX,"El Paso County",79906,US,"TIGER/Line® dataset from the US Census Bureau"
+USW00024243,2115.1,984,46.5683,-120.5428,324.3,WA,"YAKIMA AIR TERMINAL",2172,46.569053,-120.543254,0.99,rooftop,2106,"W Washington Ave",Yakima,WA,"Yakima County",98902,US,Yakima
+USC00483396,2085.5,985,41.9861,-110.0611,1976.6,WY,"FONTENELLE DAM",2153,41.986123,-110.060657,1,rooftop,39,"Maverick Rd",Kemmerer,WY,"Lincoln County",83101,US,Lincoln
+USC00483031,2060.1,986,44.4972,-108.3906,1355.8,WY,EMBLEM,2906,44.49586,-108.391581,0.97,nearest_street,3407,"Co Rd 10",Greybull,WY,"Big Horn County",82426,US,"TIGER/Line® dataset from the US Census Bureau"
+USW00023185,2053.4,987,39.4839,-119.7711,1344.2,NV,"RENO TAHOE INTL AP",2836,39.483195,-119.773515,0.96,nearest_street,3600,"Pamela Ave",Reno,NV,"Washoe County",89502,US,"TIGER/Line® dataset from the US Census Bureau"
+USW00023050,2051.7,988,35.0419,-106.6156,1618.5,NM,"ALBUQUERQUE INTL AP",2231,35.037329,-106.620531,0.94,nearest_street,2749,"Clark Carr Rd SE",Albuquerque,NM,"Bernalillo County",87106,US,"TIGER/Line® dataset from the US Census Bureau"
+USC00027187,2033.4,989,32.8117,-111.6314,455.7,AZ,"ROBSON RCH",2864,32.811604,-111.63125,1,rooftop,5345,"N Cordes Dr",Eloy,AZ,"Pinal County",85131,US,Pinal
+USC00297481,2006.1,990,35.2522,-106.6347,1612.4,NM,"RIO RANCHO #2",2098,35.252368,-106.634944,1,rooftop,210,"Villa Verde Dr SE","Rio Rancho",NM,"Sandoval County",87124,US,Statewide
+USW00023194,1892.7,991,35.0281,-110.7208,1489.3,AZ,"WINSLOW MUNI AP",1774,35.028184,-110.71984,0.99,rooftop,1620,"Coopertown Rd - Winslow 86047",Winslow,AZ,"Navajo County",86047,US,Statewide
+USW00023183,1739.9,992,33.4278,-112.0039,337.4,AZ,"PHOENIX SKY HARBOR INTL AP",1511,33.425719,-112.008825,0.94,nearest_street,3252,"E Old Tower Rd",Phoenix,AZ,"Maricopa County",85034,US,"TIGER/Line® dataset from the US Census Bureau"
+USW00023155,1514.6,993,35.4344,-119.0542,149,CA,"BAKERSFIELD AP",2320,35.434177,-119.052273,0.97,nearest_street,1349,"Boughton Dr",Bakersfield,CA,"Kern County",93308,US,"TIGER/Line® dataset from the US Census Bureau"
+USW00023179,1170.7,994,34.7675,-114.6189,271.3,CA,"NEEDLES AP",2159,34.767539,-114.61805,0.98,nearest_street,670,"Airport Rd",Needles,CA,"San Bernardino County",92363,US,"TIGER/Line® dataset from the US Census Bureau"
+USW00023169,1025.1,995,36.0719,-115.1633,649.5,NV,"LAS VEGAS MCCARRAN AP",1749,36.070676,-115.162359,0.98,rooftop,246,"Via Antonio Ave","Las Vegas",NV,"Clark County",89119,US,"Las Vegas"

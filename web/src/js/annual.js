@@ -1,10 +1,15 @@
+import scrollama from 'scrollama';
 import loadData from './load-data';
+import 'intersection-observer';
 import './pudding-chart/annual-template';
+
+const scroller = scrollama();
 
 // selections
 const $section = d3.select('.annual');
 const $container = $section.select('figure');
 const $svg = $container.select('svg');
+const $steps = $section.selectAll('.step');
 
 // constants
 let data = null;
@@ -25,6 +30,21 @@ function setupStepIDs() {
             ids: ['USW00094290', 'USW00012815', readerStation],
         },
     ];
+}
+
+function handleStepEnter(response) {
+    const { index } = response;
+    console.log({ index });
+}
+
+function setupScroll() {
+    scroller
+        .setup({
+            step: '.annual .step',
+            offset: 0.7,
+            debug: true,
+        })
+        .onStepEnter(handleStepEnter);
 }
 
 function calculatingDistance(readerLat, readerLong, locLat, locLong) {
@@ -73,7 +93,7 @@ function filterData(step) {
 function setupChart() {
     const filtered = filterData(0);
 
-    const chart = $container.datum(filtered).puddingBar()
+    const chart = $container.datum(filtered).puddingBar();
     console.log({ filtered });
 }
 
@@ -81,6 +101,9 @@ function setup() {
     findNearestStation();
     setupStepIDs();
     setupChart();
+    setupScroll();
+
+    resize();
 
     console.log({ stepIDs });
 }
@@ -99,7 +122,14 @@ function cleanData(data) {
     return clean;
 }
 
-function resize() { }
+function resize() {
+    // 1. update height of step elements
+    const stepH = Math.floor(window.innerHeight * 0.75);
+
+    $steps.style('height', `${stepH}px`);
+
+    scroller.resize();
+}
 
 function init(readerLocation) {
     loadData('annual_precip.csv')
