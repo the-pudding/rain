@@ -32,6 +32,7 @@ d3.selection.prototype.puddingBar = function init(options) {
     const PADDING = 0.1;
     const LOC_PADDING = 100;
     const FONT_SIZE = 16;
+    const TRANSITION_SPEED = 500;
 
     // scales
     const scaleX = d3.scaleLinear();
@@ -52,36 +53,48 @@ d3.selection.prototype.puddingBar = function init(options) {
         $vis = $svg.append('g').attr('class', 'g-vis');
       },
       // on resize, update new dimensions
-      resize() {
+      resize(index) {
         // defaults to grabbing dimensions from container element
         width = $chart.node().offsetWidth - MARGIN_LEFT - MARGIN_RIGHT;
         height = $chart.node().offsetHeight - MARGIN_TOP - MARGIN_BOTTOM;
         $svg
           .attr('width', width + MARGIN_LEFT + MARGIN_RIGHT)
           .attr('height', height + MARGIN_TOP + MARGIN_BOTTOM);
-        const totals = data.map(d => d.total19);
+        const totals =
+          index === 3 ? data.map(d => d.average) : data.map(d => d.total19);
         const max = d3.max(totals);
         scaleX.domain([0, max]).range([0, width - LOC_PADDING]);
         scaleY
-          .domain(d3.range(0, 11))
+          .domain(d3.range(0, 12))
           .range([0, height])
           .padding(PADDING);
 
         return Chart;
       },
       // update scales and render chart
-      render() {
+      render(index) {
+        console.log({ index });
         // offset chart for margins
         $vis.attr('transform', `translate(${MARGIN_LEFT}, ${MARGIN_TOP})`);
         console.log('running');
 
         const $groups = $vis
           .selectAll('.g-location')
-          .data(data)
-          .join(enter => enter.append('g').attr('class', 'g-location'))
-          .attr('transform', (d, i) => `translate(0, ${scaleY(i)})`);
+          .data(data, d => d.id)
+          .join(
+            enter =>
+              enter
+                .append('g')
+                .attr('class', 'g-location')
+                .attr('transform', (d, i) => `translate(0, ${scaleY(i)})`),
+            update =>
+              update
+                .transition()
+                .duration(TRANSITION_SPEED)
+                //.delay((d, i) => i * 50)
+                .attr('transform', (d, i) => `translate(0, ${scaleY(i)})`)
+          );
 
-        console.log({ $groups });
         $groups
           .selectAll('.bar')
           .data(d => [d])
@@ -90,14 +103,19 @@ d3.selection.prototype.puddingBar = function init(options) {
           )
           .attr('x', LOC_PADDING)
           .attr('y', 0)
-          .attr('width', d => scaleX(d.total19))
-          .attr('height', BAR_HEIGHT);
+          .attr('height', BAR_HEIGHT)
+          .transition()
+          .duration(TRANSITION_SPEED)
+          .delay((d, i) => i * 100)
+          .attr('width', d =>
+            index === 3 ? scaleX(d.average) : scaleX(d.total19)
+          );
 
         $groups
           .selectAll('.location')
           .data(d => [d])
           .join(enter => enter.append('text').attr('class', 'location'))
-          .text(d => d.city)
+          .text(d => `${d.city}, ${d.state}`)
           .attr('alignment-baseline', 'middle')
           .attr(
             'transform',
@@ -109,12 +127,18 @@ d3.selection.prototype.puddingBar = function init(options) {
           .selectAll('.annual__amount')
           .data(d => [d])
           .join(enter => enter.append('text').attr('class', 'annual__amount'))
-          .text(d => `${formatThousands(d.total19)} mm`)
+          .text(d =>
+            index === 3
+              ? `${formatThousands(d.average)} mm`
+              : `${formatThousands(d.total19)} mm`
+          )
           .attr('alignment-baseline', 'middle')
-          .attr(
-            'transform',
-            d =>
-              `translate(${scaleX(d.total19) +
+          .attr('transform', d =>
+            index === 3
+              ? `translate(${scaleX(d.average) +
+              LOC_PADDING -
+              MARGIN_RIGHT}, ${BAR_HEIGHT / 2})`
+              : `translate(${scaleX(d.total19) +
               LOC_PADDING -
               MARGIN_RIGHT}, ${BAR_HEIGHT / 2})`
           )

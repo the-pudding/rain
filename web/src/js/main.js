@@ -48,6 +48,7 @@ function findReaderLoc() {
   return new Promise((resolve, reject) => {
     const key = 'fd4d87f605681c0959c16d9164ab6a4a';
     locate(key, (err, result) => {
+      console.log({ result })
       readerLatLong =
         err || result.country_code !== 'US'
           ? {
