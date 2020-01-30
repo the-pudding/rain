@@ -6,8 +6,11 @@
         <button data-condition='flat'>Rainy Days</button>
         <button data-condition='staggered'>Amount of Rain per Day</button>
         {{#each doc.daily-cities}}
-        <h3 data-id={{{id}}}>{{{city}}} - <span>xxx rainy days</span></h3>
-        <div class='daily__container' data-id={{{id}}}></div>
+        <div class='daily__city' data-id={{{id}}}>
+            <h3 class='daily__city-name' data-id={{{id}}}>{{{city}}} </h3>
+            <span class='daily__city-count'>xxx rainy days</span>
+            <div class='daily__container' data-id={{{id}}}></div>
+        </div>
         {{/each}}
     </figure>
 </section>

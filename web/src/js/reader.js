@@ -76,7 +76,7 @@ function findNearestStation(readerLatLong) {
 
 export default function findLocation(reader) {
     return new Promise((resolve, reject) => {
-        loadData('annual_precip.csv')
+        loadData('locations.csv')
             .then(result => {
                 data = cleanData(result);
                 const loc = findNearestStation(reader);

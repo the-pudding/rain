@@ -13,6 +13,8 @@ d3.selection.prototype.puddingDaily = function init(options) {
     function createChart(el) {
         // dom elements
         const $chart = d3.select(el);
+        const $parent = d3.select(el.parentNode)
+
         const $svg = null;
         let $axis = null;
         let $canvas = null;
@@ -26,7 +28,7 @@ d3.selection.prototype.puddingDaily = function init(options) {
         // dimensions
         let width = 0;
         let height = 0;
-        const MARGIN_TOP = 0;
+        const MARGIN_TOP = 30;
         const MARGIN_BOTTOM = 0;
         const MARGIN_LEFT = 0;
         const MARGIN_RIGHT = 0;
@@ -71,6 +73,12 @@ d3.selection.prototype.puddingDaily = function init(options) {
             month: 'Dec', date: new Date(2019, 11, 15)
         }]
 
+        function calculateRainyDays() {
+            const rainyDays = data.filter(d => d.value > 0)
+            const count = rainyDays.length
+            $parent.select('.daily__city-count').text(`${count} rainy days`)
+        }
+
 
         // helper functions
         function setupBarData(condition) {
@@ -105,13 +113,13 @@ d3.selection.prototype.puddingDaily = function init(options) {
             barData.forEach(d => {
                 //Drawing a rectangle
                 $context.fillStyle = d.value > 0 ? dark : light
-                $context.fillRect(scaleX(d.date), 0, RECT_WIDTH, d.h);
+                $context.fillRect(scaleX(d.date), MARGIN_TOP, RECT_WIDTH, d.h);
 
             })
 
             axisLabels.forEach(d => {
                 $context.fillStyle = "red"
-                $context.fillText(d.month, scaleX(d.date), 50)
+                $context.fillText(d.month, scaleX(d.date), 25)
             })
         }
 
@@ -120,6 +128,7 @@ d3.selection.prototype.puddingDaily = function init(options) {
             init() {
                 $canvas = $chart.append('canvas').attr('class', 'daily__canvas');
                 $context = $canvas.node().getContext('2d');
+                calculateRainyDays()
             },
             // on resize, update new dimensions
             resize(largest) {

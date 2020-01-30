@@ -37,8 +37,12 @@ function nestData() {
 function setupCharts() {
     const $sel = d3.select(this);
     const chartID = $sel.attr('data-id');
+    const $parent = d3.select(this.parentNode);
+    console.log($sel);
 
     const filtered = nested.filter(d => d.key === chartID)[0].values;
+
+    $parent.select('h3').text(`${filtered[0].city}, ${filtered[0].state}`);
 
     const chart = $sel.data([filtered]).puddingDaily();
 
@@ -47,7 +51,25 @@ function setupCharts() {
 }
 
 function setupReaderChart() {
-    $figure.select('[data-id="reader"]').text(readerStationDetails.city);
+    // find all station ids already shown
+    const allStations = [];
+
+    $containers.each(function (d) {
+        const id = d3.select(this).attr('data-id');
+        allStations.push(id);
+    });
+
+    // is reader location already shown?
+    const alreadyShown = allStations.includes(readerStationDetails.id);
+
+    // if already shown, hide it
+    $figure
+        .select('[data-id="reader"]')
+        .classed('is-hidden', alreadyShown);
+
+    $figure
+        .select('.daily__city-name [data-id="reader"]')
+        .text(readerStationDetails.city);
     const readerChart = $figure.selectAll('[data-id="reader"]');
     readerChart.attr('data-id', readerStationDetails.id);
 }
