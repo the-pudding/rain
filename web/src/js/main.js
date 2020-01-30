@@ -29,6 +29,7 @@ function resize() {
   if (previousWidth !== width) {
     previousWidth = width;
     annual.resize();
+    daily.resize();
   }
 }
 
@@ -76,7 +77,7 @@ function init() {
   findReaderLoc()
     .then(reader)
     .then(station => {
-      // annual.init(station);
+      annual.init(station);
       daily.init(station);
     });
 }

@@ -93,15 +93,17 @@ d3.selection.prototype.puddingDaily = function init(options) {
 
                 renderBars()
 
+
                 // if animation is over, stop timer
-                if (t === 1) timer.stop()
+                if (t === 1) {
+                    timer.stop()
+                }
             })
         }
-        function renderBars(rectWidth, barHeight) {
+        function renderBars() {
             $context.clearRect(0, 0, width, height)
             barData.forEach(d => {
                 //Drawing a rectangle
-
                 $context.fillStyle = d.value > 0 ? dark : light
                 $context.fillRect(scaleX(d.date), 0, RECT_WIDTH, d.h);
 
@@ -142,16 +144,7 @@ d3.selection.prototype.puddingDaily = function init(options) {
             },
             // update scales and render chart
             render(condition) {
-
-                const rectWidth = Math.round(width / 365)
-                // store the source height of bars
-                //data.forEach(bar => { bar.sh = bar.})
-
                 setupBarData(condition)
-
-
-
-
 
                 return Chart;
             },
