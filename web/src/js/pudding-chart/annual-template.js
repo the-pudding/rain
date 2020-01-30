@@ -19,7 +19,6 @@ d3.selection.prototype.puddingBar = function init(options) {
 
     // data
     let data = $chart.datum();
-    console.log({ data });
 
     // dimensions
     let width = 0;
@@ -155,7 +154,6 @@ d3.selection.prototype.puddingBar = function init(options) {
         let checkBottomBar = null;
 
         if (index >= 2) {
-          console.log({ check: rankMap.get(data[10].id) });
           const firstAdd = rankMap.get(data[10].id) + 1;
           const secondAdd = rankMap.get(data[11].id) + 1;
 

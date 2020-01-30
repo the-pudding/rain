@@ -1,7 +1,6 @@
 /* global d3 */
 import debounce from 'lodash.debounce';
 import isMobile from './utils/is-mobile';
-import graphic from './graphic';
 import locate from './utils/locate';
 import footer from './footer';
 import annual from './annual';
@@ -27,7 +26,6 @@ function resize() {
   const width = $body.node().offsetWidth;
   if (previousWidth !== width) {
     previousWidth = width;
-    graphic.resize();
     annual.resize();
   }
 }
@@ -49,7 +47,6 @@ function findReaderLoc() {
   return new Promise((resolve, reject) => {
     const key = 'fd4d87f605681c0959c16d9164ab6a4a';
     locate(key, (err, result) => {
-      console.log({ result });
       readerLatLong =
         err || result.country_code !== 'US'
           ? {
@@ -71,9 +68,6 @@ function init() {
   // setup sticky header menu
   setupStickyHeader();
   findReaderLoc();
-  console.log({ readerLatLong });
-  // kick off graphic code
-  graphic.init();
   // load footer stories
   footer.init();
   // load graphics
