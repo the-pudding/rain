@@ -4,10 +4,12 @@ import isMobile from './utils/is-mobile';
 import locate from './utils/locate';
 import footer from './footer';
 import annual from './annual';
+import daily from './daily';
+import reader from './reader';
 
 const $body = d3.select('body');
 let previousWidth = 0;
-let readerLatLong = { latitude: 40, longitude: -72 };
+// let readerLatLong = { latitude: 40, longitude: -72 };
 const defaultLocation = {
   country_code: 'US',
   country_name: 'United States',
@@ -47,7 +49,7 @@ function findReaderLoc() {
   return new Promise((resolve, reject) => {
     const key = 'fd4d87f605681c0959c16d9164ab6a4a';
     locate(key, (err, result) => {
-      readerLatLong =
+      const readerLatLong =
         err || result.country_code !== 'US'
           ? {
               latitude: defaultLocation.latitude,
@@ -71,9 +73,12 @@ function init() {
   // load footer stories
   footer.init();
   // load graphics
-  findReaderLoc().then(() => {
-    annual.init(readerLatLong);
-  });
+  findReaderLoc()
+    .then(reader)
+    .then(station => {
+      annual.init(station);
+      daily.init(station);
+    });
 }
 
 init();

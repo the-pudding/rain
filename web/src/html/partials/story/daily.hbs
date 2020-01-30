@@ -1,0 +1,11 @@
+<section class='daily'>
+    <article>
+        <div class='prose'>{{{doc.post-steps}}}</div>
+    </article>
+    <figure>
+        {{#each doc.daily-cities}}
+        <h3>{{{city}}} - <span>xxx rainy days</span></h3>
+        <div class='daily__container' data-id={{{id}}}></div>
+        {{/each}}
+    </figure>
+</section>

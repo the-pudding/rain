@@ -14,9 +14,9 @@ const $titleLoc = d3.select('.readerCity');
 
 // constants
 let data = null;
-let readerLatLong = null;
-let locationDistance = null;
-let readerStation = null;
+let readerStationDetails = null;
+const locationDistance = null;
+let readerStationID = null;
 let inSeattle = false;
 let readerCity = null;
 let stepIDs = null;
@@ -47,58 +47,18 @@ function setupStepIDs() {
   ];
 }
 
-function calculatingDistance(readerLat, readerLong, locLat, locLong) {
-  // Haversine Formula
-  function toRadians(value) {
-    return (value * Math.PI) / 180;
-  }
-
-  const R = 3958.756; // miles
-  const φ1 = toRadians(readerLat);
-  const φ2 = toRadians(locLat);
-  const Δφ = toRadians(locLat - readerLat);
-  const Δλ = toRadians(locLong - readerLong);
-
-  const a =
-    Math.sin(Δφ / 2) * Math.sin(Δφ / 2) +
-    Math.cos(φ1) * Math.cos(φ2) * Math.sin(Δλ / 2) * Math.sin(Δλ / 2);
-  const c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1 - a));
-
-  return R * c;
-}
-
-function findNearestStation() {
-  locationDistance = data
-    .map(d => ({
-      ...d,
-      distance: calculatingDistance(
-        readerLatLong.latitude,
-        readerLatLong.longitude,
-        +d.latitude,
-        +d.longitude
-      ),
-      seattle: calculatingDistance(
-        readerLatLong.latitude,
-        readerLatLong.longitude,
-        47.6872,
-        -122.2553
-      ),
-    }))
-    .filter(d => !isNaN(d.distance));
-
-  locationDistance.sort((a, b) => d3.descending(a.distance, b.distance));
-  const location = locationDistance.pop();
+function setupStation() {
   // is the reader within 50 miles of Seattle?
-  inSeattle = location.seattle <= 50;
+  inSeattle = readerStationDetails.seattle <= 50;
 
   // if within 50 miles of Seattle, compare to NYC, otherwise, use reader's location
-  readerStation = inSeattle ? 'USW00094728' : location.id;
-  readerCity = inSeattle ? 'New York City' : location.city;
+  readerStationID = inSeattle ? 'USW00094728' : readerStationDetails.id;
+  readerCity = inSeattle ? 'New York City' : readerStationDetails.city;
   $titleLoc.text(readerCity);
   // add the reader Station ID to the filtered data for steps 2 & 3
-  stepIDs[1].ids.push(readerStation);
-  stepIDs[2].ids.push(readerStation);
-  stepIDs[3].ids.push(readerStation);
+  stepIDs[1].ids.push(readerStationID);
+  stepIDs[2].ids.push(readerStationID);
+  stepIDs[3].ids.push(readerStationID);
 }
 
 function setupRankMap(index) {
@@ -166,7 +126,7 @@ function setupChart() {
 
 function setup() {
   setupStepIDs();
-  findNearestStation();
+  setupStation();
   findWettest();
   setupRankMap();
   setupChart();
@@ -199,11 +159,12 @@ function resize() {
   chart.resize(index).render({ index, rankMap });
 }
 
-function init(readerLocation) {
+function init(station) {
   loadData('annual_precip.csv')
     .then(result => {
       data = cleanData(result);
-      readerLatLong = readerLocation;
+      readerStationDetails = station;
+      console.log({ readerStationDetails });
       setup();
     })
     .catch(console.error);
