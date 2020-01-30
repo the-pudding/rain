@@ -3,6 +3,8 @@
         <div class='prose'>{{{doc.post-steps}}}</div>
     </article>
     <figure>
+        <button data-condition='flat'>Rainy Days</button>
+        <button data-condition='staggered'>Amount of Rain per Day</button>
         {{#each doc.daily-cities}}
         <h3 data-id={{{id}}}>{{{city}}} - <span>xxx rainy days</span></h3>
         <div class='daily__container' data-id={{{id}}}></div>

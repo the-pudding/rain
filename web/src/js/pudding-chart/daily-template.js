@@ -147,7 +147,7 @@ d3.selection.prototype.puddingDaily = function init(options) {
                 // store the source height of bars
                 //data.forEach(bar => { bar.sh = bar.})
 
-                setupBarData('staggered')
+                setupBarData(condition)
 
 
 
