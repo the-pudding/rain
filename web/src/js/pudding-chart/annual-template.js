@@ -69,7 +69,7 @@ d3.selection.prototype.puddingBar = function init(options) {
           .range([0, height])
           .padding(PADDING);
 
-        BAR_HEIGHT = height / 12 - PADDING * 12;
+        BAR_HEIGHT = scaleY.bandwidth();
 
         return Chart;
       },
@@ -163,16 +163,21 @@ d3.selection.prototype.puddingBar = function init(options) {
           checkBottomBar = secondAdd === 12 || secondAdd === firstAdd + 1;
         }
 
-        console.log({ index });
         // add dotted lines for broken graphic
+        // figure out where the midpoint between the bars would be
+        const barAdj = Math.round((scaleY.step() - scaleY.bandwidth()) / 2);
         $vis
           .selectAll('.break')
           .data([0, 1])
           .join(enter =>
             enter.append('line').attr('class', (d, i) => `break break-${i}`)
           )
-          .attr('y1', d => (d === 0 ? scaleY(10) : scaleY(11)))
-          .attr('y2', d => (d === 0 ? scaleY(10) : scaleY(11)))
+          .attr('y1', d =>
+            d === 0 ? scaleY(10) - barAdj : scaleY(11) - barAdj
+          )
+          .attr('y2', d =>
+            d === 0 ? scaleY(10) - barAdj : scaleY(11) - barAdj
+          )
           .attr('x1', 0)
           .attr('x2', width)
           .classed(
