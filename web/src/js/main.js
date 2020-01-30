@@ -76,7 +76,7 @@ function init() {
   findReaderLoc()
     .then(reader)
     .then(station => {
-      annual.init(station);
+      // annual.init(station);
       daily.init(station);
     });
 }

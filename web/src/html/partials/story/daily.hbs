@@ -4,7 +4,7 @@
     </article>
     <figure>
         {{#each doc.daily-cities}}
-        <h3>{{{city}}} - <span>xxx rainy days</span></h3>
+        <h3 data-id={{{id}}}>{{{city}}} - <span>xxx rainy days</span></h3>
         <div class='daily__container' data-id={{{id}}}></div>
         {{/each}}
     </figure>

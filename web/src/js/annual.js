@@ -159,7 +159,6 @@ function init(station) {
     .then(result => {
       data = cleanData(result);
       readerStationDetails = station;
-      console.log({ readerStationDetails });
       setup();
     })
     .catch(console.error);
