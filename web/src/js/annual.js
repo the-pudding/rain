@@ -23,6 +23,7 @@ let chart = null;
 const SEATTLE = 'USW00094290';
 const ORLANDO = 'USW00012815';
 let rankMap = null;
+let index = 0;
 
 function setupStepIDs() {
   stepIDs = [
@@ -137,7 +138,7 @@ function filterData(step) {
 }
 
 function handleStepEnter(response) {
-  const { index } = response;
+  index = response.index;
   const filtered = filterData(index);
   setupRankMap(index);
   console.log({ filtered });
@@ -173,8 +174,6 @@ function setup() {
   setupScroll();
 
   resize();
-
-  console.log({ stepIDs });
 }
 
 function cleanData(data) {
@@ -198,6 +197,7 @@ function resize() {
   $steps.style('height', `${stepH}px`);
 
   scroller.resize();
+  chart.resize(index).render({ index, rankMap });
 }
 
 function init(readerLocation) {
