@@ -17,8 +17,8 @@ let data = null;
 let readerStationDetails = null;
 const locationDistance = null;
 let readerStationID = null;
-let inSeattle = false;
-let readerCity = null;
+const inSeattle = false;
+const readerCity = null;
 let stepIDs = null;
 let chart = null;
 const SEATTLE = 'USW00094290';
@@ -48,13 +48,8 @@ function setupStepIDs() {
 }
 
 function setupStation() {
-  // is the reader within 50 miles of Seattle?
-  inSeattle = readerStationDetails.seattle <= 50;
+  readerStationID = readerStationDetails.id;
 
-  // if within 50 miles of Seattle, compare to NYC, otherwise, use reader's location
-  readerStationID = inSeattle ? 'USW00094728' : readerStationDetails.id;
-  readerCity = inSeattle ? 'New York City' : readerStationDetails.city;
-  $titleLoc.text(readerCity);
   // add the reader Station ID to the filtered data for steps 2 & 3
   stepIDs[1].ids.push(readerStationID);
   stepIDs[2].ids.push(readerStationID);
