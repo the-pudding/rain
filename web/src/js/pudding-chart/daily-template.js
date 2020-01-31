@@ -42,7 +42,7 @@ d3.selection.prototype.puddingDaily = function init(options) {
         let timer = null
         let RECT_WIDTH = null
         const dark = '#342A4E'
-        const light = '#B19ED3'
+        const light = '#B0ABB0'
 
 
         // scales
@@ -137,7 +137,6 @@ d3.selection.prototype.puddingDaily = function init(options) {
                 width = ($chart.node().offsetWidth - MARGIN_LEFT - MARGIN_RIGHT) * DPR;
                 height =
                     ($chart.node().offsetHeight - MARGIN_TOP - MARGIN_BOTTOM) * DPR;
-                console.log({ height, $chart })
 
                 $canvas
                     .attr('width', width)

@@ -10,7 +10,9 @@ const $section = d3.select('.annual');
 const $container = $section.select('figure');
 const $svg = $container.select('svg');
 const $steps = $section.selectAll('.step');
-const $titleLoc = d3.select('.readerCity');
+const $readerCompare = d3.select('.readerCompare');
+const $seattleRank = $section.select('.seattleRank');
+const $readerRank = $section.select('.readerRank');
 
 // constants
 let data = null;
@@ -47,6 +49,13 @@ function setupStepIDs() {
   ];
 }
 
+const suffixes = ['th', 'st', 'nd', 'rd'];
+
+function addSuffix(number) {
+  const tail = number % 100;
+  return suffixes[(tail < 11 || tail > 13) && tail % 10] || suffixes[0];
+}
+
 function setupStation() {
   readerStationID = readerStationDetails.id;
 
@@ -69,6 +78,18 @@ function setupRankMap(index) {
   }
 
   rankMap = new Map(ranks);
+}
+
+function setupText() {
+  const seattleTotal = data.filter(d => d.id === SEATTLE)[0].total19;
+  const readerTotal = data.filter(d => d.id === readerStationID)[0].total19;
+  const comparison = readerTotal > seattleTotal;
+  $readerCompare.text(comparison ? 'more' : 'less');
+
+  const seattleRank = rankMap.get(SEATTLE) + 1;
+  const readerRank = rankMap.get(readerStationID) + 1;
+  $seattleRank.text(`${seattleRank}${addSuffix(seattleRank)}`);
+  $readerRank.text(`${readerRank}${addSuffix(readerRank)}`);
 }
 
 function findWettest() {
@@ -126,6 +147,7 @@ function setup() {
   setupRankMap();
   setupChart();
   setupScroll();
+  setupText();
 
   resize();
 }
@@ -133,12 +155,8 @@ function setup() {
 function cleanData(data) {
   const clean = data.map(d => ({
     ...d,
-    latitude: +d.latitude,
-    longitude: +d.longitude,
     average: +d.average,
-    rank: +d.rank,
     total19: +d.total19,
-    elevation: +d.elevation,
   }));
 
   return clean;
@@ -146,7 +164,7 @@ function cleanData(data) {
 
 function resize() {
   // 1. update height of step elements
-  const stepH = Math.floor(window.innerHeight * 0.75);
+  const stepH = Math.floor(window.innerHeight);
 
   $steps.style('height', `${stepH}px`);
 
