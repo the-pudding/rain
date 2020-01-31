@@ -4,24 +4,38 @@
 
 	&__hed
 		max-width 60rem
-		margin 0 auto
-		text-align center
-		
-	&__dek
+		margin 0 auto 4rem auto
+		text-align left
+		font-family $national
+		font-weight bold
+		set-type-size('xxxxx-large')
+		max-width $column-width
+		line-height 1.2
+		padding 0 1rem
+		span 
+			padding 0 0.5rem
+			background-color $secondary
+			color $bg
+
+	&__details 
+		display flex 
 		max-width $column-width
 		margin 0 auto
-		margin-top 1rem
-		text-align center
-	
+		justify-content space-between
+		padding 0 1rem
+
+
 	&__byline
 		max-width $column-width
-		margin 0 auto
 		margin-top 1rem
-		text-align center
+		text-align left
+		font-family $national-narrow
+		set-type-size('x-large')
 	
 	&__time
 		display block
 		max-width $column-width
-		margin 0 auto
 		margin-top 1rem
-		text-align center
+		text-align right
+		font-family $national-narrow
+		set-type-size('x-large')

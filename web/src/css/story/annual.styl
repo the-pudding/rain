@@ -3,13 +3,21 @@
         position sticky 
         top 25vh
         height 50vh
-        border 1px solid $black
         max-width $column-width
         margin 0 auto
         .annual__amount 
-            fill white
+            fill $bg
+            font-family $national-narrow 
+            font-weight bold 
+            set-type-size('medium')
+        .location 
+            font-family $national-narrow 
+            set-type-size('large')
+            fill $primary
+            &::first-letter 
+                font-size bold
         .break 
-            stroke red
+            stroke $primary
             stroke-width 1px
             stroke-dasharray 5,5
             opacity 1
@@ -21,3 +29,8 @@
         position relative
         max-width $column-width
         margin 0 auto
+        .step-prose 
+            font-family $national
+            max-width 30rem
+            margin 0 auto 
+            padding 0 1rem

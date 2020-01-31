@@ -99,7 +99,7 @@ function handleStepEnter(response) {
   chart
     .data(filtered)
     .resize(index)
-    .render({ index, rankMap });
+    .render({ index, rankMap, readerStationID });
 }
 
 function setupScroll() {

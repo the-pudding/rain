@@ -385,7 +385,7 @@ dailyTotals <- all10 %>%
 
 write.csv(dailyTotals, here::here("assets", "data", "processed_data", "daily_precip.csv"), row.names = FALSE, na = "")
 
-write.csv(dailyTotals, "../../web/src/assets/data/daily_precip.csv", row.names = FALSE, na = "")
+#write.csv(dailyTotals, "../../web/src/assets/data/daily_precip.csv", row.names = FALSE, na = "")
 ```
 
 
@@ -399,8 +399,33 @@ geocoded <- read.csv(here::here("assets", "data", "processed_data", "annual_prec
   select(-c("Latitude", "Longitude", "rank", "Accuracy.Score", "Accuracy.Type", "Number", "Street", "State", "Zip", "Country", "County", "Source")) %>% 
   rename(city = City)
 
+geocodedExport <- geocoded %>% 
+  select(c("id", "average", "total19", "city", "state"))
+
 mapview(geocoded, xcol = "longitude", ycol = "latitude", crs = 4269, grid = FALSE)
 
-write.csv(geocoded, "../../web/src/assets/data/annual_precip.csv", row.names = FALSE, na = "")
+write.csv(geocodedExport, "../../web/src/assets/data/annual_precip.csv", row.names = FALSE, na = "")
+```
+
+```{r}
+geocodedIDs <- geocoded %>% 
+  select(c("id", "latitude", "longitude", "city", "state"))
+
+write.csv(geocodedIDs, "../../web/src/assets/data/locations.csv", row.names = FALSE, na = "")
+```
+
+
+```{r}
+test <- dailyTotals %>% filter(id %in% geocoded$id)
+levels(as.factor(test$id))
+
+dailyGeo <- dailyTotals %>% 
+  select(-c("latitude", "longitude", "elevation", "name", "state")) %>% 
+  left_join(geocoded, by = "id") %>% 
+  select(-c("element", "latitude", "longitude", "elevation", "name", "average", "total19")) %>% 
+  filter(!is.na(city))
+
+write.csv(dailyGeo, "../../web/src/assets/data/daily_precip.csv", row.names = FALSE, na = "")
+
 ```
 

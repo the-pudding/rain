@@ -20,16 +20,21 @@ d3.selection.prototype.puddingBar = function init(options) {
     // data
     let data = $chart.datum();
 
+    // colors
+    const seattleColor = '#A7435C';
+    const readerColor = '#342A4E';
+    const defaultColor = '#543F61';
+
     // dimensions
     let width = 0;
     let height = 0;
     const MARGIN_TOP = 0;
     const MARGIN_BOTTOM = 0;
-    const MARGIN_LEFT = 16;
-    const MARGIN_RIGHT = 16;
+    const MARGIN_LEFT = 8;
+    const MARGIN_RIGHT = 8;
     let BAR_HEIGHT = 20;
     const PADDING = 0.2;
-    const LOC_PADDING = 150;
+    const LOC_PADDING = 200;
     const FONT_SIZE = 16;
     const TRANSITION_SPEED = 500;
 
@@ -73,7 +78,7 @@ d3.selection.prototype.puddingBar = function init(options) {
         return Chart;
       },
       // update scales and render chart
-      render({ index, rankMap }) {
+      render({ index, rankMap, readerStationID }) {
         // offset chart for margins
         $vis.attr('transform', `translate(${MARGIN_LEFT}, ${MARGIN_TOP})`);
 
@@ -105,6 +110,11 @@ d3.selection.prototype.puddingBar = function init(options) {
           .attr('x', LOC_PADDING)
           .attr('y', 0)
           .attr('height', BAR_HEIGHT)
+          .style('fill', d => {
+            if (d.id === 'USW00094290') return seattleColor
+            if (d.id === readerStationID) return readerColor
+            return defaultColor
+          })
           .transition()
           .duration(TRANSITION_SPEED)
           // .delay((d, i) => i * 100)
