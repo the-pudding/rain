@@ -134,7 +134,7 @@ function setupScroll() {
   scroller
     .setup({
       step: '.annual .step',
-      offset: 0.7,
+      offset: 0.9,
       debug: false,
     })
     .onStepEnter(handleStepEnter);

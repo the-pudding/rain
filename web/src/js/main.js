@@ -18,8 +18,8 @@ const defaultLocation = {
   city: 'New York',
   zip_code: '10001',
   time_zone: 'America/New_York',
-  latitude: 40,
-  longitude: -72,
+  latitude: 40.7789,
+  longitude: -73.9692,
 };
 
 function resize() {
@@ -53,9 +53,9 @@ function findReaderLoc() {
       const readerLatLong =
         err || result.country_code !== 'US'
           ? {
-              latitude: defaultLocation.latitude,
-              longitude: defaultLocation.longitude,
-            }
+            latitude: defaultLocation.latitude,
+            longitude: defaultLocation.longitude,
+          }
           : { latitude: result.latitude, longitude: result.longitude };
 
       resolve(readerLatLong);

@@ -17,6 +17,7 @@ d3.selection.prototype.puddingBar = function init(options) {
     let $axis = null;
     let $vis = null;
 
+
     // data
     let data = $chart.datum();
 
@@ -153,11 +154,11 @@ d3.selection.prototype.puddingBar = function init(options) {
           .attr('transform', d =>
             index === 3
               ? `translate(${scaleX(d.average) +
-                  LOC_PADDING -
-                  MARGIN_RIGHT}, ${BAR_HEIGHT / 2})`
+              LOC_PADDING -
+              MARGIN_RIGHT}, ${BAR_HEIGHT / 2})`
               : `translate(${scaleX(d.total19) +
-                  LOC_PADDING -
-                  MARGIN_RIGHT}, ${BAR_HEIGHT / 2})`
+              LOC_PADDING -
+              MARGIN_RIGHT}, ${BAR_HEIGHT / 2})`
           )
           .attr('text-anchor', 'end');
         let checkTopBar = null;

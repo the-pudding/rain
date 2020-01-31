@@ -14,16 +14,19 @@ d3.selection.prototype.puddingDaily = function init(options) {
         // dom elements
         const $chart = d3.select(el);
         const $parent = d3.select(el.parentNode)
+        const $legend = d3.select('.daily__legend-staggered')
 
         const $svg = null;
         let $axis = null;
         let $canvas = null;
         let $context = null;
         let $vis = null;
+        let $legendBars = null
 
         // data
         let data = $chart.datum();
         let barData = null;
+        let dataCity = data[0].city
 
         // dimensions
         let width = 0;
@@ -48,6 +51,7 @@ d3.selection.prototype.puddingDaily = function init(options) {
         // scales
         const scaleX = d3.scaleTime();
         const scaleY = d3.scaleLinear();
+        const legendX = d3.scaleBand()
 
         const axisLabels = [{
             month: 'Jan',
@@ -76,7 +80,7 @@ d3.selection.prototype.puddingDaily = function init(options) {
         function calculateRainyDays() {
             const rainyDays = data.filter(d => d.value > 0)
             const count = rainyDays.length
-            $parent.select('.daily__city-count').text(`${count} rainy days`)
+            $parent.select('.daily__city-count').text(`${count} wet days`)
         }
 
 
@@ -124,11 +128,37 @@ d3.selection.prototype.puddingDaily = function init(options) {
             })
         }
 
+        function setupLegend(largest, RECT_WIDTH) {
+
+
+            const int = Math.round(largest / 5)
+            const legendData = d3.range(0, largest, int)
+            console.log({ largest })
+
+            $legendBars.selectAll('.bar').data(legendData)
+                .join(enter => enter.append('div')
+                    .attr('class', 'bar'))
+                //.attr('transform', (d, i) => `translate(${legendX(i)}, 0)`)
+                .style('width', `${RECT_WIDTH / DPR}px`)
+                .style('height', d => `${scaleY(d) / DPR}px`)
+
+            const high = d3.select('.legend-anno-high').text(`${largest} mm`)
+            console.log({ high })
+        }
+
         const Chart = {
             // called once at start
             init() {
                 $canvas = $chart.append('canvas').attr('class', 'daily__canvas');
                 $context = $canvas.node().getContext('2d');
+                if (dataCity === 'Seattle') {
+                    $legendBars = $legend.append('div').attr('class', 'g-bars')
+                    const $legendAnno = $legend.append('div').attr('class', 'g-anno')
+
+                    $legendAnno.append('p').attr('class', 'legend-anno legend-anno-low').text('0 mm')
+                    $legendAnno.append('p').attr('class', 'legend-anno legend-anno-high')
+                }
+
                 calculateRainyDays()
             },
             // on resize, update new dimensions
@@ -147,8 +177,12 @@ d3.selection.prototype.puddingDaily = function init(options) {
                 scaleX.domain([new Date(2019, 0, 01), new Date(2019, 11, 31)])
                     .range([0, width])
 
+
+
                 scaleY.domain([0, largest]).range([0, height - (BAR_MARGIN + PADDING)])
                 RECT_WIDTH = Math.round(width / 365)
+                legendX.domain(d3.range(0, 5)).domain([0, 5 * RECT_WIDTH])
+                if (data[0].city === 'Seattle') setupLegend(largest, RECT_WIDTH)
 
                 return Chart;
             },

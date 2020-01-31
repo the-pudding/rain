@@ -7,7 +7,8 @@
         margin 0 auto 2rem auto
         padding 0 1rem
         justify-content space-between
-        align-items baseline
+        align-items flex-end
+        min-height 80px
         .legend-label 
             font-family $national-narrow 
             set-type-size('small')
@@ -24,6 +25,22 @@
                 background-color $primary
             .block-dry
                 background-color $light
+            &-staggered
+                .g-bars
+                    display flex
+                    flex-direction row
+                    margin 0.5rem 0
+                    .bar 
+                        background-color $primary
+                .g-anno 
+                    display flex
+                    flex-direction column
+                    justify-content space-between
+                    margin-left 0.5rem
+                    p
+                        margin 0
+                        font-family $national-narrow
+                        set-type-size('small')
 
         .daily__buttons 
             display flex 
