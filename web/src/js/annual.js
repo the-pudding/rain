@@ -13,6 +13,7 @@ const $steps = $section.selectAll('.step');
 const $readerCompare = d3.select('.readerCompare');
 const $seattleRank = $section.select('.seattleRank');
 const $readerRank = $section.select('.readerRank');
+const $chartTitle = $container.select('.figure__hed');
 
 // constants
 let data = null;
@@ -92,6 +93,11 @@ function setupText() {
   $readerRank.text(`${readerRank}${addSuffix(readerRank)}`);
 }
 
+function updateChartTitle(index) {
+  if (index < 3) $chartTitle.text('2019 Annual Precipitation (mm)');
+  else $chartTitle.text('2010-2019 Average Annual Precipitation (mm)');
+}
+
 function findWettest() {
   const wettest19 = data
     // .map(d => ({ ...d }))
@@ -117,6 +123,7 @@ function handleStepEnter(response) {
   index = response.index;
   const filtered = filterData(index);
   setupRankMap(index);
+  updateChartTitle(index);
   chart
     .data(filtered)
     .resize(index)
