@@ -28,15 +28,15 @@ d3.selection.prototype.puddingDaily = function init(options) {
         // dimensions
         let width = 0;
         let height = 0;
-        const MARGIN_TOP = 30;
+        const MARGIN_TOP = 0;
         const MARGIN_BOTTOM = 0;
         const MARGIN_LEFT = 0;
         const MARGIN_RIGHT = 0;
         const DPR = window.devicePixelRatio
             ? Math.min(window.devicePixelRatio, 2)
             : 1;
-        const PADDING = 0.1
-        const defaultHeight = 20
+        const BAR_MARGIN = 30
+        const PADDING = 10
         const DURATION = 500
         const EASE = d3.easeCubic;
         let timer = null
@@ -86,8 +86,8 @@ d3.selection.prototype.puddingDaily = function init(options) {
             barData.forEach(d => {
                 // store the source height
                 // if condition is flat, the starting position is staggered and needs to become flat
-                d.sh = condition === 'flat' ? scaleY(d.value) : defaultHeight,
-                    d.th = condition === 'flat' ? defaultHeight : scaleY(d.value)
+                d.sh = condition === 'flat' ? scaleY(d.value) : height / 2,
+                    d.th = condition === 'flat' ? height / 2 : scaleY(d.value)
             })
 
             timer = d3.timer(elapsed => {
@@ -113,13 +113,14 @@ d3.selection.prototype.puddingDaily = function init(options) {
             barData.forEach(d => {
                 //Drawing a rectangle
                 $context.fillStyle = d.value > 0 ? dark : light
-                $context.fillRect(scaleX(d.date), MARGIN_TOP, RECT_WIDTH, d.h);
+                $context.fillRect(scaleX(d.date), BAR_MARGIN + PADDING, RECT_WIDTH, d.h);
 
             })
 
             axisLabels.forEach(d => {
-                $context.fillStyle = "red"
-                $context.fillText(d.month, scaleX(d.date), 25)
+                $context.fillStyle = '#543F61'
+                $context.fillText(d.month, scaleX(d.date), BAR_MARGIN)
+                $context.font = `${14 * DPR}px "National 2 Narrow Web"`
             })
         }
 
@@ -136,6 +137,7 @@ d3.selection.prototype.puddingDaily = function init(options) {
                 width = ($chart.node().offsetWidth - MARGIN_LEFT - MARGIN_RIGHT) * DPR;
                 height =
                     ($chart.node().offsetHeight - MARGIN_TOP - MARGIN_BOTTOM) * DPR;
+                console.log({ height, $chart })
 
                 $canvas
                     .attr('width', width)
@@ -146,7 +148,7 @@ d3.selection.prototype.puddingDaily = function init(options) {
                 scaleX.domain([new Date(2019, 0, 01), new Date(2019, 11, 31)])
                     .range([0, width])
 
-                scaleY.domain([0, largest]).range([0, 250])
+                scaleY.domain([0, largest]).range([0, height - (BAR_MARGIN + PADDING)])
                 RECT_WIDTH = Math.round(width / 365)
 
                 return Chart;
