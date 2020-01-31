@@ -3,12 +3,35 @@
         <div class='prose'>{{{doc.post-steps}}}</div>
     </article>
     <figure>
-        <button data-condition='flat'>Rainy Days</button>
-        <button data-condition='staggered'>Amount of Rain per Day</button>
+        <h2 class='figure__hed'>{{{doc.daily-hed}}}</h2>
+        <p class='figure__sub'>{{{doc.daily-sub}}}</p>
+        <div class='daily__meta'>
+            <div class='daily__buttons'>
+                <p class='legend-label'>Show</p>
+                <button data-condition='flat' aria-pressed='true'>Rainy Days</button>
+                <button data-condition='staggered' aria-pressed='false'>Amount of Rain per Day</button>
+            </div>
+
+            <div class='daily__legend-flat daily__legend'>
+                <div class='legend-block block-rainy'></div>
+                <p class='legend-label'>Wet Days</p>
+
+                <div class='legend-block block-dry'></div>
+                <p class='legend-label'>Dry Days</p>
+            </div>
+            <div class='daily__legend-staggered daily__legend is-hidden'>
+                <div class='legend-height'></div>
+            </div>
+        </div>
+
+
         {{#each doc.daily-cities}}
         <div class='daily__city' data-id={{{id}}}>
-            <h3 class='daily__city-name' data-id={{{id}}}>{{{city}}} </h3>
-            <span class='daily__city-count'>xxx rainy days</span>
+            <div class='daily__city-details'>
+                <h3 class='daily__city-name' data-id={{{id}}}>{{{city}}} </h3>
+                <span class='daily__city-count'>xxx rainy days</span>
+            </div>
+
             <div class='daily__container' data-id={{{id}}}></div>
         </div>
         {{/each}}

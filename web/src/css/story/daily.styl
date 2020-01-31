@@ -1,10 +1,60 @@
 .daily
+    margin-top 6rem
+    &__meta 
+        display flex 
+        flex-direction row 
+        max-width $column-width 
+        margin 0 auto 2rem auto
+        padding 0 1rem
+        justify-content space-between
+        align-items baseline
+        .legend-label 
+            font-family $national-narrow 
+            set-type-size('small')
+            margin 0
+        .daily__legend 
+            display flex 
+            &.is-hidden 
+                display none
+            .legend-block 
+                width 5px
+                height 20px 
+                margin 0 0.25rem 0 0.75rem
+            .block-rainy 
+                background-color $primary
+            .block-dry
+                background-color $light
+
+        .daily__buttons 
+            display flex 
+            align-items baseline
+        button 
+            padding 0.25rem 0.5rem
+            background-color $primary
+            color $bg
+            font-family $national-narrow 
+            set-type-size('small')
+            border 4px solid $primary
+            margin 0 0 0 0.25rem
+            &.is-selected
+                border 4px solid $maroon
     .daily__city 
         display block 
-        max-width $column-width 
+        max-width 50rem 
         margin 0 auto
         &.is-hidden
             display none
+        &-details 
+            display flex 
+            font-family $national-narrow 
+            align-items baseline
+        &-name 
+            font-weight bold 
+            set-type-size('large')
+            margin-top 0
+        &-count 
+            set-type-size('root')
+            margin-left 0.5rem
     &__container 
         height 100px
         
