@@ -125,6 +125,7 @@ d3.selection.prototype.puddingDaily = function init(options) {
                 $context.fillStyle = '#543F61'
                 $context.fillText(d.month, scaleX(d.date), BAR_MARGIN)
                 $context.font = `${14 * DPR}px "National 2 Narrow Web"`
+                $context.textAlign = 'center'
             })
         }
 
@@ -142,7 +143,7 @@ d3.selection.prototype.puddingDaily = function init(options) {
                 .style('width', `${RECT_WIDTH / DPR}px`)
                 .style('height', d => `${scaleY(d) / DPR}px`)
 
-            const high = d3.select('.legend-anno-high').text(`${largest} mm`)
+            const high = d3.select('.legend-anno-high').text(`${largest} in`)
             console.log({ high })
         }
 
@@ -155,7 +156,7 @@ d3.selection.prototype.puddingDaily = function init(options) {
                     $legendBars = $legend.append('div').attr('class', 'g-bars')
                     const $legendAnno = $legend.append('div').attr('class', 'g-anno')
 
-                    $legendAnno.append('p').attr('class', 'legend-anno legend-anno-low').text('0 mm')
+                    $legendAnno.append('p').attr('class', 'legend-anno legend-anno-low').text('0 in')
                     $legendAnno.append('p').attr('class', 'legend-anno legend-anno-high')
                 }
 

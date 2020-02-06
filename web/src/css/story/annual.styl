@@ -1,21 +1,27 @@
 .annual 
     figure
         position sticky 
-        top 25vh
+        top 15vh
         height 50vh
         max-width $column-width
         margin 0 auto
+        +mq('bp-3')
+            top 25vh
         .annual__amount 
             fill $bg
             font-family $national-narrow 
             font-weight bold 
-            set-type-size('medium')
+            set-type-size('small')
+            +mq('bp-3')
+                set-type-size('medium')
         .location 
             font-family $national-narrow 
-            set-type-size('large')
+            set-type-size('medium')
             fill $primary
             &::first-letter 
                 font-size bold
+            +mq('bp-3')
+                set-type-size('large')
         .break 
             stroke $primary
             stroke-width 1px

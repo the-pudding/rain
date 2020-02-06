@@ -17,7 +17,6 @@ d3.selection.prototype.puddingBar = function init(options) {
     let $axis = null;
     let $vis = null;
 
-
     // data
     let data = $chart.datum();
 
@@ -112,9 +111,9 @@ d3.selection.prototype.puddingBar = function init(options) {
           .attr('y', 0)
           .attr('height', BAR_HEIGHT)
           .style('fill', d => {
-            if (d.id === 'USW00094290') return seattleColor
-            if (d.id === readerStationID) return readerColor
-            return defaultColor
+            if (d.id === 'USW00094290') return seattleColor;
+            if (d.id === readerStationID) return readerColor;
+            return defaultColor;
           })
           .transition()
           .duration(TRANSITION_SPEED)
@@ -122,6 +121,8 @@ d3.selection.prototype.puddingBar = function init(options) {
           .attr('width', d =>
             index === 3 ? scaleX(d.average) : scaleX(d.total19)
           );
+
+        console.log({ data });
 
         // add location titles to each group
         $groups
@@ -147,18 +148,18 @@ d3.selection.prototype.puddingBar = function init(options) {
           .join(enter => enter.append('text').attr('class', 'annual__amount'))
           .text(d =>
             index === 3
-              ? `${formatThousands(d.average)} mm`
-              : `${formatThousands(d.total19)} mm`
+              ? `${formatThousands(d.average)} in`
+              : `${formatThousands(d.total19)} in`
           )
           .attr('alignment-baseline', 'middle')
           .attr('transform', d =>
             index === 3
               ? `translate(${scaleX(d.average) +
-              LOC_PADDING -
-              MARGIN_RIGHT}, ${BAR_HEIGHT / 2})`
+                  LOC_PADDING -
+                  MARGIN_RIGHT}, ${BAR_HEIGHT / 2})`
               : `translate(${scaleX(d.total19) +
-              LOC_PADDING -
-              MARGIN_RIGHT}, ${BAR_HEIGHT / 2})`
+                  LOC_PADDING -
+                  MARGIN_RIGHT}, ${BAR_HEIGHT / 2})`
           )
           .attr('text-anchor', 'end');
         let checkTopBar = null;

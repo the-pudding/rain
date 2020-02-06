@@ -1,14 +1,20 @@
 .daily
-    margin-top 6rem
+    margin-top 10rem
+    +mq('bp-3')
+        margin-top 6rem
+    
     &__meta 
         display flex 
-        flex-direction row 
+        flex-direction column 
         max-width $column-width 
         margin 0 auto 2rem auto
         padding 0 1rem
         justify-content space-between
-        align-items flex-end
+        align-items center
         min-height 80px
+        +mq('bp-3')
+            flex-direction row 
+            align-items flex-end
         .legend-label 
             font-family $national-narrow 
             set-type-size('small')
@@ -56,6 +62,7 @@
             &.is-selected
                 border 4px solid $light
     .daily__city 
+        padding 0 1rem
         display block 
         max-width 50rem 
         margin 1.5rem auto
