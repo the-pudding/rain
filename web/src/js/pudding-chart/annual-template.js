@@ -122,8 +122,6 @@ d3.selection.prototype.puddingBar = function init(options) {
             index === 3 ? scaleX(d.average) : scaleX(d.total19)
           );
 
-        console.log({ data });
-
         // add location titles to each group
         $groups
           .selectAll('.location')

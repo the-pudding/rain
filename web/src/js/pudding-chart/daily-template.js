@@ -134,7 +134,6 @@ d3.selection.prototype.puddingDaily = function init(options) {
 
             const int = Math.round(largest / 5)
             const legendData = d3.range(0, largest, int)
-            console.log({ largest })
 
             $legendBars.selectAll('.bar').data(legendData)
                 .join(enter => enter.append('div')
@@ -144,7 +143,6 @@ d3.selection.prototype.puddingDaily = function init(options) {
                 .style('height', d => `${scaleY(d) / DPR}px`)
 
             const high = d3.select('.legend-anno-high').text(`${largest} in`)
-            console.log({ high })
         }
 
         const Chart = {
