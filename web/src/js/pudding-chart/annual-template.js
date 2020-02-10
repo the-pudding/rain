@@ -48,7 +48,7 @@ d3.selection.prototype.puddingBar = function init(options) {
     const Chart = {
       // called once at start
       init() {
-        $svg = $chart.append('svg').attr('class', 'annual__svg');
+        $svg = $chart.select('.annual__svg');
 
         // create axis
         $axis = $svg.append('g').attr('class', 'g-axis');
@@ -153,11 +153,11 @@ d3.selection.prototype.puddingBar = function init(options) {
           .attr('transform', d =>
             index === 3
               ? `translate(${scaleX(d.average) +
-                  LOC_PADDING -
-                  MARGIN_RIGHT}, ${BAR_HEIGHT / 2})`
+              LOC_PADDING -
+              MARGIN_RIGHT}, ${BAR_HEIGHT / 2})`
               : `translate(${scaleX(d.total19) +
-                  LOC_PADDING -
-                  MARGIN_RIGHT}, ${BAR_HEIGHT / 2})`
+              LOC_PADDING -
+              MARGIN_RIGHT}, ${BAR_HEIGHT / 2})`
           )
           .attr('text-anchor', 'end');
         let checkTopBar = null;

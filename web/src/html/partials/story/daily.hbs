@@ -26,13 +26,14 @@
 
 
         {{#each doc.daily-cities}}
-        <div class='daily__city' data-id={{{id}}}>
+        <div class='daily__city' data-id={{{id}}} data-start={{{id}}}>
             <div class='daily__city-details'>
-                <h3 class='daily__city-name' data-id={{{id}}}>{{{city}}} </h3>
+                <h3 class='daily__city-name' data-id={{{id}}} data-start={{{id}}}>{{{city}}} </h3>
                 <span class='daily__city-count'>xxx wet days</span>
             </div>
 
-            <div class='daily__container' data-id={{{id}}}></div>
+            <div class='daily__container' data-id={{{id}}} data-start={{{id}}}><canvas class='daily__canvas'></canvas>
+            </div>
         </div>
         {{/each}}
     </figure>

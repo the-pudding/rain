@@ -367,7 +367,10 @@ lastYearOnly <- all10 %>%
 exportAnnual <- tenYearAvg %>% 
   left_join(lastYearOnly) %>% 
   rename(total19 = total) %>% 
-  select(-c("gsn", "hcn", "wmo"))
+  select(-c("gsn", "hcn", "wmo")) %>% 
+  # convert to inches
+  mutate(total19 = round(total19 / 25.4, 1),
+         average = round(average / 25.4, 1))
 
 write.csv(exportAnnual, here::here("assets", "data", "processed_data", "annual_precip.csv"), row.names = FALSE, na = "")
 
@@ -400,6 +403,9 @@ geocoded <- read.csv(here::here("assets", "data", "processed_data", "annual_prec
   rename(city = City)
 
 geocodedExport <- geocoded %>% 
+  select(c("id", "average", "total19", "city", "state")) %>% 
+  left_join(exportAnnual, by = "id") %>% 
+  rename(average = average.y, total19 = total19.y, state = state.y) %>% 
   select(c("id", "average", "total19", "city", "state"))
 
 mapview(geocoded, xcol = "longitude", ycol = "latitude", crs = 4269, grid = FALSE)
@@ -409,7 +415,8 @@ write.csv(geocodedExport, "../../web/src/assets/data/annual_precip.csv", row.nam
 
 ```{r}
 geocodedIDs <- geocoded %>% 
-  select(c("id", "latitude", "longitude", "city", "state"))
+  select(c("id", "latitude", "longitude", "city", "state", "name")) %>% 
+  rename("station" = "name")
 
 write.csv(geocodedIDs, "../../web/src/assets/data/locations.csv", row.names = FALSE, na = "")
 ```
@@ -423,7 +430,9 @@ dailyGeo <- dailyTotals %>%
   select(-c("latitude", "longitude", "elevation", "name", "state")) %>% 
   left_join(geocoded, by = "id") %>% 
   select(-c("element", "latitude", "longitude", "elevation", "name", "average", "total19")) %>% 
-  filter(!is.na(city))
+  filter(!is.na(city)) %>% 
+  # convert to inches
+  mutate(value = ifelse(value > 0, round(value / 25.4, 1), 0))
 
 write.csv(dailyGeo, "../../web/src/assets/data/daily_precip.csv", row.names = FALSE, na = "")
 

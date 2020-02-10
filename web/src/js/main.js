@@ -6,8 +6,12 @@ import footer from './footer';
 import annual from './annual';
 import daily from './daily';
 import reader from './reader';
+// import { filter } from '../../../../../../../Library/Caches/typescript/3.6/node_modules/@types/minimatch';
 
 const $body = d3.select('body');
+const $readerButton = d3.select('.popup__submit');
+const $readerOption = d3.select('.intro__user');
+const $overlay = d3.select('.intro__overlay');
 let previousWidth = 0;
 // let readerLatLong = { latitude: 40, longitude: -72 };
 const defaultLocation = {
@@ -21,6 +25,24 @@ const defaultLocation = {
   latitude: 40.7789,
   longitude: -73.9692,
 };
+
+function setupReaderOptions() {
+  $overlay.classed('is-hidden', false);
+}
+
+function submitReaderChoice() {
+  const userCity = d3.select('.user__city');
+  const stationID = userCity.property('value');
+  const stationCity = userCity
+    .selectAll('option')
+    .filter((d, i, n) => d3.select(n[i]).property('selected'))
+    .attr('data-city');
+  const details = { id: stationID, city: stationCity };
+  d3.selectAll('.readerCity').text(stationCity);
+  annual.init(details);
+  daily.init(details);
+  $overlay.classed('is-hidden', true);
+}
 
 function resize() {
   // only do resize on width changes, not height
@@ -53,9 +75,9 @@ function findReaderLoc() {
       const readerLatLong =
         err || result.country_code !== 'US'
           ? {
-            latitude: defaultLocation.latitude,
-            longitude: defaultLocation.longitude,
-          }
+              latitude: defaultLocation.latitude,
+              longitude: defaultLocation.longitude,
+            }
           : { latitude: result.latitude, longitude: result.longitude };
 
       resolve(readerLatLong);
@@ -71,6 +93,9 @@ function init() {
   // setup sticky header menu
   setupStickyHeader();
   findReaderLoc();
+
+  $readerButton.on('click', submitReaderChoice);
+  $readerOption.on('click', setupReaderOptions);
   // load footer stories
   footer.init();
   // load graphics

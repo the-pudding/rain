@@ -148,7 +148,7 @@ d3.selection.prototype.puddingDaily = function init(options) {
         const Chart = {
             // called once at start
             init() {
-                $canvas = $chart.append('canvas').attr('class', 'daily__canvas');
+                $canvas = $chart.select('.daily__canvas');
                 $context = $canvas.node().getContext('2d');
                 if (dataCity === 'Seattle') {
                     $legendBars = $legend.append('div').attr('class', 'g-bars')

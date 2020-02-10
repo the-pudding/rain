@@ -1,20 +1,19 @@
 import { runInThisContext } from 'vm';
 import loadData from './load-data';
+import stateLookup from './utils/lookup-state-name';
 
 const readerLocation = null;
 const readerLatLong = null;
 let data = null;
 const $readerCityText = d3.selectAll('.readerCity');
+const $cityDD = d3.select('.user__city');
+let byState = null;
 
 function cleanData(data) {
   const clean = data.map(d => ({
     ...d,
     latitude: +d.latitude,
     longitude: +d.longitude,
-    average: +d.average,
-    rank: +d.rank,
-    total19: +d.total19,
-    elevation: +d.elevation,
   }));
 
   return clean;
@@ -61,18 +60,51 @@ function findNearestStation(readerLatLong) {
 
   locationDistance.sort((a, b) => d3.descending(a.distance, b.distance));
   return locationDistance.pop();
-  console.log({ readerLocation });
-  // is the reader within 50 miles of Seattle?
-  // inSeattle = location.seattle <= 50;
+}
 
-  // // if within 50 miles of Seattle, compare to NYC, otherwise, use reader's location
-  // readerStation = inSeattle ? 'USW00094728' : location.id;
-  // readerCity = inSeattle ? 'New York City' : location.city;
-  // $titleLoc.text(readerCity);
-  // add the reader Station ID to the filtered data for steps 2 & 3
-  // stepIDs[1].ids.push(readerStation);
-  // stepIDs[2].ids.push(readerStation);
-  // stepIDs[3].ids.push(readerStation);
+function handleStateUpdate() {
+  const sel = d3.select(this).attr('value');
+  console.log({ sel });
+  const justState = byState.filter();
+}
+
+function setupDropdowns() {
+  // dropdowns will be filled in to allow readers the ability to change cities
+
+  // nest data
+  byState = d3
+    .nest()
+    .key(d => d.state)
+    .sortKeys(d3.ascending)
+    .entries(data);
+
+  const $stateDD = d3.select('.user__state');
+
+  $stateDD
+    .selectAll('option')
+    .data(byState, d => d.key)
+    .join(enter =>
+      enter
+        .append('option')
+        .text(d => stateLookup(d.key))
+        .attr('value', d => d.key)
+    );
+
+  $stateDD.on('change', function change() {
+    const state = d3.select(this).property('value');
+    const onlyState = byState.filter(d => d.key === state)[0].values;
+
+    $cityDD
+      .selectAll('option')
+      .data(onlyState, d => d.id)
+      .join(enter =>
+        enter
+          .append('option')
+          .text(d => `${d.city} (${d.station} Station)`)
+          .attr('value', d => d.id)
+          .attr('data-city', d => d.city)
+      );
+  });
 }
 
 export default function findLocation(reader) {
@@ -81,6 +113,9 @@ export default function findLocation(reader) {
       .then(result => {
         data = cleanData(result);
         const loc = findNearestStation(reader);
+
+        // setup reader adjustment dropdowns
+        setupDropdowns();
 
         // is the reader within 50 miles of Seattle?
         const inSeattle = loc.seattle <= 50;
