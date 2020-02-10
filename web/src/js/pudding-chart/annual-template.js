@@ -45,6 +45,14 @@ d3.selection.prototype.puddingBar = function init(options) {
     // helper functions
     const formatThousands = d3.format(',d');
 
+    function truncateString(string, len) {
+      const sub = string.substr(0, len - 1);
+      // truncate on word boundaries
+      return string.length > len
+        ? `${string.substr(0, sub.lastIndexOf(' '))}...`
+        : string;
+    }
+
     const Chart = {
       // called once at start
       init() {
@@ -131,7 +139,9 @@ d3.selection.prototype.puddingBar = function init(options) {
           .join(enter => enter.append('text').attr('class', 'location'))
           .text(d =>
             index >= 2
-              ? `${rankMap.get(d.id) + 1}. ${d.city}, ${d.state}`
+              ? `${rankMap.get(d.id) + 1}. ${truncateString(d.city, 15)}, ${
+                  d.state
+                }`
               : `${d.city}, ${d.state}`
           )
           .attr('alignment-baseline', 'middle')

@@ -90,6 +90,18 @@ function setupDropdowns() {
         .attr('value', d => d.key)
     );
 
+  const ALASKA = byState.filter(d => d.key === 'AK')[0].values;
+  $cityDD
+    .selectAll('option')
+    .data(ALASKA, d => d.id)
+    .join(enter =>
+      enter
+        .append('option')
+        .text(d => `${d.city} (${d.station} Station)`)
+        .attr('value', d => d.id)
+        .attr('data-city', d => d.city)
+    );
+
   $stateDD.on('change', function change() {
     const state = d3.select(this).property('value');
     const onlyState = byState.filter(d => d.key === state)[0].values;
