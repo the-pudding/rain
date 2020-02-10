@@ -122,9 +122,9 @@ d3.selection.prototype.puddingDaily = function init(options) {
             })
 
             axisLabels.forEach(d => {
+                $context.font = `${14 * DPR}px "National 2 Narrow Web"`
                 $context.fillStyle = '#543F61'
                 $context.fillText(d.month, scaleX(d.date), BAR_MARGIN)
-                $context.font = `${14 * DPR}px "National 2 Narrow Web"`
                 $context.textAlign = 'center'
             })
         }
@@ -134,8 +134,9 @@ d3.selection.prototype.puddingDaily = function init(options) {
 
             const int = Math.round(largest / 5)
             const legendData = d3.range(0, largest, int)
+            console.log({ legend: legendData[5] })
 
-            $legendBars.selectAll('.bar').data(legendData)
+            $legendBars.selectAll('.bar').data(legendData, d => d[1])
                 .join(enter => enter.append('div')
                     .attr('class', 'bar'))
                 //.attr('transform', (d, i) => `translate(${legendX(i)}, 0)`)
@@ -150,7 +151,16 @@ d3.selection.prototype.puddingDaily = function init(options) {
             init() {
                 $canvas = $chart.select('.daily__canvas');
                 $context = $canvas.node().getContext('2d');
-                if (dataCity === 'Seattle') {
+                if (dataCity === 'Seattle' && !$legend.select('.g-bars')) {
+                    console.log("doesn't exist yet")
+                    $legendBars = $legend.append('div').attr('class', 'g-bars')
+                    const $legendAnno = $legend.append('div').attr('class', 'g-anno')
+
+                    $legendAnno.append('p').attr('class', 'legend-anno legend-anno-low').text('0 in')
+                    $legendAnno.append('p').attr('class', 'legend-anno legend-anno-high')
+                } else if (dataCity === 'Seattle' && $legend.select('.g-bars')) {
+                    $legend.select('.g-bars').remove()
+                    $legend.select('.g-anno').remove()
                     $legendBars = $legend.append('div').attr('class', 'g-bars')
                     const $legendAnno = $legend.append('div').attr('class', 'g-anno')
 

@@ -76,6 +76,7 @@ function setupDropdowns() {
     .nest()
     .key(d => d.state)
     .sortKeys(d3.ascending)
+    .sortValues((a, b) => d3.ascending(a.city, b.city))
     .entries(data);
 
   const $stateDD = d3.select('.user__state');
