@@ -121,6 +121,7 @@ d3.selection.prototype.puddingBar = function init(options) {
           .attr('y', 0)
           .attr('height', BAR_HEIGHT)
           .style('fill', d => {
+            console.log({ readerStationID, id: d.id });
             if (d.id === 'USW00094290') return seattleColor;
             if (d.id === readerStationID) return readerColor;
             return defaultColor;
@@ -162,16 +163,36 @@ d3.selection.prototype.puddingBar = function init(options) {
               : `${formatThousands(d.total19)} in`
           )
           .attr('alignment-baseline', 'middle')
-          .attr('transform', d =>
-            index === 3
-              ? `translate(${scaleX(d.average) +
-                  LOC_PADDING -
-                  MARGIN_RIGHT}, ${BAR_HEIGHT / 2})`
-              : `translate(${scaleX(d.total19) +
-                  LOC_PADDING -
-                  MARGIN_RIGHT}, ${BAR_HEIGHT / 2})`
-          )
-          .attr('text-anchor', 'end');
+          .attr('transform', d => {
+            const barWidth =
+              index === 3 ? scaleX(d.average) : scaleX(d.total19);
+            const extra = barWidth < 50 ? FONT_SIZE : 0;
+            console.log({ extra });
+
+            const movement =
+              index === 3
+                ? `translate(${scaleX(d.average) +
+                    LOC_PADDING -
+                    MARGIN_RIGHT +
+                    extra}, ${BAR_HEIGHT / 2})`
+                : `translate(${scaleX(d.total19) +
+                    LOC_PADDING -
+                    MARGIN_RIGHT +
+                    extra}, ${BAR_HEIGHT / 2})`;
+
+            return movement;
+          })
+          .attr('text-anchor', d => {
+            const barWidth =
+              index === 3 ? scaleX(d.average) : scaleX(d.total19);
+            if (barWidth < 50) return 'start';
+            return 'end';
+          })
+          .classed('outside', d => {
+            const barWidth =
+              index === 3 ? scaleX(d.average) : scaleX(d.total19);
+            return barWidth < 50;
+          });
         let checkTopBar = null;
         let checkBottomBar = null;
 

@@ -176,7 +176,7 @@ function resize() {
   $steps.style('height', `${stepH}px`);
 
   scroller.resize();
-  chart.resize(index).render({ index, rankMap });
+  chart.resize(index).render({ index, rankMap, readerStationID });
 }
 
 function init(station) {
