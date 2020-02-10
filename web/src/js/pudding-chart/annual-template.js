@@ -14,7 +14,7 @@ d3.selection.prototype.puddingBar = function init(options) {
     // dom elements
     const $chart = d3.select(el);
     let $svg = null;
-    let $axis = null;
+    const $axis = null;
     let $vis = null;
 
     // data
@@ -49,11 +49,14 @@ d3.selection.prototype.puddingBar = function init(options) {
       // called once at start
       init() {
         $svg = $chart.select('.annual__svg');
+        console.log('init called');
 
-        // create axis
-        $axis = $svg.append('g').attr('class', 'g-axis');
+        // // create axis
+        // $axis = $svg.append('g').attr('class', 'g-axis');
 
-        // setup viz group
+        if ($svg.select('.g-vis')) {
+          const $g = $svg.select('.g-vis').remove();
+        }
         $vis = $svg.append('g').attr('class', 'g-vis');
       },
       // on resize, update new dimensions
@@ -79,7 +82,6 @@ d3.selection.prototype.puddingBar = function init(options) {
       },
       // update scales and render chart
       render({ index, rankMap, readerStationID }) {
-        // offset chart for margins
         $vis.attr('transform', `translate(${MARGIN_LEFT}, ${MARGIN_TOP})`);
 
         // add groups and move them to correct y location
@@ -153,11 +155,11 @@ d3.selection.prototype.puddingBar = function init(options) {
           .attr('transform', d =>
             index === 3
               ? `translate(${scaleX(d.average) +
-              LOC_PADDING -
-              MARGIN_RIGHT}, ${BAR_HEIGHT / 2})`
+                  LOC_PADDING -
+                  MARGIN_RIGHT}, ${BAR_HEIGHT / 2})`
               : `translate(${scaleX(d.total19) +
-              LOC_PADDING -
-              MARGIN_RIGHT}, ${BAR_HEIGHT / 2})`
+                  LOC_PADDING -
+                  MARGIN_RIGHT}, ${BAR_HEIGHT / 2})`
           )
           .attr('text-anchor', 'end');
         let checkTopBar = null;

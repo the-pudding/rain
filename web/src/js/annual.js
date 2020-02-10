@@ -144,7 +144,7 @@ function setupChart() {
   const filtered = filterData(0);
 
   chart = $container.datum(filtered).puddingBar();
-  chart.resize(0).render({ index: 0, rankMap });
+  // chart.resize(0).render({ index: 0, rankMap });
 }
 
 function setup() {
