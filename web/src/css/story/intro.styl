@@ -81,16 +81,19 @@
 			opacity 0
 			pointer-events none
 		&-popup 
-			width 50%
-			height 250px
+			width 90%
+			height auto
 			margin 0 auto
-			padding 0 1rem
+			padding 1rem
 			background-color $bg
 			border 2px solid $primary
 			display flex 
 			flex-direction column
 			justify-content center
 			align-items center
+			+mq('bp-3')
+				width 50%
+				height 250px
 			p 
 				font-family $national-narrow 
 				set-type-size('medium')
@@ -108,5 +111,8 @@
 					set-type-size('root')
 					color $primary
 					border 1px solid $primary
+					margin-bottom 0.5rem
+					+mq('bp-3')
+						margin-bottom 0
 				
 
