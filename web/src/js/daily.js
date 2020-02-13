@@ -38,7 +38,6 @@ function setupCharts() {
   const $sel = d3.select(this);
   const chartID = $sel.attr('data-id');
   const $parent = d3.select(this.parentNode);
-  console.log({ $sel, chartID });
 
   const filtered = nested.filter(d => d.key === chartID)[0].values;
 
@@ -54,12 +53,10 @@ function setupReaderChart() {
   // find all station ids already shown
   const allStations = [];
 
-  $containers.each(function(d) {
+  $containers.each(function (d) {
     const id = d3.select(this).attr('data-id');
     allStations.push(id);
   });
-
-  console.log({ readerStationDetails });
 
   // is reader location already shown?
   const alreadyShown = allStations.includes(readerStationDetails.id);
@@ -71,7 +68,6 @@ function setupReaderChart() {
     .select('.daily__city-name [data-id="reader"]')
     .text(readerStationDetails.city);
   const readerChart = $figure.selectAll('[data-start="reader"]');
-  console.log({ readerChart });
   readerChart.attr('data-id', readerStationDetails.id);
 
   // find largest value for selected locations
@@ -80,7 +76,7 @@ function setupReaderChart() {
 }
 
 function setupButtons() {
-  $buttons.on('click', function(d) {
+  $buttons.on('click', function (d) {
     const clicked = d3.select(this);
     $buttons.attr('aria-pressed', 'false').classed('is-selected', false);
     clicked.attr('aria-pressed', 'true').classed('is-selected', true);

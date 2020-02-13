@@ -134,7 +134,6 @@ d3.selection.prototype.puddingDaily = function init(options) {
 
             const int = Math.round(largest / 5)
             const legendData = d3.range(0, largest, int)
-            console.log({ legend: legendData[5] })
 
             $legendBars.selectAll('.bar').data(legendData, d => d[1])
                 .join(enter => enter.append('div')

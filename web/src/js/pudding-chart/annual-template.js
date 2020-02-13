@@ -57,7 +57,6 @@ d3.selection.prototype.puddingBar = function init(options) {
       // called once at start
       init() {
         $svg = $chart.select('.annual__svg');
-        console.log('init called');
 
         // // create axis
         // $axis = $svg.append('g').attr('class', 'g-axis');
@@ -121,7 +120,6 @@ d3.selection.prototype.puddingBar = function init(options) {
           .attr('y', 0)
           .attr('height', BAR_HEIGHT)
           .style('fill', d => {
-            console.log({ readerStationID, id: d.id });
             if (d.id === 'USW00094290') return seattleColor;
             if (d.id === readerStationID) return readerColor;
             return defaultColor;
@@ -141,8 +139,8 @@ d3.selection.prototype.puddingBar = function init(options) {
           .text(d =>
             index >= 2
               ? `${rankMap.get(d.id) + 1}. ${truncateString(d.city, 15)}, ${
-                  d.state
-                }`
+              d.state
+              }`
               : `${d.city}, ${d.state}`
           )
           .attr('alignment-baseline', 'middle')
@@ -167,18 +165,17 @@ d3.selection.prototype.puddingBar = function init(options) {
             const barWidth =
               index === 3 ? scaleX(d.average) : scaleX(d.total19);
             const extra = barWidth < 50 ? FONT_SIZE : 0;
-            console.log({ extra });
 
             const movement =
               index === 3
                 ? `translate(${scaleX(d.average) +
-                    LOC_PADDING -
-                    MARGIN_RIGHT +
-                    extra}, ${BAR_HEIGHT / 2})`
+                LOC_PADDING -
+                MARGIN_RIGHT +
+                extra}, ${BAR_HEIGHT / 2})`
                 : `translate(${scaleX(d.total19) +
-                    LOC_PADDING -
-                    MARGIN_RIGHT +
-                    extra}, ${BAR_HEIGHT / 2})`;
+                LOC_PADDING -
+                MARGIN_RIGHT +
+                extra}, ${BAR_HEIGHT / 2})`;
 
             return movement;
           })
@@ -198,10 +195,14 @@ d3.selection.prototype.puddingBar = function init(options) {
 
         if (index >= 2) {
           const firstAdd = rankMap.get(data[10].id) + 1;
-          const secondAdd = rankMap.get(data[11].id) + 1;
+          let secondAdd = null;
+          if (data.length > 11) secondAdd = rankMap.get(data[11].id) + 1;
 
           checkTopBar = firstAdd === 11;
-          checkBottomBar = secondAdd === 12 || secondAdd === firstAdd + 1;
+          checkBottomBar =
+            secondAdd === 12 ||
+            secondAdd === firstAdd + 1 ||
+            secondAdd === null;
         }
 
         // add dotted lines for broken graphic

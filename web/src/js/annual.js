@@ -94,8 +94,8 @@ function setupText() {
 }
 
 function updateChartTitle(index) {
-  if (index < 3) $chartTitle.text('2019 Annual Precipitation (mm)');
-  else $chartTitle.text('2010-2019 Average Annual Precipitation (mm)');
+  if (index < 3) $chartTitle.text('2019 Annual Precipitation (in)');
+  else $chartTitle.text('2010-2019 Average Annual Precipitation (in)');
 }
 
 function findWettest() {
