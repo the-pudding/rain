@@ -133,12 +133,12 @@ function handleStepEnter(response) {
 }
 
 function setupScroll() {
-  const scrollOffset = MOBILE ? `${window.innerHeight * 0.9}px` : 0.9;
+  const scrollOffset = MOBILE ? `${Math.min(window.innerHeight * 0.9)}px` : 0.9;
   scroller
     .setup({
       step: '.annual .step',
       offset: scrollOffset,
-      debug: true,
+      debug: false,
     })
     .onStepEnter(handleStepEnter);
 }
