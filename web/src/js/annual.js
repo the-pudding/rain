@@ -14,6 +14,8 @@ const $readerCompare = d3.select('.readerCompare');
 const $seattleRank = $section.select('.seattleRank');
 const $readerRank = $section.select('.readerRank');
 const $chartTitle = $container.select('.figure__hed');
+const $body = d3.select('body');
+let MOBILE = null;
 
 // constants
 let data = null;
@@ -131,11 +133,12 @@ function handleStepEnter(response) {
 }
 
 function setupScroll() {
+  const scrollOffset = MOBILE ? `${window.innerHeight * 0.9}px` : 0.9;
   scroller
     .setup({
       step: '.annual .step',
-      offset: 0.9,
-      debug: false,
+      offset: scrollOffset,
+      debug: true,
     })
     .onStepEnter(handleStepEnter);
 }
@@ -184,6 +187,7 @@ function init(station) {
     .then(result => {
       data = cleanData(result);
       readerStationDetails = station;
+      MOBILE = $body.classed('is-mobile');
       setup();
     })
     .catch(console.error);
