@@ -44,7 +44,7 @@ d3.selection.prototype.puddingDaily = function init(options) {
         const EASE = d3.easeCubic;
         let timer = null
         let RECT_WIDTH = null
-        const dark = '#342A4E'
+        const dark = '#34A29E'
         const light = '#B0ABB0'
 
 

@@ -1,46 +1,24 @@
 
-## daily\_precipitation.csv
+## daily_precipitation.csv & daily_precipitation.R
 
-  - **What is this?**: ADD A DESCRIPTION OF YOUR DATASET. 1-2 SUCCINCT
-    SENTENCES
-  - **Source(s) & Methods**: HOW WAS THIS DATA COLLECTED? INCLUDE ALL
-    RELEVANT LINKS AND CODE USED TO PROCESS DATA.
+  - **What is this?**: The R scripts and resulting data documenting total daily precipitation in 2019 for 640 weather stations across the US.
+  - **Source(s) & Methods**: All of the data used in this story came from the Global Historical Climatology Network (GHCN)-Daily [database](https://www.ncdc.noaa.gov/ghcn-daily-description) and was acquired from the National Oceanic and Atmospheric Administration’s (NOAA) [open data server](ftp://ftp.ncdc.noaa.gov/pub/data/ghcn/daily/by_year/). While this database contains data from thousands of weather stations worldwide, we filtered the data down to only include weather stations with consistent daily precipitation recordings from January 1, 2010 - December 31, 2019. Further, some of these stations were located in mountain ranges or other areas away from cities. To make the comparison to cities like Seattle more relevant, we used [Geocod.io](https://geocod.io/) to find the nearest city or town to the latitude and longitude of each weather station. If no city or town could be located with an Accuracy Score of 0.8 that weather station was excluded. Ultimately, 640 weather stations remained in our analysis and the data for those weather stations is included here, along with the R script to download and filter all of the data.
   - **Last Modified**: February 23, 2020
-  - **Contact Information**: [YOUR NAME](mailto:YOUR-EMAIL@pudding.cool)
-  - **Spatial Applicability**: ADD INFO ABOUT SPATIAL BOUNDARIES OF DATA
-    (e.g., United States, Global, etc.)
-  - **Temporal Applicability**: WHAT IS THE TIME RANGE REPRESENTED IN
-    THE DATA? (e.g., if data represents all musical hits from January
-    2015 - December 2017, this value would be January 01, 2015 -
-    December 31, 2017). The more granular the date range, the better.
-  - **Observations (Rows)**: There are 233600 rows in this dataset.
-    DESCRIBE WHAT EACH ROW REPRESENTS.
+  - **Contact Information**: [Amber Thomas](mailto:YOUR-EMAIL@pudding.cool)
+  - **Spatial Applicability**: These data represent weather stations within the US.
+  - **Temporal Applicability**: January 1, 2019 - December 31, 2019
+  - **Observations (Rows)**: There are 233,600 rows in this dataset.
+    Each row represents a single day for a single weather station.
   - **Variables (Columns)**: There are 10 columns in this dataset. They
     are described below:
 
 | Header    | Description                           | Data Type |
 | :-------- | :------------------------------------ | :-------- |
-| id        | ENTER DESCRIPTION OF THIS COLUMN HERE | character |
-| city      | ENTER DESCRIPTION OF THIS COLUMN HERE | character |
-| station   | ENTER DESCRIPTION OF THIS COLUMN HERE | character |
-| date      | ENTER DESCRIPTION OF THIS COLUMN HERE | Date      |
-| element   | ENTER DESCRIPTION OF THIS COLUMN HERE | character |
-| value     | ENTER DESCRIPTION OF THIS COLUMN HERE | numeric   |
-| latitude  | ENTER DESCRIPTION OF THIS COLUMN HERE | numeric   |
-| longitude | ENTER DESCRIPTION OF THIS COLUMN HERE | numeric   |
-| elevation | ENTER DESCRIPTION OF THIS COLUMN HERE | numeric   |
-| state     | ENTER DESCRIPTION OF THIS COLUMN HERE | character |
-
-  - *Other Notes*: Include any other relevant notes/calculations/code
-    here.
-
-  - *Analysis Session Info*: Including any relevant data processing
-    scripts is great practice (seriously, good job\! 🎉), but for anyone
-    who wants to run your script, they need a little more info. At the
-    very least, make sure that you include any of your session info, so
-    things like:
-    
-      - What software you are using (including version number)
-      - What packages are you using (including version number)
-      - anything else that would help someone re-run your analysis given
-        only the information/data provided in this repo.
+| id        | The GHCN ID for each weather station | character |
+| city      | The closest city to the weather station (as determined by [Geocod.io](https://geocod.io), based on the station's latitude and longitude) | character |
+| station   | The name of each weather station | character |
+| date      | Date of data collection (in mm/dd/yyyy format) | Date      |
+| value     | Amount of precipitation (in inches) | numeric   |
+| latitude  | The latitude of the weather station | numeric   |
+| longitude | The longitude of the weather station | numeric   |
+| state     | The state that the weather station is located in | character |

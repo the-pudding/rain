@@ -1,17 +1,17 @@
 {
-	"title": "Where will you need that umbrella?",
+	"title": "Where will you need your umbrella?",
 	"description": "Seattle may be further down that list than you'd think.",
 	"site": "https://pudding.cool",
 	"siteName": "The Pudding",
-	"url": "https://pudding.cool/year/month/name/",
-	"keywords": "tk",
-	"imgFacebook": "https://pudding.cool/year/month/name/assets/social/social-facebook.jpg",
-	"imgTwitter": "https://pudding.cool/year/month/name/assets/social/social-twitter.jpg",
+	"url": "https://pudding.cool/2020/02/rain/",
+	"keywords": "rain, Seattle, precipitation, rainy",
+	"imgFacebook": "https://pudding.cool/2020/02/rain/assets/social/social-facebook.jpg",
+	"imgTwitter": "https://pudding.cool/2020/02/rain/assets/social/social-twitter.jpg",
 	"author": {
 		"name": "Amber Thomas",
 		"url": "https://pudding.cool/author/amber-thomas",
 		"twitterHandle": "@ProQuesAsker"
 	},
-	"analytics": "",
+	"analytics": "UA-90567923-1",
 	"lorem": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis mollis neque sit amet sollicitudin vehicula. Maecenas fringilla mi non lacus mattis elementum. Curabitur dignissim faucibus justo."
 }
