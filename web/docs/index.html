@@ -1,23 +1,23 @@
 <!doctype html>
-<html lang='en' data-version='1582577048959'>
+<html lang='en' data-version='1582735972429'>
 
 <head>
 
-	<title>Where will you need that umbrella?</title>
+	<title>Where will you need your umbrella?</title>
 	<meta charset='utf-8'>
 	<meta name='viewport' content='width=device-width, initial-scale=1'>
 	<meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'>
 	<meta name='description' content='Seattle may be further down that list than you&#x27;d think.' />
-	<meta name='news_keywords' content='tk' />
+	<meta name='news_keywords' content='rain, Seattle, precipitation, rainy' />
 	
-	<meta property='og:title' content='Where will you need that umbrella?' />
+	<meta property='og:title' content='Where will you need your umbrella?' />
 	<meta property='og:site_name' content='The Pudding' />
-	<meta property='og:url' content='https://pudding.cool/year/month/name/' />
+	<meta property='og:url' content='https://pudding.cool/2020/02/rain/' />
 	<meta property='og:description' content='Seattle may be further down that list than you&#x27;d think.' />
 	<meta property='og:type' content='article' />
 	<meta property='og:locale' content='en_US' />
 	
-	<meta property='og:image' content='https://pudding.cool/year/month/name/assets/social/social-facebook.jpg' />
+	<meta property='og:image' content='https://pudding.cool/2020/02/rain/assets/social/social-facebook.jpg' />
 	<meta property='og:image:type' content='image/jpeg' />
 	<meta property='og:image:width' content='1200' />
 	<meta property='og:image:height' content='600' />
@@ -25,11 +25,11 @@
 	<meta name='twitter:card' content='summary_large_image' />
 	<meta name='twitter:site' content='https://pudding.cool' />
 	<meta name='twitter:creator' content='@ProQuesAsker' />
-	<meta name='twitter:title' content='Where will you need that umbrella?' />
+	<meta name='twitter:title' content='Where will you need your umbrella?' />
 	<meta name='twitter:description' content='Seattle may be further down that list than you&#x27;d think.' />
-	<meta name='twitter:image:src' content='https://pudding.cool/year/month/name/assets/social/social-twitter.jpg' />
+	<meta name='twitter:image:src' content='https://pudding.cool/2020/02/rain/assets/social/social-twitter.jpg' />
 	
-	<link rel='canonical' href='https://pudding.cool/year/month/name/' />
+	<link rel='canonical' href='https://pudding.cool/2020/02/rain/' />
 	
 	<link rel='apple-touch-icon' sizes='180x180' href='https://pudding.cool/apple-touch-icon.png'>
 	<link rel='icon' type='image/png' sizes='32x32' href='https://pudding.cool/favicon-32x32.png'>
@@ -252,6 +252,15 @@
 		*/
 	</style>
 	<script>
+		(function (i, s, o, g, r, a, m) {
+			i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+				(i[r].q = i[r].q || []).push(arguments)
+			}, i[r].l = 1 * new Date(); a = s.createElement(o),
+				m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+		})(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+		ga('set', 'anonymizeIp', true);
+		ga('create', 'UA-90567923-1', 'auto');
+		ga('send', 'pageview');
 	
 	</script>
 </head>
@@ -513,7 +522,7 @@
 		</section>		<section class='methods' id='methods'>
 		    <article>
 		        <h3 class='methods-sub'>Data Sources</h3>
-		        <p class='methods-prose'>All of the data used in this story came from the Global Historical Climatology Network (GHCN)-Daily <a href=https://www.ncdc.noaa.gov/ghcn-daily-description target=_blank>database</a> and was acquired from the National Oceanic and Atmospheric Administration’s (NOAA) <a href=ftp://ftp.ncdc.noaa.gov/pub/data/ghcn/daily/by_year/ target=_blank>open data server</a>. While this database contains data from thousands of weather stations worldwide, we filtered the data down to only include weather stations with consistent daily precipitation recordings from January 1, 2010 - December 31, 2019. Further, some of these stations were located in mountain ranges or other areas away from cities. To make the comparison to cities like Seattle more relevant, we used <a href=https://geocod.io>Geocod.io</a> to find the nearest city or town to the latitude and longitude of each weather station. If no city or town could be located with an Accuracy Score of 0.8 that weather station was excluded. Ultimately, 640 weather stations remained in our analysis.</p>
+		        <p class='methods-prose'>All of the data used in this story came from the Global Historical Climatology Network (GHCN)-Daily <a href=https://www.ncdc.noaa.gov/ghcn-daily-description target=_blank>database</a> and was acquired from the National Oceanic and Atmospheric Administration’s (NOAA) <a href=ftp://ftp.ncdc.noaa.gov/pub/data/ghcn/daily/by_year/ target=_blank>open data server</a>. While this database contains data from thousands of weather stations worldwide, we filtered the data down to only include weather stations with consistent daily precipitation recordings from January 1, 2010 - December 31, 2019. Further, some of these stations were located in mountain ranges or other areas away from cities. To make the comparison to cities like Seattle more relevant, we used <a href=https://geocod.io>Geocod.io</a> to find the nearest city or town to the latitude and longitude of each weather station. If no city or town could be located with an Accuracy Score of 0.8 that weather station was excluded. Ultimately, 640 weather stations remained in our analysis. Find the final data and the R scripts used to process the data <a href=https://github.com/the-pudding/data/tree/master/rain target=_blank>here</a>.</p>
 		
 		        <h3 class='methods-sub'>Definition of Precipitation</h3>
 		        <p class='methods-prose'>While this article speaks most frequently about rain, all data presented is a combination of all forms of precipitation. That is, rain, sleet, hail, snow etc. that falls to the ground. Any non-liquid forms of precipitation (e.g., snow) are included in this measurement as the amount of water that would result if you <a href=https://www.nrcs.usda.gov/wps/portal/nrcs/detail/or/snow/?cid=nrcs142p2_046155>melted the snow</a> (or if it had fallen as rain). This means that 36 inches of powdery snow, when melted, may yield around 4 inches of precipitation, whereas 36 inches of heavy, wet snow may yield 9+ inches of precipitation. Practically speaking, this number is estimated and is known as Snow Water Equivalent (SWE).</p>
@@ -639,7 +648,7 @@
 
 
 	<script src='https://pudding.cool/assets/scripts/d3.v5.12.0.min.js'></script>
-	<script src='main.js?version=1582577048959' async></script>
+	<script src='main.js?version=1582735972429' async></script>
 </body>
 
 </html>
